@@ -30,26 +30,33 @@ h1 {
     width: 50% !important;
     left: 33% !important;
     top: 0.85% !important;
-    padding: 0px !important;
-    padding-right: 10px !important;
-    padding-top: 2px !important;
+    padding: 2px 10px !important;
     text-align: right !important;
-    animation: shake 4s infinite !important;
+    height: 25px !important;
+    overflow-x: auto !important; 
+    overflow-y: hidden !important;
+    white-space: nowrap !important;
+    animation: shake 4s ease-in-out infinite;
+	scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+.alert::-webkit-scrollbar {
+    display: none;
 }
 
+@keyframes scroll {
+    0%   { padding-left: translateX(0); }
+    100% { padding-left: translateX(-100%); }
+}
 @keyframes shake {
     0% { transform: none; }
-    2% { transform: translateX(-3px) rotate(-3deg); }
-    4% { transform: translateX(3px) rotate(3deg); }
-    6% { transform: translateX(-3px) rotate(-3deg); }
-    8% { transform: translateX(3px) rotate(3deg); }
+    2% { transform: translateX(-3px) rotate(-1deg); }
+    4% { transform: translateX(3px) rotate(1deg); }
+    6% { transform: translateX(-3px) rotate(-1deg); }
+    8% { transform: translateX(3px) rotate(1deg); }
     10% { transform: none; }
-
-    /* 50%–100% = pause */
     100% { transform: none; }
 }
-
-
 
 /* INFO BOXES */
 .info-box {
