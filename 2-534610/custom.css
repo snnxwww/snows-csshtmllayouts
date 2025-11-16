@@ -6,7 +6,7 @@ body {
 	overflow-x: hidden; !important;
 	border-radius: 12px !important;
 }
-button, form, input {
+button, form, input, select, textarea {
 	border-radius: 10px !important;
 }
 .topbar {
@@ -238,6 +238,13 @@ table .bottom {
 }
 .col-sm-4 .left {
 	border-radius: 10px !important;
+}
+table :has(a[onclick]) {
+	border-radius: 10px !important
+}
+*:has(a[href*="refer.php"]) .col-md-9:has(#editdetailspanel[style*="display: block"]) table.table th {
+    border-bottom-left-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
 }
 div .left:has(a[href="/account-settings.php"]) {
 	border-radius: 10px !important;
