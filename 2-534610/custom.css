@@ -1,4 +1,4 @@
-/*  CSS MADE BY SNOW #553411, COMMISSIONED BY 
+/*  CSS MADE BY SNOW #553411, COMMISSIONED BY #534610
 DO NOT REMOVE CREDIT
     DO NOT EDIT OR USE AS A TEMPLATE
 */
@@ -294,6 +294,7 @@ table .bottom {
 .xlarge a, .center a {
 	color: transparent !important;
 }
+
 .xlarge a[href^="/compose.php"]:after {
     content: "SCREAM!!!";
 	margin-left: -55px !important;
@@ -568,15 +569,24 @@ div .left:has(a[href="/account-settings.php"]) {
 		background: #898755 !important;
 		color: #E2EFE1 !important;
 	}
+	#player a {
+		text-shadow: none !important;
+	}
 	#player a:after {
 		color: #E2EFE1 !important;
 		transition: 0.4s !important;
 	}
-	#player a:after:hover {
+	#player a:hover:after {
 		text-shadow: 
-			0px 0px 1px #B8CDAB, 
-			0px 0px 4px #B8CDAB, 
-			0px 0px 12px #B8CDAB !important;
+			0px 0px 1px #E2EFE1, 
+			0px 0px 4px #E2EFE1, 
+			0px 0px 12px #E2EFE1 !important;
+	}
+	#player .right_odd a:hover {
+		text-shadow: 
+			0px 0px 1px #E2EFE1, 
+			0px 0px 4px #E2EFE1, 
+			0px 0px 12px #E2EFE1 !important;
 	}
 	#player hr {
 		border: 1px solid #E2EFE1 !important;
