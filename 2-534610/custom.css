@@ -759,6 +759,9 @@ div .left:has(a[href="/account-settings.php"]) {
 			0px 0px 12px #E2EFE1 !important;
 		background: #a7af91 !important;
 	}
+	.col-xs-10 a {
+		color: #aec3ac !important;
+	}
 }
 
 #E2EFE1, #B8CDAB, #9EAB7C, #898755, 
