@@ -23,6 +23,9 @@ button, form, input, select, textarea {
 .breadcrumb {
 	border-radius: 10px !important;
 }
+.panel {
+	border-radius: 10px !important;
+}
 
 /* DEN HEADER */
 h1 {
@@ -223,6 +226,13 @@ table .top {
 table .bottom {
 	border-bottom-left-radius: 12px !important;
 	border-bottom-right-radius: 12px !important;
+}
+
+#clans img {
+	border-radius: 10px !important;
+}
+.col-md-4 img {
+	border-radius: 10px !important;
 }
 
 /* CAVES */
