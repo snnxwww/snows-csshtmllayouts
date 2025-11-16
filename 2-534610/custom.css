@@ -6,6 +6,48 @@ DO NOT REMOVE CREDIT
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); * {
     font-family: 'indie flower' !important;
 }
+
+.snow {
+    position: fixed;
+    top: -50px;
+    pointer-events: none;
+    z-index: 999999;
+    animation: fallDrift 11s cubic-bezier(0.4,0,0.2,1) infinite;
+}
+
+.snow:nth-child(1) { left: 5%;  animation-delay: 0s;    opacity: 1;   font-size: 22px; }
+.snow:nth-child(2) { left: 90%; animation-delay: 0.66s; opacity: 0.6; font-size: 32px; }
+.snow:nth-child(3) { left: 32%; animation-delay: 1.33s; opacity: 0.8; font-size: 18px; }
+.snow:nth-child(4) { left: 96%; animation-delay: 2s;    opacity: 0.5; font-size: 27px; }
+.snow:nth-child(5) { left: 60%; animation-delay: 2.66s; opacity: 0.9; font-size: 34px; }
+.snow:nth-child(6) { left: 39%; animation-delay: 3.33s; opacity: 0.7; font-size: 20px; }
+.snow:nth-child(7) { left: 9%;  animation-delay: 4s;    opacity: 0.4; font-size: 24px; }
+.snow:nth-child(8) { left: 89%; animation-delay: 4.66s; opacity: 1;   font-size: 36px; }
+.snow:nth-child(9) { left: 41%; animation-delay: 5.33s; opacity: 0.5; font-size: 16px; }
+.snow:nth-child(10) { left: 53%; animation-delay: 6s;    opacity: 0.8; font-size: 28px; }
+.snow:nth-child(11) { left: 7%;  animation-delay: 6.66s; opacity: 0.6; font-size: 21px; }
+.snow:nth-child(12) { left: 80%; animation-delay: 7.33s; opacity: 0.7; font-size: 25px; }
+.snow:nth-child(13) { left: 10%; animation-delay: 8s;    opacity: 0.5; font-size: 19px; }
+.snow:nth-child(14) { left: 35%; animation-delay: 8.66s; opacity: 0.9; font-size: 32px; }
+.snow:nth-child(15) { left: 90%; animation-delay: 9.33s; opacity: 0.4; font-size: 17px; }
+
+@keyframes fallDrift {
+    0% {
+        top: -10vh;
+        transform: translateX(0);
+    }
+    7% { transform: translateX(0); }
+    13% { transform: translateX(-10px); }
+    29% { transform: translateX(17px); }
+    46% { transform: translateX(-24px); }
+    66% { transform: translateX(36px); }
+    84% { transform: translateX(-1px); }
+    100% {
+        top: 100vh;
+        transform: translateX(0);
+    }
+}
+
 * {
 	text-shadow: none !important;
 }
@@ -368,6 +410,9 @@ div .left:has(a[href="/account-settings.php"]) {
 }
 
 @media (prefers-color-scheme: dark) {
+	.snow {
+		color: #ECFFCC;
+	}
 	body {
 		background: #230A0B;
 	}
@@ -798,3 +843,5 @@ div .left:has(a[href="/account-settings.php"]) {
 
 #E2EFE1, #B8CDAB, #9EAB7C, #898755, 
 #675435, #45281C, #230A0B
+
+
