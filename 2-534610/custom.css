@@ -291,7 +291,29 @@ table .bottom {
 	border-bottom-left-radius: 0px !important;
 	border-bottom-right-radius: 12px !important;
 }
-
+.xlarge a, .center a {
+	color: transparent !important;
+}
+.xlarge a[href^="/compose.php"]:after {
+    content: "SCREAM!!!";
+	margin-left: -55px !important;
+}
+.xlarge a[href^="/transfers.php"]:after {
+    content: "Gimme :3";
+	margin-left: -65px !important;
+}
+.xlarge a[href^="/trading_center.php?p=create"]:after {
+    content: "Swap & Scam";
+	margin-left: -95px !important;
+}
+.center a[href^="/wishlist.php"]:after {
+    content: "In My Dreams...";
+	margin-left: -65px !important;
+}
+.center a[href^="/trading_center.php?s=users"]:after {
+    content: "The Mystery Shack";
+	margin-left: -65px !important;
+}
 
 #clans img {
 	border-radius: 10px !important;
@@ -546,11 +568,11 @@ div .left:has(a[href="/account-settings.php"]) {
 		background: #898755 !important;
 		color: #E2EFE1 !important;
 	}
-	#player a {
+	#player a:after {
 		color: #E2EFE1 !important;
 		transition: 0.4s !important;
 	}
-	#player a:hover {
+	#player a:after:hover {
 		text-shadow: 
 			0px 0px 1px #B8CDAB, 
 			0px 0px 4px #B8CDAB, 
@@ -710,13 +732,13 @@ div .left:has(a[href="/account-settings.php"]) {
 	.s-chat-message {
 		background: #9EAB7C !important;
 		border-bottom: 2px solid #E2EFE1 !important;
-		color: #E2EFE1
+		color: #230A0B !important;
 	}
 	.s-chat-message a {
-		color: #E2EFE1
+		color: #230A0B !important;
 	}
 	.s-chat-message_timestamp {
-		color: #c9ddc8
+		color: #504142 !important
 	}
 	#txtChatContainer input {
 		background: #898755 !important;
