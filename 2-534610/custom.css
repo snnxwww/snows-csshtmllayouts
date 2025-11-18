@@ -1,5 +1,5 @@
 /*  CSS MADE BY SNOW #553411, COMMISSIONED BY #534610
-DO NOT REMOVE CREDIT
+    DO NOT REMOVE CREDIT
     DO NOT EDIT OR USE AS A TEMPLATE
 */
 
@@ -414,7 +414,11 @@ div .left:has(a[href="/account-settings.php"]) {
 		color: #ECFFCC;
 	}
 	body {
-		background: #230A0B;
+		background: #230A0B url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/darkmodebg.png?raw=true');
+		background-repeat: no-repeat !important;
+		background-position: center !important;
+		background-size: cover !important;
+		background-attachment: fixed !important;
 	}
 	.topbar {
 		background: #898755 !Important;
@@ -423,14 +427,18 @@ div .left:has(a[href="/account-settings.php"]) {
 		color: #E2EFE1 !important;
 	}
 	.navbar {
-		background: #675435 !important;
+		background: #675435 url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/navbar.png?raw=true') !important;
 	}
 	.navbar a {
 		color: #E2EFE1 !important;
+		text-shadow: 
+			0px 0px 1px #E2EFE1, 
+			0px 0px 4px #E2EFE1, 
+			0px 0px 12px #E2EFE1 !important;
 		transition: 0.6s !important;
 	}
 	.navbar a:hover {
-		background: #859164 !important;
+		background: #67543580 !important;
 	}
 	.col-md-9 {
 		background: #45281C !important;
@@ -680,9 +688,17 @@ div .left:has(a[href="/account-settings.php"]) {
 		background: #513326 !important;
 	}
 	.panel {
-		background: #898755 !important;
+		background: #898755 url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/darkmodesidepanel.png?raw=true') !important;
+		background-position: center !important;
+		background-size: cover !important;
 		border: 2px solid #9EAB7C !important;
+	}
+	.panel-body {
 		color: #E2EFE1 !important;
+		text-shadow: 
+			0px 0px 1px #230A0B, 
+			0px 0px 4px #230A0B, 
+			0px 0px 12px #230A0B !important;
 	}
 	.col-md-12 h3 {
 		color: #E2EFE1 !important;
@@ -696,6 +712,10 @@ div .left:has(a[href="/account-settings.php"]) {
 	}
 	.panel a {
 		color: #E2EFE1 !important;
+		text-shadow: 
+			0px 0px 1px #230A0B, 
+			0px 0px 4px #230A0B, 
+			0px 0px 12px #230A0B !important;
 		transition: 0.4s !important;
 	}
 	.panel a:hover {
@@ -705,13 +725,17 @@ div .left:has(a[href="/account-settings.php"]) {
 			0px 0px 12px #B8CDAB !important;
 	}
 	.progress {
-		background: #B8CDAB !important;
+		background: #B8CDABD5 !important;
 	}
 	.progress div {
-		color: #E2EFE1
+		color: #E2EFE1 !important;
+		text-shadow: 
+			0px 0px 1px #230A0B, 
+			0px 0px 4px #230A0B, 
+			0px 0px 12px #230A0B !important;
 	}
 	.progress-bar {
-		background: #9EAB7C !important;
+		background: #9EAB7CD5 !important;
 	}
 	.col-md-12 input {
 		background: #9EAB7C !important;
@@ -786,7 +810,7 @@ div .left:has(a[href="/account-settings.php"]) {
 	}
 	.s-chat-message {
 		background: #9EAB7C !important;
-		border-bottom: 2px solid #E2EFE1 !important;
+		border-bottom: 1px solid #230A0B !important;
 		color: #230A0B !important;
 	}
 	.s-chat-message a {
@@ -845,3 +869,13 @@ div .left:has(a[href="/account-settings.php"]) {
 #675435, #45281C, #230A0B
 
 
+img[src*="logo-full-2.png"] {
+	content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/logoreplacement.png?raw=true');
+	width: 192px !important;
+	margin-top: -40px !important;
+}
+img[src*="logo-full-2.png"] {
+	content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/logoreplacement.png?raw=true');
+	width: 192px !important;
+	margin-top: -40px !important;
+}
