@@ -414,7 +414,7 @@ div .left:has(a[href="/account-settings.php"]) {
 		color: #ECFFCC;
 	}
 	body {
-		background: #230A0B url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/darkmodebg.png?raw=true');
+		background: #230A0B url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/darkmodebg.jpeg?raw=true');
 		background-repeat: no-repeat !important;
 		background-position: center !important;
 		background-size: cover !important;
@@ -881,4 +881,50 @@ img[src*="logo-full-2.png"] {
 	content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/logoreplacement.png?raw=true');
 	width: 192px !important;
 	margin-top: -40px !important;
+}
+img[src*="icon_den_message.png"] {
+	content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/iconmessage.png?raw=true') !important;
+	height: 24px !important;
+	width: 24px !important;
+}
+img[src*="icon_den_gift.png"] {
+	content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/icongift.png?raw=true') !important;
+	height: 24px !important;
+	width: 24px !important;
+}
+img[src*="icon_den_trade.png"] {
+	content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/iconcreatetrade.png?raw=true') !important;
+	height: 24px !important;
+	width: 24px !important;
+}
+img[src*="icon_den_wishlist.png"] {
+	content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/iconwishlist.png?raw=true') !important;
+	height: 24px !important;
+	width: 24px !important;
+}
+img[src*="icon_den_viewtrade.png"] {
+	content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/iconviewtrades.png?raw=true') !important;
+	height: 24px !important;
+	width: 24px !important;
+}
+img[src*="unsortedlionsbanner.png"] {
+	content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/unsortedimg.png?raw=true');
+	width: 260px !important;
+    height: 60px !important;
+	object-fit: cover !important;
+	object-position: -20px -70px !important;
+}
+img[src*="nestingbanner.png"] {
+	content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/pregnantlionessesimg.png?raw=true');
+	width: 260px !important;
+    height: 60px !important;
+	object-fit: cover !important;
+	object-position: -20px -25px !important;
+}
+img[src*="prideoverviewbanner.png"] {
+	content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/prideoverviewimg.png?raw=true');
+	width: 260px !important;
+    height: 60px !important;
+	object-fit: cover !important;
+	object-position: -20px -40px !important;
 }
