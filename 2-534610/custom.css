@@ -484,8 +484,8 @@ div .left:has(a[href="/account-settings.php"]) {
 			0px 0px 12px #E2EFE1 !important;
 		transition: 0.6s !important;
 	}
-	.navbar a:hover {
-		background: #675435 !important;
+	.navbar a:not(:has(img[src*="logo-full-2.png"])):hover {
+		background: #675435d5 !important;
 	}
 	.col-md-9 {
 		background: #31251ed5 !important;
