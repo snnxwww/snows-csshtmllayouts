@@ -142,7 +142,7 @@ h1 {
 }
 .heading:after {
     content: "";
-    background-image: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/img1.png?raw=true');
+	background-image: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/img2.png?raw=true');
     background-position: center !important;
 	background-size: cover !important;
     height: 140px !important;
@@ -201,7 +201,7 @@ h1 {
 }
 #commentBox:before {
     content: "";
-	background-image: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/img2.png?raw=true') !important;
+	background-image: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/img1.png?raw=true');
     background-position: center !important;
 	background-size: cover !important;
 	position: absolute !important;
@@ -221,7 +221,7 @@ h1 {
 /* FEATURE LION */
 #about .top:after {
     content: "";
-	background-image: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/img3.png?raw=true') !important;
+	background-image: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/img3.png?raw=true');
 	background-position: center !important;
 	background-size: cover !important;
     height: 140px !important;
@@ -255,7 +255,7 @@ h1 {
 }
 #about #lion_image:before {
     content: "";
-	background-image: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/img4.png?raw=true') !important;
+	background-image: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/img4.png?raw=true');
     background-position: center !important;
 	background-size: cover !important;
     height: 140px !important;
@@ -472,7 +472,7 @@ div .left:has(a[href="/account-settings.php"]) {
 			0px 0px 12px #E2EFE1 !important;
 	}
 	.navbar {
-		background: #675435 url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/navbar.png?raw=true') !important;
+		background: #675435 url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/navbar.png?raw=true');
 		border: solid 3px #e4e6a7 !important;
 		border-bottom: none !important;
 	}
@@ -676,7 +676,7 @@ div .left:has(a[href="/account-settings.php"]) {
 		background: #786443 !important;
 	}
 	#about .top {
-		background: #675435 url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/darkmodefeaturelionbg.png?raw=true') !important;
+		background: #675435 url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/darkmodefeaturelionbg.png?raw=true');
 		background-repeat: no-repeat !important;
 		background-position: center !important;
 		background-size: cover !important;
