@@ -424,8 +424,8 @@ div .left:has(a[href="/account-settings.php"]) {
 		margin-top: 20px;
 	}
 }
-
-
+/*#E2EFE1, #B8CDAB, #9EAB7C, #898755, 
+#675435, #45281C, #230A0B*/
 @media (prefers-color-scheme: light) {
 	.snow {
 		color: #675435;
@@ -629,11 +629,11 @@ div .left:has(a[href="/account-settings.php"]) {
 		color: #230A0B !important;
 	}
 	table .right_odd {
-		background: #725f31 !important;
+		background: #887452 !important;
 		color: #230A0B !important;
 	}
 	table .left.b.center {
-		background: #725f31 !important;
+		background: #6e5d42 !important;
 		color: #230A0B !important;
 	}
 	table a {
@@ -650,7 +650,7 @@ div .left:has(a[href="/account-settings.php"]) {
 		background: #9EAB7C !important;
 		color: #230A0B !important;
 	}
-	table input   {
+	table input, textarea   {
 		background: #9EAB7C !important;
 		color: #230A0B !important;
 		transition: 0.4s !important;
@@ -760,7 +760,7 @@ div .left:has(a[href="/account-settings.php"]) {
 		color: #230A0B !important;
 	}
 	.col-sm-6 .left {
-		background: #797747 !important;
+		background: #625024 !important;
 	}
 	.col-sm-6 .left h3 {
 		color: #230A0B !important;
@@ -959,10 +959,10 @@ div .left:has(a[href="/account-settings.php"]) {
 		color: #230A0B !important;
 	}
 	.col-sm-4 div {
-		background: #898755 !important;
+		background: #625024 !important;
 	}
 	form:has(#editdetailspanel) .left {
-		background: #898755 !important;
+		background: #625024 !important;
 	}
 	div[style*="border-bottom: 1px dashed #6D381F"] {
 		border: dashed 1px #230A0B !important;;
@@ -1196,9 +1196,9 @@ div .left:has(a[href="/account-settings.php"]) {
 		background: #9EAB7C !important;
 		color: #E2EFE1 !important;
 	}
-	table input   {
+	table input, textarea, select   {
 		background: #9EAB7C !important;
-		color: #230A0B !important;
+		color: #E2EFE1 !important;
 		transition: 0.4s !important;
 	}
 	table input:hover {
