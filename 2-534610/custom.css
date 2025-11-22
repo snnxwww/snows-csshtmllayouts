@@ -424,8 +424,8 @@ div .left:has(a[href="/account-settings.php"]) {
 		margin-top: 20px;
 	}
 }
-/*#E2EFE1, #B8CDAB, #9EAB7C, #898755, 
-#675435, #45281C, #230A0B*/
+
+
 @media (prefers-color-scheme: light) {
 	.snow {
 		color: #675435;
@@ -534,11 +534,11 @@ div .left:has(a[href="/account-settings.php"]) {
 		color: #230A0B !important;
 	}
 	.info-box {
-		background: #786241 !important;
+		background: #625024 !important;
 		border: none !important;
 	}
 	#commentBox {
-		background: #786241 !important;
+		background: #625024 !important;
 		border: none !important;
 	}
 	.comment {
@@ -568,7 +568,7 @@ div .left:has(a[href="/account-settings.php"]) {
 		background: #9d9a66 !important;
 	}
 	#makeComment input {
-		background: #786241 !important;
+		background: #625024 !important;
 		color: #230A0B !important;
 		border: none !important;
 		transition: 0.4s !important;
@@ -584,7 +584,7 @@ div .left:has(a[href="/account-settings.php"]) {
 			0px 0px 12px #B8CDAB !important;
 	}
 	.feature {
-		background: #786443 !important;
+		background: #625024 !important;
 		color: #230A0B !important;
 		border: none !important;
 	}
@@ -625,15 +625,15 @@ div .left:has(a[href="/account-settings.php"]) {
 		text-decoration: none !important
 	}
 	table {
-		background: #786443 !important;
+		background: #625024 !important;
 		color: #230A0B !important;
 	}
 	table .right_odd {
-		background: #887452 !important;
+		background: #725f31 !important;
 		color: #230A0B !important;
 	}
 	table .left.b.center {
-		background: #6e5d42 !important;
+		background: #725f31 !important;
 		color: #230A0B !important;
 	}
 	table a {
@@ -663,10 +663,10 @@ div .left:has(a[href="/account-settings.php"]) {
 		background: #a7af91 !important;
 	}
 	#about {
-		background: #786443 !important
+		background: #625024 !important
 	}
 	#about table {
-		background: #786443 !important;
+		background: #625024 !important;
 	}
 	#about .top {
 		background: #797747 url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/lightmodefeaturelionbg.png?raw=true') !important;
@@ -700,7 +700,7 @@ div .left:has(a[href="/account-settings.php"]) {
 		background: #797747 !important;
 	}
 	#player {
-		background: #786443 !important;
+		background: #625024 !important;
 		color: #230A0B !important;
 	}
 	#player a {
@@ -1209,10 +1209,10 @@ div .left:has(a[href="/account-settings.php"]) {
 		background: #a7af91 !important;
 	}
 	#about {
-		background: #786443 !important
+		background: #625024 !important
 	}
 	#about table {
-		background: #786443 !important;
+		background: #625024 !important;
 	}
 	#about .top {
 		background: #675435 url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/darkmodefeaturelionbg.png?raw=true') !important;
@@ -1663,6 +1663,20 @@ img[src*="den_showcase.png"] {
 	content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/showcaseimg.png?raw=true');
 	height: 50px !important;
 	width: 100% !important;
+	object-fit: cover !important;
+	object-position: center center !important;
+}
+img[src*="beetleunsorted.png"] {
+	content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/moundimg.png?raw=true');
+	height: 80px !important;
+	width: 130px !important;
+	object-fit: cover !important;
+	object-position: center center !important;
+}
+img[src*="beetlemound.png"] {
+	content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/moundimg.png?raw=true');
+	height: 80px !important;
+	width: 130px !important;
 	object-fit: cover !important;
 	object-position: center center !important;
 }
