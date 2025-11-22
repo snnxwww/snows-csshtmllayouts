@@ -302,6 +302,7 @@ h1 {
 	background-size: contain !important; 
 	background-repeat: no-repeat !important;
 	pointer-events: none; 
+	display: block;
 }
 
 table {
@@ -424,8 +425,31 @@ div .left:has(a[href="/account-settings.php"]) {
 		margin-top: 20px;
 	}
 }
-/*#E2EFE1, #B8CDAB, #9EAB7C, #898755, 
-#675435, #45281C, #230A0B*/
+@media (max-width: 702px) {
+	#lion_image:after {
+		width: 95%;
+		height: 95%;
+	}
+}
+@media (max-width: 647px) {
+	#lion_image:after {
+		width: 90%;
+		height: 90%;
+	}
+}
+@media (max-width: 613px) {
+	#lion_image:after {
+		width: 85%;
+		height: 85%;
+	}
+}
+@media (max-width: 612px) {
+	#lion_image:after {
+		width: 80%;
+		height: 80%;
+	}
+}
+
 @media (prefers-color-scheme: light) {
 	.snow {
 		color: #675435;
