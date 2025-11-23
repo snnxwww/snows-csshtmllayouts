@@ -6,7 +6,9 @@ DO NOT EDIT OR USE AS A TEMPLATE
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); * {
     font-family: 'indie flower' !important;
 }
-
+* {
+	overflow-x: hidden !important;
+}
 .snow {
     position: fixed;
     top: -50px;
@@ -289,7 +291,7 @@ h1 {
 #lion_image {
     border-radius: 50% !important;
     overflow: hidden !important;
-    border: 20px solid #000 !important;
+    border: 20px solid #ffffff00 !important;
 }
 #lion_image:after {
 	content: "";
@@ -420,35 +422,43 @@ div .left:has(a[href="/account-settings.php"]) {
 	box-shadow: none !important;
 }
 
-@media (max-width: 768px) {
-	.main {
-		margin-top: 20px;
-	}
-}
 @media (max-width: 702px) {
+	#lion_image {
+	    position: relative !important;
+	    border-radius: 50% !important;
+	    overflow: hidden !important;
+		border: none !important;
+	}
 	#lion_image:after {
-		width: 95%;
-		height: 95%;
+	    content: "";
+	    position: absolute !important;
+	    inset: 0 !important;
+	    background-image: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/lionframe.png?raw=true');
+	    background-size: cover !important;
+	    background-position: center !important;
+	    pointer-events: none !important;
+		width: 105% !important;
+		height: 105% !important;
+		margin-left: -5px !important;
+		margin-top: -5px !important;
+		z-index: 10 !important;
+	}
+	#about .right td a:has(#lion_image):before {
+	    content: "";
+		background-image: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/img4.png?raw=true');
+	    background-position: center !important;
+		background-size: cover !important;
+	    height: 140px !important;
+	    width: 140px !important;
+	    float: right !important;
+	    position: absolute !important;
+		left: -40px !important;
+	    margin-top: -70px !important;
+	    transform: rotate(-10deg) !important;
+	    z-index: 100 !important;
 	}
 }
-@media (max-width: 647px) {
-	#lion_image:after {
-		width: 90%;
-		height: 90%;
-	}
-}
-@media (max-width: 613px) {
-	#lion_image:after {
-		width: 85%;
-		height: 85%;
-	}
-}
-@media (max-width: 612px) {
-	#lion_image:after {
-		width: 80%;
-		height: 80%;
-	}
-}
+
 
 @media (prefers-color-scheme: light) {
 	.snow {
@@ -558,28 +568,50 @@ div .left:has(a[href="/account-settings.php"]) {
 		color: #230A0B !important;
 	}
 	.info-box {
-		background: #625024 !important;
+		background: #625034 !important;
 		border: none !important;
 	}
 	#commentBox {
-		background: #625024 !important;
+		background: #625034 url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/commentimg.gif?raw=true') !important;
+		background-position: center !important;
+		background-size: cover !important;
 		border: none !important;
+		text-shadow: 
+			0px 0px 1px #E2EFE1, 
+			0px 0px 4px #E2EFE1, 
+			0px 0px 12px #E2EFE1 !important;
 	}
 	.comment {
 		background: #ffffff00 !important;
 		border-top: 1px solid #2b1415 !important;
+	}
+	.commentText {
+		text-shadow: 
+			0px 0px 1px #E2EFE1, 
+			0px 0px 2px #E2EFE1, 
+			0px 0px 4px #E2EFE1, 
+			0px 0px 8px #E2EFE1, 
+			0px 0px 12px #E2EFE1 !important;
 	}
 	.comment:first-of-type {
 		border: none !important;
 	}
 	.comment a {
 		color: #250c0d !important;
+		text-shadow: 
+			0px 0px 1px #E2EFE1, 
+			0px 0px 4px #E2EFE1, 
+			0px 0px 12px #E2EFE1 !important;
 	}
 	.comment small {
 		color: #2f1011 !important;
+		text-shadow: 
+			0px 0px 1px #E2EFE1, 
+			0px 0px 4px #E2EFE1, 
+			0px 0px 12px #E2EFE1 !important;
 	}
 	.comment input {
-		background: #230A0B !important;
+		background: #625034 !important;
 		color: #E2EFE1 !important;
 		border: none !important;
 		transition: 0.4s !important
@@ -592,7 +624,7 @@ div .left:has(a[href="/account-settings.php"]) {
 		background: #9d9a66 !important;
 	}
 	#makeComment input {
-		background: #625024 !important;
+		background: #625034 !important;
 		color: #230A0B !important;
 		border: none !important;
 		transition: 0.4s !important;
@@ -608,7 +640,7 @@ div .left:has(a[href="/account-settings.php"]) {
 			0px 0px 12px #B8CDAB !important;
 	}
 	.feature {
-		background: #625024 !important;
+		background: #625034 !important;
 		color: #230A0B !important;
 		border: none !important;
 	}
@@ -649,7 +681,7 @@ div .left:has(a[href="/account-settings.php"]) {
 		text-decoration: none !important
 	}
 	table {
-		background: #625024 !important;
+		background: #625034 !important;
 		color: #230A0B !important;
 	}
 	table .right_odd {
@@ -687,10 +719,10 @@ div .left:has(a[href="/account-settings.php"]) {
 		background: #a7af91 !important;
 	}
 	#about {
-		background: #625024 !important
+		background: #625034 !important
 	}
 	#about table {
-		background: #625024 !important;
+		background: #625034 !important;
 	}
 	#about .top {
 		background: #797747 url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/lightmodefeaturelionbg.png?raw=true') !important;
@@ -724,7 +756,7 @@ div .left:has(a[href="/account-settings.php"]) {
 		background: #797747 !important;
 	}
 	#player {
-		background: #625024 !important;
+		background: #625034 !important;
 		color: #230A0B !important;
 	}
 	#player a {
@@ -784,7 +816,7 @@ div .left:has(a[href="/account-settings.php"]) {
 		color: #230A0B !important;
 	}
 	.col-sm-6 .left {
-		background: #625024 !important;
+		background: #625034 !important;
 	}
 	.col-sm-6 .left h3 {
 		color: #230A0B !important;
@@ -927,10 +959,15 @@ div .left:has(a[href="/account-settings.php"]) {
 	#chatMessagePinned a {
 		color: #230A0B !important;
 	}
-	.s-chat-message {
+	.s-chat-message:nth-child(odd) {
 		background: #7d6c50 !important;
 		border-bottom: 1px solid #230A0B !important;
 		color: #E2EFE1 !important;
+	}
+	.s-chat-message:nth-child(even) {
+		background: #99A677 !important;
+		border-bottom: 1px solid #230A0B !important;
+		color: #230A0B !important;
 	}
 	.s-chat-message a {
 		color: #c9d9c7 !important;
@@ -983,10 +1020,10 @@ div .left:has(a[href="/account-settings.php"]) {
 		color: #230A0B !important;
 	}
 	.col-sm-4 div {
-		background: #625024 !important;
+		background: #625034 !important;
 	}
 	form:has(#editdetailspanel) .left {
-		background: #625024 !important;
+		background: #625034 !important;
 	}
 	div[style*="border-bottom: 1px dashed #6D381F"] {
 		border: dashed 1px #230A0B !important;;
@@ -1108,21 +1145,43 @@ div .left:has(a[href="/account-settings.php"]) {
 		border: none !important;
 	}
 	#commentBox {
-		background: #675435 !important;
+		background: #675435 url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/commentimg.gif?raw=true') !important;
+		background-position: center !important;
+		background-size: cover !important;
 		border: none !important;
 	}
 	.comment {
 		background: #ffffff00 !important;
 		border-top: 1px solid #9EAB7C !important;
+		text-shadow: 
+			0px 0px 1px #898755, 
+			0px 0px 4px #898755, 
+			0px 0px 12px #898755 !important;
+	}
+	.commentText {
+		text-shadow: 
+			0px 0px 1px #675435, 
+			0px 0px 2px #675435, 
+			0px 0px 4px #675435, 
+			0px 0px 8px #675435, 
+			0px 0px 12px #675435 !important;
 	}
 	.comment:first-of-type {
 		border: none !important;
 	}
 	.comment a {
-		color: #b5c2b4 !important;
+		color: #ddeadc !important;
+		text-shadow: 
+			0px 0px 1px #675435, 
+			0px 0px 4px #675435, 
+			0px 0px 12px #675435 !important;
 	}
 	.comment small {
-		color: #bed7bc !important;
+		color: #ddeadc  !important;
+		text-shadow: 
+			0px 0px 1px #675435, 
+			0px 0px 4px #675435, 
+			0px 0px 12px #675435 !important;
 	}
 	.comment input {
 		background: #898755 !important;
@@ -1233,10 +1292,10 @@ div .left:has(a[href="/account-settings.php"]) {
 		background: #a7af91 !important;
 	}
 	#about {
-		background: #625024 !important
+		background: #625034 !important
 	}
 	#about table {
-		background: #625024 !important;
+		background: #625034 !important;
 	}
 	#about .top {
 		background: #675435 url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/darkmodefeaturelionbg.png?raw=true') !important;
@@ -1476,8 +1535,13 @@ div .left:has(a[href="/account-settings.php"]) {
 	#chatMessagePinned a {
 		color: #E2EFE1 !important;
 	}
-	.s-chat-message {
-		background: #9EAB7C !important;
+	.s-chat-message:nth-child(odd) {
+		background: #99A677 !important;
+		border-bottom: 1px solid #230A0B !important;
+		color: #230A0B !important;
+	}
+	.s-chat-message:nth-child(even) {
+		background: #675435 !important;
 		border-bottom: 1px solid #230A0B !important;
 		color: #230A0B !important;
 	}
