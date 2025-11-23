@@ -6,9 +6,7 @@ DO NOT EDIT OR USE AS A TEMPLATE
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); * {
     font-family: 'indie flower' !important;
 }
-* {
-	overflow-x: hidden !important;
-}
+
 .snow {
     position: fixed;
     top: -50px;
@@ -48,6 +46,15 @@ DO NOT EDIT OR USE AS A TEMPLATE
         top: 100vh;
         transform: translateX(0);
     }
+}
+
+.pagedoll {
+	width: 45% !important;
+	position: fixed !important;
+	bottom: -15px !important;
+	right: -20px !important;
+	z-index: 100000 !important;
+	max-width: 250px !important
 }
 
 * {
