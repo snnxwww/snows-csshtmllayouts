@@ -1,4 +1,4 @@
-<div id="fraProfileContent"><link rel="stylesheet" href="https://snnxwww.github.io/snows-csshtmllayouts/2-534610/custom.css"><br>
+<link rel="stylesheet" href="https://snnxwww.github.io/snows-csshtmllayouts/2-534610/custom.css"><br>
 <div class="info-box heading">TITLE</div><br>
 <div class="divided-section"><br>
 <div class="info-box box-left">TEXT</div><br>
@@ -7,4 +7,4 @@
 <div class="info-box box-bottom-left">TEXT</div><br>
 <div class="info-box box-bottom-right">TEXT</div><br>
 </div>
-<img class="pagedoll" src="https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/pagedollimg.png?raw=true" alt=""><br>	</div>
+<img class="pagedoll" src="https://github.com/snnxwww/snows-csshtmllayouts/blob/main/2-534610/pagedollimg.png?raw=true" alt="">
