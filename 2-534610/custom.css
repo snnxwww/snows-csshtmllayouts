@@ -432,6 +432,10 @@ div .left:has(a[href="/account-settings.php"]) {
 .panel {
 	box-shadow: none !important;
 }
+.s-chat-message, .s-chat-message_timestamp {
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
 
 @media (max-width: 702px) {
 	#lion_image {
