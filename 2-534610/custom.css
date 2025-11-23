@@ -59,6 +59,7 @@ DO NOT EDIT OR USE AS A TEMPLATE
 
 * {
 	text-shadow: none !important;
+	border: none !important;
 }
 body {
 	overflow-x: hidden; !important;
