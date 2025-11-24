@@ -39,7 +39,11 @@ input:hover {
 
 
 body {
-    background: #BGCLR url('BGIMGLINK')
+    background: #BGCLR url('BGIMGLINK');
+	background-attachment: fixed !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
 }
 
 .topbar {
