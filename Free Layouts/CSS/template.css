@@ -78,6 +78,11 @@ img[src*="logo-full-2.png"] {
     background: #BREADCRUMBCLR !important;
     color: #BREADCRUMBTEXTCLR !important
 }
+.breadcrumb::after {
+    content: "CSS by Snow #553411";
+	position: absolute !important;
+	right: 120px;
+}
 .breadcrumb a {
     color: #BREADCRUMBTEXTCLR !important;
 }
