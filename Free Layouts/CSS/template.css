@@ -15,7 +15,9 @@ MORE FREE CSS HERE: https://www.lioden.com/topic.php?id=304429594308&page=1
     box-shadow: none !important;
     border: none !important;
 }
-
+.main {
+    background: transparent !important;
+}
 
 h1, h2, h3, h4, h5, h6 {
     color: #HEADINGCLR !important;
