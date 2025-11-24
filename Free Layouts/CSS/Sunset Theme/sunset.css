@@ -60,7 +60,7 @@ body {
 }
 .navbar a {
     color: #fbd48c !important;
-    font-size: 16px !important;
+    font-size: 15px !important;
 }
 .navbar a:hover {
     background: #ef5a1bf0 !important;
@@ -79,6 +79,11 @@ img[src*="logo-full-2.png"] {
 .breadcrumb {
     background: #a52a4ef0 !important;
     color: #f8b51b !important
+}
+.breadcrumb::after {
+    content: "CSS by Snow #553411";
+	position: absolute !important;
+	right: 120px;
 }
 .breadcrumb a {
     color: #f8b51b !important;
