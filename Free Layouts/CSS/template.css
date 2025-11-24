@@ -1,1 +1,257 @@
+/* CSS MADE BY SNOW #553411
+DO NOT REMOVE CREDIT
+DO NOT EDIT OR USE AS A TEMPLATE
+DO NOT REDISTRIBUTE OR RESELL
+--------------------
+MORE FREE CSS HERE: https://www.lioden.com/topic.php?id=304429594308&page=1
+*/
 
+@import url('FONTLINK');
+
+* {
+    font-family: "FONTNAME";
+    color: #TEXTCLR !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #HEADINGCLR !important;
+}
+a {
+    color: #LINKCLR !important;
+}
+p {
+    color: #TEXTCLR !important;
+}
+input, select, textarea, button {
+    background: #BUTTONCLR !important;
+    color: #BUTTONTEXTCLR !important;
+}
+input:hover {
+    background: #BUTTONHOVERCLR !important;
+    color: #BUTTONHOVERTEXTCLR !important;
+}
+
+
+body {
+    background: #BGCLR url('BGIMGLINK')
+}
+
+.topbar {
+    background: #TOPBARCLR !important;
+    color: #TOPBARTEXTCLR !important;
+}
+.topbar a {
+    color: #TOPBARTEXTCLR !important;
+}
+
+.navbar {
+    background: #NAVBARCLR !important;
+}
+.navbar a {
+    color: #NAVBARTEXTCLR !important;
+    font-size: NAVBARFONTSIZE !important;
+}
+.navbar a:hover {
+    background: #NAVBARHOVERCLR !important;
+    color: #NAVBARHOVERTEXTCLR !important;
+}
+img[src*="logo-full-2.png"] {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/Free%20Layouts/CSS/Sunset%20Theme/sunsetlogoimg.png?raw=true');
+    height: 120px !important;
+    width: 192px !important;
+}
+
+.col-md-9 {
+    background: #MAINPANELCLR !important;
+}
+
+.breadcrumb {
+    background: #BREADCRUMBCLR !important;
+    color: #BREADCRUMBTEXTCLR !important
+}
+.breadcrumb a {
+    color: #BREADCRUMBTEXTCLR !important;
+}
+.breadcrumb-item {
+    color: #BREADCRUMBTEXTCLR !important;
+}
+.breadcrumb-item::before {
+    color: #BREADCRUMBTEXTCLR !important;
+}
+
+.alert, .alert b, .alert a, .badge {
+    background: #ALERTCLR !important;
+    color: #ALERTTXTCLR !important;
+}
+
+#commentBox {
+    background: #COMMENTBOXCLR !important;
+    color: #COMMENTBOXTEXTCLR !important
+}
+#commentBox a, #commentBox small {
+    color: #COMMENTBOXSUBTEXTCLR !important;
+}
+#commentBox input {
+    background: #BUTTONCLR !important;
+    color: #BUTTONTEXTCLR !important
+}
+#commentBox input:hover, #postComment:hover {
+    background: #BUTTONHOVERCLR !important;
+    color: #BUTTONHOVERTEXTCLR !important
+}
+#makeComment input {
+    background: #BUTTONCLR !important;
+    color: #BUTTONTEXTCLR !important;
+}
+#makeComment input::placeholder {
+    color: #BUTTONTEXTCLR !important;
+}
+
+table {
+    background: #TABLECLR !important;
+    color: #TABLETEXTCLR !important
+}
+table .left {
+    background: #TABLEPANELLEFTCLR !important;
+    color: #TABLETEXTCLR !important;
+}
+table td .right {
+    background: #TABLEPANELRIGHTCLR !important;
+    color: #TABLETEXTCLR !important;
+}
+table .top, table th {
+    background: #TABLEHEADINGCLR !important;
+    color: #TABLEHEADINGTEXTCLR !important;
+}
+table .bottom {
+    background: #TABLEHEADINGCLR !important;
+    color: #TABLEHEADINGTEXTCLR !important;
+}
+table .left.b.center, table .right_odd {
+    background: #TABLESUBHEADINGCLR !important;
+    color: #TABLESUBHEADINGTEXTCLR !important;
+}
+table select, table input {
+    background: #BUTTONCLR !important;
+    color: #BUTTONTEXTCLR !important
+}
+table a {
+    color: #TABLETEXTCLR !important;
+}
+table span {
+    color: #TABLETEXTCLR !important;
+}
+
+.member-online {
+    background: #ONLINEBADGECLR !important;
+}
+.member-offline {
+    background: #OFFLINEBADGECLR !important;
+}
+
+.cave-grid {
+    background: #CAVESCLR !important;
+    color: #CAVESTEXTCLR !important;
+}
+.mound-grid {
+    background: #CAVESCLR !important;
+    color: #CAVESTEXTCLR !important
+}
+
+.feature {
+    background: #TABLECLR !important;
+    color: #TABLETEXTCLR !important
+}
+.feature h3 {
+    color: #TABLEHEADINGCLR !important
+}
+.feature select, .feature input {
+    background: #BUTTONCLR !important;
+    color: #BUTTONTEXTCLR !important
+}
+a ~ b, a ~ b span {
+    color: #TABLESUBHEADINGTEXTCLR !important;
+}
+
+.col-md-4 .left {
+    background: #BUTTONCLR !important;
+}
+.col-md-4 h3 {
+    color: #BUTTONTEXTCLR !important;
+}
+.col-sm-4 .left {
+    background: #BUTTONCLR !important;
+    color: #BUTTONTEXTCLR !important;
+}
+form:has(#editdetailspanel) .left {
+    background: #BUTTONCLR !important;
+}
+form:has(#editdetailspanel) .left a {
+    color: #BUTTONTEXTCLR !important;
+}
+
+.row:nth-child(2) {
+    background: #SIDEPANELBG !important
+}
+.panel {
+    background: #PANELTEXTCLR !important;
+}
+.panel-body, .panel-body a {
+    color: #PANELTEXTCLR !important;
+}
+.progress {
+    background: #PROGRESSBARCLR !important;
+}
+.progress div {
+    color: #PROGRESSBARTEXTCLR !important;
+}
+.progress-bar {
+    background: #PROGRESSCLR !important;
+}
+
+#label_currentChannel {
+    background: #CHATDROPDOWNCLR !important;
+    color: #CHATDROPDOWNTXTCLR !important;
+}
+#fraChatChannelMenu {
+    background: #CHATDROPDOWNCLR !important;
+}
+.channelSwitcher {
+    color: #CHATDROPDOWNTXTCLR !important;
+}
+.channelSwitcher:hover, .channelSwitcher.active {
+    background: #CHATDROPDOWNHOVERCLR !important;
+}
+
+.s-chat-message__pinned {
+    background-color: #CHATPINNEDCLR !important;
+}
+.s-chat-message_content, .s-chat-message_content a {
+    color: #CHATTEXTCLR !important;
+}
+.s-chat-message {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+    background: #CHATCLR !important;
+    color: #CHATTEXTCLR !important;
+}
+.s-chat-message a, .s-chat-message_timestamp {
+    color: #CHATTEXTCLR !important;
+}
+.s-chat-message_timestamp {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+}
+.s-chat-message.hasContext {
+    background: #CHATACTIVECLR !important;
+    border-left: 2px solid #CHATTEXTCLR !important;
+}
+
+.featured-lion, .featured-lion p, .featured-lion a {
+	background: #TABLEHEADINGCLR !important;
+	color: #TABLEHEADINGTEXTCLR !important;
+}
