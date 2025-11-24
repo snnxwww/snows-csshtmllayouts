@@ -1,5 +1,9 @@
 CSS MADE BY SNOW #553411
 -------------------------
-Sunset CSS Theme:
+Sunset CSS Theme
 
+/ Den Link:
 <link rel="stylesheet" href="https://github.com/snnxwww/snows-csshtmllayouts/blob/main/Free%20Layouts/CSS/Sunset%20Theme/preview.png?raw=true">
+
+/ Cave/Mound Link:
+https://github.com/snnxwww/snows-csshtmllayouts/blob/main/Free%20Layouts/CSS/Sunset%20Theme/preview.png?raw=true
