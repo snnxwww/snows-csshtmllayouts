@@ -32,7 +32,7 @@ input, select, textarea, button {
     background: #BUTTONCLR !important;
     color: #BUTTONTEXTCLR !important;
 }
-input:hover {
+input:hover, select:hover, button:hover {
     background: #BUTTONHOVERCLR !important;
     color: #BUTTONHOVERTEXTCLR !important;
 }
@@ -111,13 +111,13 @@ img[src*="logo-full-2.png"] {
     background: #BUTTONCLR !important;
     color: #BUTTONTEXTCLR !important
 }
-#commentBox input:hover, #postComment:hover {
-    background: #BUTTONHOVERCLR !important;
-    color: #BUTTONHOVERTEXTCLR !important
-}
 #makeComment input {
     background: #BUTTONCLR !important;
     color: #BUTTONTEXTCLR !important;
+}
+#commentBox input:hover, #postComment:hover {
+    background: #BUTTONHOVERCLR !important;
+    color: #BUTTONHOVERTEXTCLR !important
 }
 #makeComment input::placeholder {
     color: #BUTTONTEXTCLR !important;
@@ -150,6 +150,10 @@ table .left.b.center, table .right_odd {
 table select, table input {
     background: #BUTTONCLR !important;
     color: #BUTTONTEXTCLR !important
+}
+table select:hover, table input:hover {
+    background: #BUTTONHOVERCLR !important;
+    color: #BUTTONHOVERTEXTCLR !important
 }
 table a {
     color: #TABLETEXTCLR !important;
