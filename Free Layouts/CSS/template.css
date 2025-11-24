@@ -28,11 +28,11 @@ a {
 p {
     color: #TEXTCLR !important;
 }
-input, select, textarea, button {
+input, select, textarea, form[action="/account-link.php"] button {
     background: #BUTTONCLR !important;
     color: #BUTTONTEXTCLR !important;
 }
-input:hover, select:hover, button:hover {
+input:hover, select:hover, form[action="/account-link.php"] button:hover {
     background: #BUTTONHOVERCLR !important;
     color: #BUTTONHOVERTEXTCLR !important;
 }
