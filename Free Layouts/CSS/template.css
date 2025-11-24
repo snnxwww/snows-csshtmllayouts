@@ -214,7 +214,7 @@ form:has(#editdetailspanel) .left a {
     background: #SIDEPANELBG !important
 }
 .panel {
-    background: #PANELTEXTCLR !important;
+    background: #PANELCLR !important;
 }
 .panel-body, .panel-body a {
     color: #PANELTEXTCLR !important;
