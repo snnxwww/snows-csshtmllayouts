@@ -97,6 +97,13 @@ img[src*="logo-full-2.png"] {
     background: #COMMENTBOXCLR !important;
     color: #COMMENTBOXTEXTCLR !important
 }
+.comment {
+    background: #COMMENTBOXCLR !important;
+    border-top: 1px solid #COMMENTBOXTEXTCLR !important;
+}
+.comment:first-of-type {
+    border-top: none !important;
+}
 #commentBox a, #commentBox small {
     color: #COMMENTBOXSUBTEXTCLR !important;
 }
