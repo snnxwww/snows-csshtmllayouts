@@ -1,0 +1,12 @@
+HTML MADE BY SNOW #553411
+Do not remove credit at footer.
+-------------------------
+Mountaintops
+
+Paste into the forum:
+<div style="background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/Free%20Layouts/HTML/Background%20Images/mountaintopsbg.png?raw=true'); background-position: center; font-family: serif; border: double 12px #d6e0c8;">
+<div style="width: 90%; max-width: 90%; border-collapse: collapse; margin: 0 auto; background-color: rgba(160, 163, 126, 0.84); color: #fff; text-align: center; font-weight: bold; font-size: 40px; padding-top: 10px; border: double 8px #d6e0c8;">TITLE</div>
+<div style="width: 90%; max-width: 90%; height: 300px; border-collapse: collapse; margin: 0 auto; background-color: rgba(160, 163, 126, 0.84); color: #fff; text-align: left; font-weight: bold; font-size: 20px; padding-left: 10px; padding-right: 10px; border: double 8px #d6e0c8;">TEXT</div>
+<div style="width: 90%; max-width: 90%; height: 300px; border-collapse: collapse; margin: 0 auto; background-color: rgba(160, 163, 126, 0.84); color: #fff; text-align: left; font-weight: bold; font-size: 20px; padding-left: 10px; padding-right: 10px; border: double 8px #d6e0c8;">TEXT</div>
+<div style="width: 90%; max-width: 90%; border-collapse: collapse; margin: 0 auto; background-color: rgba(160, 163, 126, 0.84); color: #fff; text-align: center; font-weight: bold; font-size: 16px; border: double 8px #d6e0c8; padding-left: 10px; padding-right: 10px;">HTML by <a href="https://www.lioden.com/territory.php?id=553411">Snow #553411</a>, do not remove credit</div>
+</div>
