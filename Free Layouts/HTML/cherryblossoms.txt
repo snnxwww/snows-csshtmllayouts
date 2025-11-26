@@ -4,7 +4,7 @@ Do not remove credit at footer.
 Cherry Blossoms
 
 Paste into the forum:
-<div style="background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/Free%20Layouts/HTML/Background%20Images/cherryblossomsbg.png?raw=true'); background-position: center; font-family: serif; border: double 12px #f3e9f5;">
+<div style="background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/Free%20Layouts/HTML/Background%20Images/cherryblossomsbg.png?raw=true'); background-position: center; background-size: cover; font-family: serif; border: double 12px #f3e9f5;">
 <div style="width: 90%; max-width: 90%; border-collapse: collapse; margin: 0 auto; background-color: rgba(213, 167, 214, 0.84); color: #fff; text-align: center; font-weight: bold; font-size: 40px; padding-top: 10px; border: double 8px #f3e9f5;">TITLE</div>
 <div style="width: 90%; max-width: 90%; height: 300px; border-collapse: collapse; margin: 0 auto; background-color: rgba(213, 167, 214, 0.84); color: #fff; text-align: left; font-weight: bold; font-size: 20px; padding-left: 10px; padding-right: 10px; border: double 8px #f3e9f5;">TEXT</div>
 <div style="width: 90%; max-width: 90%; height: 300px; border-collapse: collapse; margin: 0 auto; background-color: rgba(213, 167, 214, 0.84); color: #fff; text-align: left; font-weight: bold; font-size: 20px; padding-left: 10px; padding-right: 10px; border: double 8px #f3e9f5;">TEXT</div>
