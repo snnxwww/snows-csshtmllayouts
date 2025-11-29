@@ -1,0 +1,3 @@
+<div class="scrollBox" style="height: 200px; float: left; width: 70%; max-width: 90%; border-collapse: collapse; margin: 0 auto; margin-top: 20px;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/2560px-Placeholder_view_vector.svg.png" width="95%" style="padding-left: 5%">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/2560px-Placeholder_view_vector.svg.png" width="95%" style="padding-left: 5%">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/2560px-Placeholder_view_vector.svg.png" width="95%" style="padding-left: 5%"></div>
