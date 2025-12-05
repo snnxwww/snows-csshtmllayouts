@@ -6,7 +6,9 @@ DO NOT REDISTRIBUTE OR RESELL
 COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); * {
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); 
+
+* {
     font-family: 'indie flower' !important;
 }
 
