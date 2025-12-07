@@ -115,8 +115,8 @@ p {
 }
 
 @keyframes glow {
-    from { box-shadow: 0 0 1px #000, 0 0 2px #000, 0 0 4px #000; }
-	to { box-shadow: 0 0 4px #000, 0 0 12px #000, 0 0 16px #000; }
+    from { box-shadow: 0 0 1px #B6D0E2, 0 0 2px #B6D0E2, 0 0 4px #B6D0E2; }
+	to { box-shadow: 0 0 4px #B6D0E2, 0 0 12px #B6D0E2, 0 0 16px #B6D0E2; }
 }
 
 .scrollbox {
@@ -151,6 +151,10 @@ p {
     color: #425260 !important;
     padding-left: 1px !important;
     padding-right: 1px !important;
+}
+.topbar .badge {
+	background: #819ccb90 !important;
+    color: #556e84 !important;
 }
 
 .navbar {
@@ -368,6 +372,50 @@ td.left[colspan="100%"] {
 .progress div {
 	color: #dbe4eb !important;
 }
+.progress-bar {
+	background: #ADD8E660 !important;
+}
 
+.col-md-12 input {
+    background: #B6D0E290 !important;
+    transition: 0.4s !important;
+}
+.col-md-12 input:hover {
+    background: #a6c1d390 !important;
+}
+#label_currentChannel {
+	background: #B6D0E2e5 !important;
+	color: #475765 !important;
+}
+#fraChatChannelMenu {
+	background: #B6D0E2e5 !important;
+	box-shadow: none !important;
+}
+.channelSwitcher  {
+	color: #475765 !important;
+}
+.channelSwitcher.active  {
+	color: #475765 !important;
+	background: #71949f90 !important;
+}
+.channelSwitcher:hover  {
+	color: #475765 !important;
+	background: #71949f50 !important;
+}
+#txtChatContainer input {
+    background: #B6D0E290 !important;
+    transition: 0.4s !important;
+}
+#txtChatContainer input[type="button"]:hover {
+    background: #7992a390 !important;
+}
+
+button.button {
+    background: #B6D0E290 !important;
+    transition: 0.4s !important;
+}
+button.button:hover {
+    background: #7992a390 !important;
+}
 
 #A7C7E7 \ #B6D0E2 \ #4682B4 \ #ADD8E6 \ #6495ED \ #89CFF0
