@@ -177,7 +177,7 @@ p {
 }
 
 .breadcrumb {
-    background: #4682B480 !important;
+    background: #5b7c9780 !important;
 }
 .breadcrumb-item {
     color: #2c3337 !important;
@@ -186,7 +186,7 @@ p {
     color: #2c3337 !important;
 }
 .floatright input {
-    background: #A7C7E7d5 !important;
+    background: #a0b1c1d5 !important;
     color: #4f6575 !important;
     transition: 0.4s !important;
 }
@@ -284,7 +284,7 @@ table td.top a:hover, table td.bottom a:hover, table th a:hover {
     background: #B6D0E290 !important;
     color: #3d505f !important;
 }
-table select, table input {
+table select, table input, table textarea {
     background: #6691a590 !important;
     color: #cad5de !important;
     padding: 4px !important;
@@ -404,18 +404,34 @@ td.left[colspan="100%"] {
 }
 #txtChatContainer input {
     background: #B6D0E290 !important;
+	color: #4a5762 !important;
     transition: 0.4s !important;
 }
 #txtChatContainer input[type="button"]:hover {
     background: #7992a390 !important;
 }
+#chatMessagePinned {
+	background-color: #B6D0E2e5 !important;
+	color: #334a5d !important;
+}
+.s-chat-message {
+	background-color: #dae3eae5 !important;
+	color: #334a5d !important;
+	padding-left: 5px !important;
+}
+.s-chat-message_timestamp {
+	padding-left: 5px !important;
+	color: #557189 !important;
+}
+.s-chat-message.hasContext {
+	background: #c2d0dae5 !important;
+}
 
 button.button {
     background: #B6D0E290 !important;
+	color: #4a5762 !important;
     transition: 0.4s !important;
 }
 button.button:hover {
     background: #7992a390 !important;
 }
-
-#A7C7E7 \ #B6D0E2 \ #4682B4 \ #ADD8E6 \ #6495ED \ #89CFF0
