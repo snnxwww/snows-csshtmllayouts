@@ -165,7 +165,7 @@ p {
     padding-top: 15px !important;
     transition: 0.4s !important;
 }
-.navbar a:hover:not(:has(img[src*="logo-full-2.png"]:hover)) {
+.navbar a:hover {
     background: #d1dde5e5 !important;
 }
 
@@ -177,7 +177,7 @@ p {
 }
 
 .breadcrumb {
-    background: #4682B480 !important;
+    background: #5b7c9780 !important;
 }
 .breadcrumb-item {
     color: #2c3337 !important;
@@ -186,7 +186,7 @@ p {
     color: #2c3337 !important;
 }
 .floatright input {
-    background: #A7C7E7d5 !important;
+    background: #a0b1c1d5 !important;
     color: #4f6575 !important;
     transition: 0.4s !important;
 }
@@ -284,7 +284,7 @@ table td.top a:hover, table td.bottom a:hover, table th a:hover {
     background: #B6D0E290 !important;
     color: #3d505f !important;
 }
-table select, table input {
+table select, table input, table textarea {
     background: #6691a590 !important;
     color: #cad5de !important;
     padding: 4px !important;
@@ -404,12 +404,13 @@ td.left[colspan="100%"] {
 }
 #txtChatContainer input {
     background: #B6D0E290 !important;
+	color: #4a5762 !important;
     transition: 0.4s !important;
 }
 #txtChatContainer input[type="button"]:hover {
     background: #7992a390 !important;
 }
-#chatMessagePinned {
+#chatMessagePinned, .s-chat-message_claim {
 	background-color: #B6D0E2e5 !important;
 	color: #334a5d !important;
 }
@@ -428,15 +429,21 @@ td.left[colspan="100%"] {
 
 button.button {
     background: #B6D0E290 !important;
+	color: #4a5762 !important;
     transition: 0.4s !important;
 }
 button.button:hover {
     background: #7992a390 !important;
 }
-img[src*="logo-full-2.png"] {
-	content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/4-470651/logoimg.png?raw=true');
-	height: 160px !important;
-	margin-top: -20px !important;
-	margin-right: -40px !important;
+
+#modalClaimList {
+	background: #d9e4ec !important;
 }
-#A7C7E7 \ #B6D0E2 \ #4682B4 \ #ADD8E6 \ #6495ED \ #89CFF0
+#modalClaimList h3, #modalClaimList button {
+	background: #B6D0E2 !important;
+	color: #475764 !important;
+}
+#modalClaimBG {
+	background: #ffffff00 !important;
+}
+
