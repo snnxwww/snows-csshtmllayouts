@@ -1,0 +1,2 @@
+<link rel="stylesheet" href="https://snnxwww.github.io/snows-csshtmllayouts/5-425914/pagedoll.css?" />
+<img class="pagedoll" src="https://github.com/snnxwww/snows-csshtmllayouts/blob/main/5-425914/pagedollimg.png?raw=true" alt="" />
