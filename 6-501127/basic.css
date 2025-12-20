@@ -1,1 +1,135 @@
 
+.scrollbox {
+	height: 400px !important;
+	width: 95% !important;
+	display: flex !important;
+	gap: 15px !important;
+}
+.box-left {
+	background: #cbcbcb !important;
+	flex: 1 !important;
+	overflow-y: auto !important;
+	margin-left: -15px !important;
+}
+.box-right {
+	background: #cbcbcb !important;
+	flex: 1 !important;
+	overflow-y: auto !important
+}
+
+.col-md-9 {
+	padding: 0 !important;
+}
+
+h1 {
+	display: none !important;
+}
+.breadcrumb {
+	height: 600px !important;
+	background-size: cover !important;
+	margin-bottom: 180px !important;
+}
+.breadcrumb li:before {
+	content: none;
+	color: transparent !important;
+}
+.breadcrumb a {
+    content: none;
+	color: transparent !important;
+}
+.breadcrumb li {
+    content: none;
+	color: transparent !important;
+}
+.top.center .xlarge.b {
+	position: absolute !important;
+	top: -420px !important; 
+	right: 5% !important;
+	z-index: 10 !important;
+	font-size: 60px !important;
+}
+.floatright form {
+	position: relative !important;
+	bottom: 172px !important;
+	right: 20px !important;
+	background: transparent !important;
+	z-index: 20 !important;
+}
+.floatright form input[type="submit"] {
+	border: none !important;
+}
+.lion-container {
+	position: absolute !important;
+	top: 0 !important;
+	left: 0 !important;
+	right: 0 !important;
+}
+.lion-image-block {
+    padding-bottom: 0px !important;
+    max-width: 620px !important;
+    margin-top: 60px !important;
+	overflow: visible !important;
+}
+#about td.right > table.inner-table.auto {
+    width: 100% !important;
+    z-index: 10 !important;
+	font-size: 12px !important;
+}
+#about .inner-table td {
+	padding-top: 7.5px;
+}
+#about.table tbody tr.right>td:first-child {
+	 display: none !important;
+}
+#about.table .top {
+	background-color: transparent !important;
+}
+#about.table .bottom {
+	z-index: 100 !important;
+}
+#about {
+	position: absolute !important;
+	top: 525px !important;
+	border: none !important;
+	width: 95% !important;
+	left: 1.5% !important;
+}
+#about .inner-table {
+	position: absolute !important;
+	top: 40px !important;
+}
+#about .inner-table a:hover {
+	padding-left: 2.5px !important;
+}
+#about.table .bottom {
+	background-color: transparent !important;
+	position: relative !important;
+	font-size: 14px !important;
+}
+.table .bottom a {
+	text-decoration: none !important;
+}
+
+.alert {
+	width: 95% !important;
+}
+.feature {
+	width: 95% !important;
+}
+.table {
+	width: 95% !important;
+}
+#commentBox {
+	width: 95% !important;
+}
+.dynastycollection {
+	width: 95% !important;
+}
+div .left:has(a[href="/account-settings.php"]) {
+	width: 95% !important;
+}
+.col-sm-4 {
+	width: 95% !important;
+	width: 31.6% !important;
+	left: 2.5% !important;
+}
