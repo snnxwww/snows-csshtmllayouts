@@ -1,3 +1,19 @@
+/*  CSS MADE BY SNOW #553411, COMMISSIONED BY #534610
+DO NOT REMOVE CREDIT
+DO NOT EDIT OR USE AS A TEMPLATE
+DO NOT REDISTRIBUTE OR RESELL
+--------------------
+COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
+*/
+
+
+* {
+	box-shadow: none !important;
+	text-shadow: none !important;
+	border-radius: 0px !important;
+	border: none !important;
+	transition: 0.4s !important;
+}
 
 .scrollbox {
 	height: 400px !important;
@@ -9,16 +25,52 @@
 	flex: 1 !important;
 	overflow-y: auto !important;
 	margin-left: -15px !important;
+	padding: 4px !important;
+	padding-left: 8px !important;
+	padding-right: 8px !important;
 }
 .box-right {
 	flex: 1 !important;
-	overflow-y: auto !important
+	overflow-y: auto !important;
+	padding: 4px !important;
+	padding-left: 8px !important;
+	padding-right: 8px !important;
+}
+
+body {
+	background: #7b8c81 url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/6-501127/background.png?raw=true');
+	background-position: center !important;
+	background-size: cover !important;
+	background-attachment: fixed !important;
+}
+img[src*="logo-full-2.png"] {
+	content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/6-501127/logo.png?raw=true');
+}
+img[src*="unsortedlionsbanner.png"], img[src*="nestingbanner.png"], img[src*="prideoverviewbanner.png"] {
+	content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/6-501127/topcaveimg.png?raw=true');
+	height: 100px !important;
+	object-fit: cover !important;
+	object-position: 0px -40px !important;
+}
+img[src*="cavedefault.jpg"], img[src*="caveunused.jpg"] {
+	content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/6-501127/caveimg.png?raw=true');
+	height: 220px !important;
+	object-fit: cover !important;
+	object-position: 0px -20px !important;
+}
+img[src*="beetlemound.png"], img[src*="beetleunsorted.png"], img[src*="addbeetlemound.png"] {
+	content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/6-501127/moundimg.png?raw=true');
+	height: 80px !important;
+	width: 130px !important;
+	object-fit: cover !important;
+}
+img[src*="caveunused.jpg"], img[src*="addbeetlemound.png"] {
+	filter: brightness(0.8) blur(0.5px) !important;
 }
 
 .col-md-9 {
 	padding: 0 !important;
 }
-
 h1 {
 	display: none !important;
 }
@@ -26,10 +78,6 @@ h1 {
 	height: 600px !important;
 	background-size: cover !important;
 	margin-bottom: 180px !important;
-}
-.breadcrumb li:before {
-	content: none;
-	color: transparent !important;
 }
 .breadcrumb a {
     content: none;
@@ -83,7 +131,7 @@ h1 {
 	background-color: transparent !important;
 }
 #about.table .bottom {
-	z-index: 100 !important;
+	z-index: 10 !important;
 }
 #about {
 	position: absolute !important;
@@ -95,9 +143,6 @@ h1 {
 #about .inner-table {
 	position: absolute !important;
 	top: 40px !important;
-}
-#about .inner-table a:hover {
-	padding-left: 2.5px !important;
 }
 #about.table .bottom {
 	background-color: transparent !important;
@@ -134,3 +179,193 @@ div .left:has(a[href="/account-settings.php"]) {
 	width: 31.6% !important;
 	left: 2.5% !important;
 }
+
+@media (prefers-color-scheme: light) {
+	.topbar {
+		background: #7b8e84 !important;
+		color: #263533 !important;
+	}
+	.topbar a {
+		color: #263533 !important;
+	}
+	.topbar a:hover {
+		margin-left: 1px !important;
+		margin-right: 1px !important;
+	}
+	.navbar {
+		background: #abb9b0 !important;
+	}
+	.navbar a {
+		color: #263533 !important;
+	}
+	.navbar a:not(:has(img)):hover {
+		background: #90a196 !important;
+		color: #3d504d !important;
+	}
+	.breadcrumb {
+		background: url('https://static.lioden.com/images/dynamic/backgrounds/Bloukrans_River.png') !important;
+		background-position: center !important;
+		background-size: cover !important;
+	}
+	.floatright input {
+		background: #8d9c92 !important;
+		color: #e6e6e6 !important;
+	}
+	.floatright input:hover {
+		background: #9db0a3 !important;
+	}
+	#about {
+		color: #e6e6e6 !important;
+	}
+	#about table a, #about .bottom {
+		color: #e6e6e6 !important;
+	}
+	#about table a:hover, #about .bottom:hover {
+		color: #d8d8d8 !important;
+	}
+	#about table .left {
+		background: #7b8e84 !important;
+	}
+	#about table .right {
+		background: #8b9d94 !important;
+	}
+	.top.center .xlarge.b a {
+		color: #abb9b0 !important;
+	}
+	.top.center .xlarge.b a:hover {
+		color: #d8deda !important;
+	}
+	.alert {
+		background: #abb9b0 !important;
+		color: #263533 !important;
+	}
+	.alert a {
+		color: #263533 !important;
+	}
+	.col-md-9 {
+		background: #cfd8d2 !important;
+	}
+	.box-left {
+		background: #8b9d94 !important;
+		color: #263533 !important;
+	}
+	.box-right {
+		background: #8b9d94 !important;
+		color: #263533 !important
+	}
+	.comment {
+		background: #8b9d94 !important;
+		border-top: 1px solid #263533 !important;
+		color: #263533 !important;
+	}
+	.comment a {
+		color: #455956 !important;
+	}
+	.comment a:hover {
+		color: #263533 !important;
+	}
+	.comment small {
+		color: #4f6360 !important;
+	}
+	.comment:first-of-type {
+		border-top: none !important;
+	}
+	#makeComment input {
+		background: #7b8e84 !important;
+		color: #263533 !important;
+	}
+	#makeComment input[type="submit"]:hover {
+		background: #8a9b92 !important;
+		color: #263533 !important;
+	}
+	#makeComment input::placeholder {
+		padding-left: 6px !important;
+		color: #263533 !important;
+	}
+	table:not(#about):not(.inner-table) {
+		background: #abb9b0 !important;
+		color: #263533 !important;
+	}
+	table .top:not(#about), table th:not(#about), table .bottom:not(#about) {
+		background: #6c8073 !important;
+		color: #e6e6e6 !important;
+	}
+	table .left.b.center:not(#about) {
+		background: #7e9285 !important;
+		color: #e6e6e6 !important;
+	}
+	table .right_odd:not(#about) {
+		background: #9cada2 !important;
+		color: #263533 !important;
+	}
+	table .bottom a {
+		color: #e6e6e6 !important;
+	}
+	table .inner-table .left {
+		background: #7b8e84 !important;
+		color: #263533 !important
+	}
+	table .inner-table .right {
+		background: #8b9d94 !important;
+		color: #fff263533!Important
+	}
+	table div {
+		color: #e6e6e6 !important; !important
+	}
+	table input, select, textarea {
+		background: #6f8175 !important;
+		color: #e6e6e6 !important;
+	}
+	table input:hover {
+		background: #819086 !important;
+	}
+	.member-online {
+		border-radius: 50% !important;
+		background: #d4e3da !important;
+	}
+	.member-offline {
+		border-radius: 50% !important;
+		background: #606a64 !important;
+	}
+	#player .xlarge a, #player .center a {
+		color: #263533 !important;
+	}
+	#player span {
+		color: #718b87 !important
+	}
+	.cave-grid, .mound-grid {
+		background: #abb9b0 !important;
+		color: #263533 !important;
+	}
+	.cave-grid:hover, .mound-grid:hover {
+		color: #334441 !important;
+	}
+	.dynastylist div, .col-sm-4 div, .left:has(a[href="/account-settings.php"]) {
+		background: #7b8e84 !important;
+		color: #e6e6e6 !important;
+	}
+	.left:has(a[href="/account-settings.php"]) a {
+		color: #e6e6e6 !important;
+	}
+	.dynastylist h3 {
+		color: #e6e6e6 !important;
+	}
+	form a[href="#"] {
+		color: #e6e6e6 !important;
+	}
+	#editdetailspanel .left.b {
+		background: #7b8e84 !important;
+		color: #e6e6e6 !important;
+	}
+	#editdetailspanel a {
+		color: #e6e6e6 !important;
+	}
+}
+
+/* LIGHT TONES  */
+#263533 / #818988 / #bcbebe / #d0d2d2 / 
+#e6e6e6 / #d8deda / #c6cfca / #b8bfbb / 
+#abb9b0 / #7b8e84
+/* MID TONES */
+#263533 / #515757 / #78797b / #7e8584 / 
+#d4d4d4 / #7b8c81 / #385944 / #31412f
