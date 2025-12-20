@@ -1,4 +1,4 @@
-/*  CSS MADE BY SNOW #553411, COMMISSIONED BY #534610
+/*  CSS MADE BY SNOW #553411, COMMISSIONED BY #501127
 DO NOT REMOVE CREDIT
 DO NOT EDIT OR USE AS A TEMPLATE
 DO NOT REDISTRIBUTE OR RESELL
@@ -66,6 +66,13 @@ img[src*="beetlemound.png"], img[src*="beetleunsorted.png"], img[src*="addbeetle
 }
 img[src*="caveunused.jpg"], img[src*="addbeetlemound.png"] {
 	filter: brightness(0.8) blur(0.5px) !important;
+}
+img[src*="den_ancestors.png"], img[src*="den_ancestorsfem.png"], img[src*="den_achievements.png"], img[src*="den_showcase.png"], img[src*="den_beetlebook.png"] {
+	content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/6-501127/dynastyimg.png?raw=true');
+	height: 50px !important;
+	width: 200px !important;
+	object-fit: cover !important;
+	object-position: center !important;
 }
 
 .col-md-9 {
@@ -359,6 +366,9 @@ div .left:has(a[href="/account-settings.php"]) {
 	}
 	#editdetailspanel a {
 		color: #e6e6e6 !important;
+	}
+	.main {
+		background: #9faca5 !important;
 	}
 }
 
