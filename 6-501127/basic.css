@@ -1,3 +1,4 @@
+
 .scrollbox {
 	height: 400px !important;
 	width: 95% !important;
@@ -111,6 +112,9 @@ h1 {
 	width: 95% !important;
 }
 .feature {
+	width: 90% !important;
+}
+.feature.auto {
 	width: 95% !important;
 }
 .table {
