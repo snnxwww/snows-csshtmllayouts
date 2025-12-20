@@ -78,6 +78,12 @@ img[src*="den_ancestors.png"], img[src*="den_ancestorsfem.png"], img[src*="den_a
 .col-md-9 {
 	padding: 0 !important;
 }
+#fraProfileContent {
+	overflow-x: hidden !important;
+}
+body {
+	overflow-x: hidden !important;
+}
 h1 {
 	display: none !important;
 }
@@ -489,7 +495,7 @@ button.navbar-toggle {
 		border-left: 4px solid #3f514e !important;
 	}
 	#txtChatContainer a {
-		color: #e6e6e6 !important;
+		color: #e6e6e6 !important
 	}
 	.s-chat-message_claim {
 		background: #abb9b0 !important;
@@ -517,6 +523,9 @@ button.navbar-toggle {
 	}
 	body {
 		backdrop-filter: brightness(0.7);
+	}
+	body:has(#fra_chatContainer) {
+		backdrop-filter: brightness(1);
 	}
 	.breadcrumb {
 		filter: brightness(0.7);
@@ -831,12 +840,6 @@ button.navbar-toggle {
 	}
 	#modalClaimBG {
 		background: transparent !important;
-	}
-	#fra_chatContainer {
-		background: #4f6559 !important;
-	}
-	#fraSidebarChat {
-		background: #70917f !important;
 	}
 }
 /* DARK TONE */
