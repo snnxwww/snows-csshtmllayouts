@@ -84,7 +84,7 @@ h1 {
 .breadcrumb {
 	height: 600px !important;
 	background-size: cover !important;
-	margin-bottom: 180px !important;
+	margin-bottom: 200px !important;
 }
 .breadcrumb a {
     content: none;
@@ -103,7 +103,7 @@ h1 {
 }
 .floatright form {
 	position: relative !important;
-	bottom: 172px !important;
+	bottom: 192px !important;
 	right: 20px !important;
 	background: transparent !important;
 	z-index: 20 !important;
@@ -162,6 +162,10 @@ h1 {
 
 .alert {
 	width: 95% !important;
+	margin-left: 2.5% !important;
+}
+center .alert {
+	margin-left: 0% !important;
 }
 .feature {
 	width: 90% !important;
@@ -334,7 +338,7 @@ div .left:has(a[href="/account-settings.php"]) {
 		border-radius: 50% !important;
 		background: #606a64 !important;
 	}
-	#player .xlarge a, #player .center a {
+	#player .xlarge a, #player .center a, #player .right_odd a {
 		color: #263533 !important;
 	}
 	#player span {
@@ -346,6 +350,23 @@ div .left:has(a[href="/account-settings.php"]) {
 	}
 	.cave-grid:hover, .mound-grid:hover {
 		color: #334441 !important;
+	}
+	.feature {
+		background: #abb9b0 !important;
+		color: #263533 !important;
+	}
+	.feature h3 {
+		color: #263533 !important;
+	}
+	.feature input, select {
+		background: #6f8175 !important;
+		color: #e6e6e6 !important;
+	}
+	.feature input:hover {
+		background: #819086 !important;
+	}
+	b:has(span), b span {
+		color: #263533 !important;
 	}
 	.dynastylist div, .col-sm-4 div, .left:has(a[href="/account-settings.php"]) {
 		background: #7b8e84 !important;
@@ -368,7 +389,111 @@ div .left:has(a[href="/account-settings.php"]) {
 		color: #e6e6e6 !important;
 	}
 	.main {
-		background: #9faca5 !important;
+		background: #94a69a !important;
+	}
+	.panel {
+		background: #b9cabf !important;
+		color: #263533 !important
+	}
+	.panel a {
+		color: #3c504d !important
+	}
+	.panel a:hover {
+		color: #263533 !important
+	}
+	.sidebar h3, .sidebar h3 a {
+		color: #e6e6e6 !important;
+	}
+	.progress {
+		background: #e6e6e6 !important;
+	}
+	.progress div {
+		color: #263533 !important
+	}
+	.progress-bar {
+		background: #abb9b0 !important;
+	}
+	.progress-bar-warning {
+		background: #7b8e84 !important;
+	}
+	.progress-bar-danger {
+		background: #93a69c !important;
+	}
+	.progress-bar-success {
+		background: #697d73 !important;
+	}
+	.sidebar input, #fra_chatContainer input, .sidebar button, .sidebar .btn {
+		background: #6f8175 !important;
+		color: #e6e6e6 !important;
+		transition: 0.4s !important;
+	}
+	.sidebar input:hover, #fra_chatContainer input[type="button"]:hover, .sidebar button:hover, .sidebar .btn:hover {
+		background: #819086 !important;
+	}
+	#label_currentChannel {
+		background: #b9cabf !important;
+		color: #263533 !important;
+	}
+	#fraChatChannelMenu {
+		background: #b9cabf !important;
+	}
+	.channelSwitcher {
+		color: #263533 !important;
+	}
+	.channelSwitcher:hover {
+		background: #99ada0 !important;
+		color: #263533 !important;
+	}
+	.channelSwitcher.active {
+		background: #99ada0 !important;
+		color: #263533 !important;
+	}
+	#chatMessagePinned {
+		background-color: #7b8e84 !important;
+		color: #e6e6e6 !important;
+	}
+	#chatMessagePinned a {
+		color: #e6e6e6 !important;
+	}
+	.s-chat-message {
+		background: #b9cabf !important;
+		color: #263533 !important;
+		padding-left: 6px !important;
+		padding-right: 6px !important;
+	}
+	.s-chat-message a {
+		background: #b9cabf !important;
+		color: #181f1e !important;
+	}
+	.s-chat-message_timestamp {
+		color: #3f514e !important;
+		padding-left: 6px !important;
+		padding-right: 6px !important;
+	}
+	.s-chat-message.hasContext {
+		background: #a0b4a7 !important;
+		border-left: 4px solid #3f514e !important;
+	}
+	#txtChatContainer a {
+		color: #e6e6e6 !important;
+	}
+	.s-chat-message_claim {
+		background: #abb9b0 !important;
+		color: #e6e6e6 !important
+	}
+	#modalClaimList h3, #modalClaimList button {
+		background: #7b8e84 !important;
+		color: #e6e6e6 !important;
+	}
+	#modalClaimList {
+		background: #abb9b0 !important;
+		color: #263533 !important;
+	}
+	#modalClaimList a {
+		color: #263533 !important;
+	}
+	#modalClaimBG {
+		background: transparent !important;
 	}
 }
 
