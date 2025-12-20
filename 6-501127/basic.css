@@ -190,6 +190,12 @@ div .left:has(a[href="/account-settings.php"]) {
 	width: 31.6% !important;
 	left: 2.5% !important;
 }
+button.navbar-toggle:hover {
+	background: transparent !important;
+}
+button.navbar-toggle {
+	background: transparent !important;
+}
 
 @media (prefers-color-scheme: light) {
 	.topbar {
@@ -228,10 +234,10 @@ div .left:has(a[href="/account-settings.php"]) {
 	#about {
 		color: #e6e6e6 !important;
 	}
-	#about table a, #about .bottom {
+	#about table a, #about .bottom a {
 		color: #e6e6e6 !important;
 	}
-	#about table a:hover, #about .bottom:hover {
+	#about table a:hover, #about .bottom a:hover {
 		color: #d8d8d8 !important;
 	}
 	#about table .left {
@@ -281,6 +287,14 @@ div .left:has(a[href="/account-settings.php"]) {
 	.comment:first-of-type {
 		border-top: none !important;
 	}
+	.comment input {
+		background: #7b8e84 !important;
+		color: #263533 !important;
+	}
+	.comment input:hover {
+		background: #8a9b92 !important;
+		color: #263533 !important;
+	}
 	#makeComment input {
 		background: #7b8e84 !important;
 		color: #263533 !important;
@@ -318,7 +332,7 @@ div .left:has(a[href="/account-settings.php"]) {
 	}
 	table .inner-table .right {
 		background: #8b9d94 !important;
-		color: #fff263533!Important
+		color: #263533 !important;
 	}
 	table div {
 		color: #e6e6e6 !important; !important
@@ -497,6 +511,338 @@ div .left:has(a[href="/account-settings.php"]) {
 	}
 }
 
+@media (prefers-color-scheme: dark) {
+	img {
+		filter: brightness(0.7);
+	}
+	body {
+		backdrop-filter: brightness(0.7);
+	}
+	.breadcrumb {
+		filter: brightness(0.7);
+	}
+	.topbar {
+		background: #2e3430 !important;
+		color: #e6e6e6 !important;
+	}
+	.topbar a {
+		color: #e6e6e6 !important;
+	}
+	.topbar a:hover {
+		margin-left: 1px !important;
+		margin-right: 1px !important;
+	}
+	.navbar {
+		background: #1f2626 !important;
+	}
+	.navbar a {
+		color: #e6e6e6 !important;
+	}
+	.navbar a:not(:has(img)):hover {
+		background: #101313 !important;
+		color: #cccccc !important;
+	}
+	.breadcrumb {
+		background: url('https://static.lioden.com/images/dynamic/backgrounds/Bloukrans_River.png') !important;
+		background-position: center !important;
+		background-size: cover !important;
+	}
+	.floatright input {
+		background: #36493d !important;
+		color: #e6e6e6 !important;
+	}
+	.floatright input:hover {
+		background: #425649 !important;
+	}
+	#about {
+		color: #d4d4d4 !important;
+	}
+	#about table a, #about .bottom a {
+		color: #d4d4d4 !important;
+	}
+	#about table a:hover, #about .bottom a:hover {
+		color: #bbbbbb !important;
+	}
+	#about table .left {
+		background: #36493d !important;
+		color: #d4d4d4 !important;
+	}
+	#about table .right {
+		background: #42574a !important;
+	}
+	.top.center .xlarge.b a {
+		color: #070a0d !important;
+	}
+	.top.center .xlarge.b a:hover {
+		color: #17201e !important;
+	}
+	.alert {
+		background: #36493d !important;
+		color: #d4d4d4 !important;
+	}
+	.alert a {
+		color: #d4d4d4 !important;
+	}
+	.col-md-9 {
+		background: #27362d !important;
+	}
+	.box-left {
+		background: #36493d !important;
+		color: #d4d4d4 !important;
+	}
+	.box-right {
+		background: #36493d !important;
+		color: #d4d4d4 !important
+	}
+	.comment {
+		background: #36493d !important;
+		border-top: 1px solid #d4d4d4 !important;
+		color: #d4d4d4 !important;
+	}
+	.comment a {
+		color: #b9b9b9 !important;
+	}
+	.comment a:hover {
+		color: #d4d4d4 !important;
+	}
+	.comment small {
+		color: #a8a8a8 !important;
+	}
+	.comment:first-of-type {
+		border-top: none !important;
+	}
+	.comment input {
+		background: #536459 !important;
+		color: #d4d4d4 !important;
+	}
+	.comment input:hover {
+		background: #617267 !important;
+		color: #d4d4d4 !important;
+	}
+	#makeComment input {
+		background: #536459 !important;
+		color: #d4d4d4 !important;
+	}
+	#makeComment input[type="submit"]:hover {
+		background: #617267 !important;
+		color: #d4d4d4 !important;
+	}
+	#makeComment input::placeholder {
+		padding-left: 6px !important;
+		color: #d4d4d4 !important;
+	}
+	table:not(#about):not(.inner-table) {
+		background: #405247 !important;
+		color: #d4d4d4 !important;
+	}
+	table .top:not(#about), table th:not(#about), table .bottom:not(#about) {
+		background: #202d25 !important;
+		color: #d4d4d4 !important;
+	}
+	table .left.b.center:not(#about) {
+		background: #2a372f !important;
+		color: #d4d4d4 !important;
+	}
+	table .right_odd:not(#about) {
+		background: #516158 !important;
+		color: #d4d4d4 !important;
+	}
+	table .bottom a {
+		color: #d4d4d4 !important;
+	}
+	table .inner-table .left {
+		background: #54665a !important;
+		color: #d4d4d4 !important
+	}
+	table .inner-table .right {
+		background: #42574a !important;
+		color: #d4d4d4 !important
+	}
+	table div {
+		color: #e6e6e6 !important; !important
+	}
+	table input, select, textarea {
+		background: #36493d !important;
+		color: #e6e6e6 !important;
+	}
+	table input:hover {
+		background: #425649 !important;
+	}
+	.member-online {
+		border-radius: 50% !important;
+		background: #6f8979 !important;
+	}
+	.member-offline {
+		border-radius: 50% !important;
+		background: #2c312e !important;
+	}
+	#player .xlarge a, #player .center a, #player .right_odd a {
+		color: #b6b6b6 !important;
+	}
+	#player span {
+		color: #718b87 !important
+	}
+	.cave-grid, .mound-grid {
+		background: #405247 !important;
+		color: #d4d4d4 !important;
+	}
+	.cave-grid:hover, .mound-grid:hover {
+		color: #c3c3c3 !important;
+	}
+	.feature {
+		background: #405247 !important;
+		color: #d4d4d4 !important;
+	}
+	.feature h3 {
+		color: #d4d4d4 !important;
+	}
+	.feature input, select {
+		background: #36493d !important;
+		color: #d4d4d4 !important;
+	}
+	.feature input:hover {
+		background: #425649 !important;
+	}
+	b:has(span), b span {
+		color: #d4d4d4 !important;
+	}
+	.dynastylist div, .col-sm-4 div, .left:has(a[href="/account-settings.php"]) {
+		background: #405247 !important;
+		color: #d4d4d4 !important;
+	}
+	.left:has(a[href="/account-settings.php"]) a {
+		color: #d4d4d4 !important;
+	}
+	.dynastylist h3 {
+		color: #d4d4d4 !important;
+	}
+	form a[href="#"] {
+		color: #d4d4d4 !important;
+	}
+	#editdetailspanel .left.b {
+		background: #2c3e33 !important;
+		color: #d4d4d4 !important;
+	}
+	#editdetailspanel a {
+		color: #d4d4d4 !important;
+	}
+	.main {
+		background: #4f6559 !important;
+	}
+	.panel {
+		background: #2c3b33 !important;
+		color: #d4d4d4 !important
+	}
+	.panel a {
+		color: #b8b8b8 !important
+	}
+	.panel a:hover {
+		color: #a1a1a1 !important
+	}
+	.sidebar h3, .sidebar h3 a {
+		color: #d4d4d4 !important;
+	}
+	.progress {
+		background: #36493d !important;
+	}
+	.progress div {
+		color: #d4d4d4 !important
+	}
+	.progress-bar {
+		background: #0f1d15 !important;
+	}
+	.progress-bar-warning {
+		background: #012611 !important;
+	}
+	.progress-bar-danger {
+		background: #3a634c !important;
+	}
+	.progress-bar-success {
+		background: #536a5e !important;
+	}
+	.sidebar input, #fra_chatContainer input, .sidebar button, .sidebar .btn {
+		background: #36493d !important;
+		color: #d4d4d4 !important;
+		transition: 0.4s !important;
+	}
+	.sidebar input:hover, #fra_chatContainer input[type="button"]:hover, .sidebar button:hover, .sidebar .btn:hover {
+		background: #425649 !important;
+	}
+	#label_currentChannel {
+		background: #2c3b33 !important;
+		color: #d4d4d4 !important;
+	}
+	#fraChatChannelMenu {
+		background: #2c3b33 !important;
+	}
+	.channelSwitcher {
+		color: #d4d4d4 !important;
+	}
+	.channelSwitcher:hover {
+		background: #627a6c !important;
+		color: #263533 !important;
+	}
+	.channelSwitcher.active {
+		background: #627a6c !important;
+		color: #263533 !important;
+	}
+	#chatMessagePinned {
+		background-color: #0f1d15 !important;
+		color: #d4d4d4 !important;
+	}
+	#chatMessagePinned a {
+		color: #d4d4d4 !important;
+	}
+	.s-chat-message {
+		background: #2c3b33 !important;
+		color: #d4d4d4 !important;
+		padding-left: 6px !important;
+		padding-right: 6px !important;
+	}
+	.s-chat-message a {
+		color: #b6b6b6 !important;
+	}
+	.s-chat-message_timestamp {
+		color: #bfbfbf !important;
+		padding-left: 6px !important;
+		padding-right: 6px !important;
+	}
+	.s-chat-message.hasContext {
+		background: #445049 !important;
+		border-left: 4px solid #6d7e75 !important;
+	}
+	#txtChatContainer a {
+		color: #d4d4d4 !important;
+	}
+	.s-chat-message_claim {
+		background: #475a57 !important;
+		color: #d4d4d4 !important
+	}
+	#modalClaimList h3, #modalClaimList button {
+		background: #0f1d15 !important;
+		color: #d4d4d4 !important;
+	}
+	#modalClaimList {
+		background: #36493d !important;
+		color: #d4d4d4 !important;
+	}
+	#modalClaimList a {
+		color: #d4d4d4 !important;
+	}
+	#modalClaimBG {
+		background: transparent !important;
+	}
+	#fra_chatContainer {
+		background: #4f6559 !important;
+	}
+	#fraSidebarChat {
+		background: #70917f !important;
+	}
+}
+/* DARK TONE */
+#070a0d / #17201e / #1f2626 / #3a3e3d / 
+#2e3430 / #263533 / #232f27 / #36493d / 
+#012611 / #0f1d15
 /* LIGHT TONES  */
 #263533 / #818988 / #bcbebe / #d0d2d2 / 
 #e6e6e6 / #d8deda / #c6cfca / #b8bfbb / 
