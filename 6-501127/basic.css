@@ -141,6 +141,7 @@ table th:has(a[onclick="toggle_visibility('editdetailspanel'); return false;"]) 
 	height: 600px !important;
 	background-size: cover !important;
 	margin-bottom: 200px !important;
+	border-radius: 0px !important
 }
 .breadcrumb a {
     content: none;
