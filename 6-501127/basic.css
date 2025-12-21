@@ -7,14 +7,6 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
 */
 
 @font-face {
-  font-family: "Recoleta";
-  src: url("https://cdn.jsdelivr.net/gh/snnxwww/snows-csshtmllayouts@main/6-501127/Recoleta-RegularDEMO.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: "Teutonic";
   src: url("https://cdn.jsdelivr.net/gh/snnxwww/snows-csshtmllayouts@main/6-501127/teutonic3.woff2") format("woff2");
   font-weight: 400;
@@ -26,13 +18,12 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
 * {
 	box-shadow: none !important;
 	text-shadow: none !important;
-	border-radius: 0px !important;
 	border: none !important;
 	transition: 0.4s !important;
 }
 
 body {
-	font-family: "Recoleta" !important;
+	font-family: "Book Antiqua" !important;
 }
 
 .scrollbox {
@@ -48,6 +39,7 @@ body {
 	padding: 4px !important;
 	padding-left: 8px !important;
 	padding-right: 8px !important;
+	border-radius: 10px !important;
 }
 .box-right {
 	flex: 1 !important;
@@ -55,6 +47,7 @@ body {
 	padding: 4px !important;
 	padding-left: 8px !important;
 	padding-right: 8px !important;
+	border-radius: 10px !important;
 }
 
 body {
@@ -95,6 +88,17 @@ img[src*="den_ancestors.png"], img[src*="den_ancestorsfem.png"], img[src*="den_a
 	object-position: center !important;
 }
 
+.navbar {
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+}
+.main {
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+}
+#makeComment input {
+	border-radius: 6px !important;
+}
 .col-md-9 {
 	padding: 0 !important;
 }
@@ -112,6 +116,26 @@ h1, h2, h3 {
 }
 a[href="./chat.php"], input {
 	font-family: "Recoleta" !important;
+}
+table .top, table th {
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
+}
+table .bottom {
+	border-bottom-left-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+}
+table {
+	border-radius: 10px !important;
+}
+table .right_odd {
+	border-bottom-right-radius: 10px !important;
+}
+table th:has(a[onclick="toggle_visibility('editdetailspanel'); return false;"]) {
+	border-radius: 10px !important;
+}
+#editdetailspanel .left {
+	border-top-left-radius: 10px !important
 }
 .breadcrumb {
 	height: 600px !important;
