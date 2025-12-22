@@ -87,7 +87,10 @@ img[src*="den_ancestors.png"], img[src*="den_ancestorsfem.png"], img[src*="den_a
 	object-fit: cover !important;
 	object-position: center !important;
 }
-
+.topbar {
+	border-bottom-left-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+}
 .navbar {
 	border-top-left-radius: 10px !important;
 	border-top-right-radius: 10px !important;
