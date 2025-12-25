@@ -404,7 +404,7 @@ button.navbar-toggle {
 	table div {
 		color: #e6e6e6 !important; !important
 	}
-	table input, select, textarea {
+	table input, select, textarea, button {
 		background: #6f8175 !important;
 		color: #e6e6e6 !important;
 	}
@@ -731,7 +731,7 @@ button.navbar-toggle {
 	table div {
 		color: #e6e6e6 !important; !important
 	}
-	table input, select, textarea {
+	table input, select, textarea, button {
 		background: #36493d !important;
 		color: #e6e6e6 !important;
 	}
