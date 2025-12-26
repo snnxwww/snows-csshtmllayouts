@@ -40,10 +40,10 @@
 	border-radius: 20px;
 	transform: rotate(-6deg);
 	margin-top: -160px;
-	margin-left: -120px;
+	left: 0;
 	z-index: 10;
 }
-.divider::after {
+.divider::before {
 	content: '';
 	background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/8-280131/cat2.png?raw=true');
 	background-size: cover;
@@ -54,7 +54,7 @@
 	position: absolute;
 	border-radius: 20px;
 	transform: rotate(-9deg);
-	margin-top: 240px;
-	margin-left: 520px;
+	right: 0;
+	margin-top: 220px;
 	z-index: 10;
 }
