@@ -1,0 +1,60 @@
+.box-container {
+	width: 85%;
+}
+.box-container a, .box-container {
+	font-size: 36px;
+	color: #020401;
+	transition: 0.4s;
+}
+.box-container a:hover {
+	padding-left: 4px;
+	padding-right: 4px;
+}
+.bio {
+	background: #CE9F4C;
+	height: 300px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	color: #020401;
+	font-size: 22px;
+	overflow-y: auto;
+	padding-left: 64px;
+	padding-right: 64px;
+}
+.divider {
+	height: 40px;
+	background: #CE9F4C;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	margin-top: -25px !important;
+}
+.bio::before {
+	content: '';
+	background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/8-280131/cat1.png?raw=true');
+	background-size: cover;
+	background-position: center;
+	height: 180px;
+	width: 150px;
+	display: block;
+	position: absolute;
+	border-radius: 20px;
+	transform: rotate(-6deg);
+	margin-top: -160px;
+	margin-left: -120px;
+	z-index: 10;
+}
+.divider::after {
+	content: '';
+	background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/8-280131/cat2.png?raw=true');
+	background-size: cover;
+	background-position: center;
+	height: 180px;
+	width: 150px;
+	display: block;
+	position: absolute;
+	border-radius: 20px;
+	transform: rotate(-9deg);
+	margin-top: 240px;
+	margin-left: 520px;
+	z-index: 10;
+}
