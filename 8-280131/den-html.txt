@@ -1,1 +1,2 @@
-
+<link rel="stylesheet" href="https://snnxwww.github.io/snows-csshtmllayouts/8-280131/den-html.css?v=2" />
+<div class="box-container"><div class="link-box"><a href="#">LINK</a>|<a href="#">LINK</a>|<a href="#">LINK</a></div><div class="divider"></div><div class="bio">TEXT</div></div>
