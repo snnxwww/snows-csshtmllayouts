@@ -1,0 +1,190 @@
+/* CSS MADE BY SNOW #553411
+DO NOT REMOVE CREDIT
+DO NOT EDIT OR USE AS A TEMPLATE
+DO NOT REDISTRIBUTE OR RESELL
+--------------------
+MORE FREE CSS HERE: https://www.lioden.com/topic.php?id=304429594308&page=1
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    font-family: "Volkhov";
+    color: #e6e6e6 !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    border: none !important;
+	transition: 0.4s !important;
+}
+.main {
+    background: transparent !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+}
+a {
+    color: #dddddd !important;
+}
+p {
+    color: #e6e6e6 !important;
+}
+input, select, textarea, form[action="/account-link.php"] button, .button {
+    background: #77b6b2 !important;
+    color: #e3e3e3 !important;
+}
+input:hover, select:hover, form[action="/account-link.php"] button:hover, .button:hover {
+    filter: brightness(0.9)
+}
+
+body {
+    background: #a4d5d2;
+	background-attachment: fixed !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.topbar {
+    background: #74a9a6 !important;
+}
+
+.navbar {
+    background: #71a5a1 !important;
+}
+.navbar a {
+    color: #e1e1e1 !important;
+}
+.navbar a:hover:not(:has(img[src*="logo-full-2.png"])) {
+    background: #4d9557 !important;
+    color: #f0f0f0 !important;
+}
+img[src*="logo-full-2.png"] {
+	filter: hue-rotate(140deg) brightness(1.1) saturate(0.5);
+}
+
+.col-md-9 {
+    background: #88bfbc !important;
+}
+
+.breadcrumb {
+    background: #65a5a1 !important;
+    color: #d5d5d5 !important
+}
+.breadcrumb::after {
+    content: "CSS by Snow #553411";
+	position: absolute !important;
+	right: 120px;
+}
+.breadcrumb a {
+    color: #ededed !important;
+}
+.breadcrumb-item, .breadcrumb-item::before {
+    color: #dedede !important;
+}
+
+.alert, .alert b, .alert a, .badge {
+    background: #74ada9 !important;
+    color: #eaeaea !important;
+}
+
+.comment {
+    background: #74ada9 !important;
+    border-top: 1px solid #dddddd !important;
+}
+.comment:first-of-type {
+    border-top: none !important;
+}
+#makeComment input::placeholder {
+    color: #e3e3e3 !important;
+}
+table {
+    background: #74ada9 !important;
+}
+table .left {
+    background: #649e9a !important;
+}
+table td .right {
+    background: #86beba !important;
+}
+table .top, table th, table .bottom {
+    background: #335d5a !important;
+}
+table .left.b.center, table .right_odd {
+    background: #6fa4a0 !important;
+}
+table span {
+    color: #dddddd !important;
+}
+
+.member-online {
+    background: #a7d2cf !important;
+}
+.member-offline {
+    background: #316e6a !important;
+}
+
+.cave-grid, .mound-grid {
+    background: #74ada9 !important;
+}
+
+.feature {
+    background: #74ada9 !important;
+}
+
+.col-md-4 .left {
+    background: #74ada9 !important;
+}
+.col-sm-4 .left {
+    background: #74ada9 !important;
+}
+form:has(#editdetailspanel) .left {
+    background: #74ada9 !important;
+}
+
+.row:nth-child(2) {
+    background: #7ab3af !important
+}
+.panel {
+    background: #629c98 !important;
+}
+.progress {
+    background: #76aba7 !important;
+}
+.progress-bar {
+    background: #3d7f7a !important;
+}
+
+#label_currentChannel {
+    background: #629c98 !important;
+}
+#fraChatChannelMenu {
+    background: #629c98 !important;
+}
+.channelSwitcher:hover, .channelSwitcher.active {
+    background: #3b6966 !important;
+}
+
+.s-chat-message__pinned {
+    background-color: #3d7f7a !important;
+}
+
+.s-chat-message {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+    background: #629c98 !important;
+	border-bottom: 2px solid #cfcfcf !important;
+}
+.s-chat-message_timestamp {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+}
+.s-chat-message.hasContext {
+    background: #86c0bc !important;
+    border-left: 4px solid #58908c !important;
+	padding-left: 4px !important;
+}
+
+.featured-lion, .featured-lion p, .featured-lion a {
+	background: #335d5a !important;
+}
