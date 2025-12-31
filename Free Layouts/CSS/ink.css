@@ -165,8 +165,6 @@ form:has(#editdetailspanel) .left {
 #fraChatChannelMenu {
     background: #575757 !important;
 }
-.channelSwitcher {
-}
 .channelSwitcher:hover, .channelSwitcher.active {
     background: #292929 !important;
 }
