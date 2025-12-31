@@ -53,11 +53,11 @@ body {
     background: #ab4444 !important;
 }
 .navbar a {
-    color: #c0c0c0 !important;
+    color: #e1e1e1 !important;
 }
 .navbar a:hover:not(:has(img[src*="logo-full-2.png"])) {
     background: #8f3737 !important;
-    color: #e5e5e5 !important;
+    color: #f0f0f0 !important;
 }
 img[src*="logo-full-2.png"] {
 	filter: hue-rotate(-30deg) brightness(0.8);
