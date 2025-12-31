@@ -162,7 +162,7 @@ form:has(#editdetailspanel) .left {
     background: #809f52 !important;
 }
 .channelSwitcher:hover, .channelSwitcher.active {
-    background: #8b834b !important;
+    background: #647b42 !important;
 }
 
 .s-chat-message__pinned {
