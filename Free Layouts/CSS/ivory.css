@@ -33,7 +33,7 @@ input, select, textarea, form[action="/account-link.php"] button, .button {
     background: #959595 !important;
     color: #1e1e1e !important;
 }
-input:hover, select:hover, form[action="/account-link.php"] button:hover, .button {
+input:hover, select:hover, form[action="/account-link.php"] button:hover, .button:hover {
     filter: brightness(1.2)
 }
 
