@@ -30,7 +30,7 @@ p {
     color: #e6e6e6 !important;
 }
 input, select, textarea, form[action="/account-link.php"] button, .button {
-    background: #77b6b2 !important;
+    background: #5b9491 !important;
     color: #e3e3e3 !important;
 }
 input:hover, select:hover, form[action="/account-link.php"] button:hover, .button:hover {
