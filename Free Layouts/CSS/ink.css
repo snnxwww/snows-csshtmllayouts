@@ -37,7 +37,6 @@ input:hover, select:hover, form[action="/account-link.php"] button:hover, .butto
     filter: brightness(0.9)
 }
 
-
 body {
     background: #000 url('BGIMGLINK');
 	background-attachment: fixed !important;
@@ -178,9 +177,6 @@ form:has(#editdetailspanel) .left {
     padding-right: 4px !important;
     background: #575757 !important;
 	border-bottom: 2px solid #cfcfcf !important;
-}
-.s-chat-message a, .s-chat-message_timestamp {
-    color: #cfcfcf !important;
 }
 .s-chat-message_timestamp {
     padding-left: 4px !important;
