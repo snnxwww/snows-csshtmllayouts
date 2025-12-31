@@ -39,7 +39,7 @@ input:hover, select:hover, form[action="/account-link.php"] button:hover, .butto
 
 
 body {
-    background: #000000 url('BGIMGLINK');
+    background: #000000;
 	background-attachment: fixed !important;
     background-size: cover !important;
     background-position: center !important;
