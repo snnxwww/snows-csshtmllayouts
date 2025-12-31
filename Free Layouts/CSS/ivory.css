@@ -58,7 +58,7 @@ body {
 .navbar a {
     color: #4a4a4a !important;
 }
-.navbar a:hover {
+.navbar a:hover:not(:has(img[src*="logo-full-2.png"])) {
     background: #b8b8b8 !important;
     color: #3b3b3b !important;
 }
