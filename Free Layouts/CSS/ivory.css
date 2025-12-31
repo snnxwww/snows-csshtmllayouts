@@ -84,7 +84,7 @@ img[src*="logo-full-2.png"] {
 }
 
 .alert, .alert b, .alert a, .badge {
-    background: #b6b6b6 !important;
+    background: #d5d5d5 !important;
     color: #2d2d2d !important;
 }
 
