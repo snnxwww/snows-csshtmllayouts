@@ -39,7 +39,7 @@ input:hover, select:hover, form[action="/account-link.php"] button:hover, .butto
 
 
 body {
-    background: #000000;
+    background: #000 url('BGIMGLINK');
 	background-attachment: fixed !important;
     background-size: cover !important;
     background-position: center !important;
@@ -83,10 +83,7 @@ img[src*="logo-full-2.png"] {
 .breadcrumb a {
     color: #ededed !important;
 }
-.breadcrumb-item {
-    color: #dedede !important;
-}
-.breadcrumb-item::before {
+.breadcrumb-item, .breadcrumb-item::before {
     color: #dedede !important;
 }
 
