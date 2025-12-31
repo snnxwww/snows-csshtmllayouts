@@ -30,7 +30,7 @@ p {
     color: #e6e6e6 !important;
 }
 input, select, textarea, form[action="/account-link.php"] button, .button {
-    background: #7497ac !important;
+    background: #435474 !important;
     color: #e3e3e3 !important;
 }
 input:hover, select:hover, form[action="/account-link.php"] button:hover, .button:hover {
@@ -38,7 +38,7 @@ input:hover, select:hover, form[action="/account-link.php"] button:hover, .butto
 }
 
 body {
-    background: #a4c3d5;
+    background: #899dc3;
 	background-attachment: fixed !important;
     background-size: cover !important;
     background-position: center !important;
@@ -46,29 +46,29 @@ body {
 }
 
 .topbar {
-    background: #68899b !important;
+    background: #3c4b67 !important;
 }
 
 .navbar {
-    background: #5a7b8d !important;
+    background: #2e3d59 !important;
 }
 .navbar a {
     color: #e1e1e1 !important;
 }
 .navbar a:hover:not(:has(img[src*="logo-full-2.png"])) {
-    background: #537485 !important;
+    background: #3d4e6e !important;
     color: #f0f0f0 !important;
 }
 img[src*="logo-full-2.png"] {
-	filter: hue-rotate(180deg) brightness(0.9) saturate(0.4);
+	filter: hue-rotate(190deg) brightness(0.9) saturate(0.4);
 }
 
 .col-md-9 {
-    background: #829faf !important;
+    background: #596a8b !important;
 }
 
 .breadcrumb {
-    background: #4c6e80 !important;
+    background: #3e5071 !important;
     color: #d5d5d5 !important
 }
 .breadcrumb::after {
@@ -84,12 +84,12 @@ img[src*="logo-full-2.png"] {
 }
 
 .alert, .alert b, .alert a, .badge {
-    background: #648191 !important;
+    background: #323f58 !important;
     color: #eaeaea !important;
 }
 
 .comment {
-    background: #648191 !important;
+    background: #323f58 !important;
     border-top: 1px solid #dddddd !important;
 }
 .comment:first-of-type {
@@ -99,80 +99,80 @@ img[src*="logo-full-2.png"] {
     color: #e3e3e3 !important;
 }
 table {
-    background: #648191 !important;
+    background: #323f58 !important;
 }
 table .left {
-    background: #7997a7 !important;
+    background: #4c5c7b !important;
 }
 table td .right {
-    background: #698b9d !important;
+    background: #3d4b65 !important;
 }
 table .top, table th, table .bottom {
-    background: #314e5e !important;
+    background: #19202e !important;
 }
 table .left.b.center, table .right_odd {
-    background: #6b8da0 !important;
+    background: #3a4862 !important;
 }
 table span {
     color: #dddddd !important;
 }
 
 .member-online {
-    background: #b5cbd8 !important;
+    background: #627497 !important;
 }
 .member-offline {
-    background: #264556 !important;
+    background: #1c263a !important;
 }
 
 .cave-grid, .mound-grid {
-    background: #648191 !important;
+    background: #323f58 !important;
 }
 
 .feature {
-    background: #648191 !important;
+    background: #323f58 !important;
 }
 
 .col-md-4 .left {
-    background: #648191 !important;
+    background: #323f58 !important;
 }
 .col-sm-4 .left {
-    background: #648191 !important;
+    background: #323f58 !important;
 }
 form:has(#editdetailspanel) .left {
-    background: #648191 !important;
+    background: #323f58 !important;
 }
 
 .row:nth-child(2) {
-    background: #6f8a98 !important
+    background: #4b5873 !important
 }
 .panel {
-    background: #537081 !important;
+    background: #2d3b56 !important;
 }
 .progress {
-    background: #6a8492 !important;
+    background: #465571 !important;
 }
 .progress-bar {
-    background: #314652 !important;
+    background: #162646 !important;
 }
 
 #label_currentChannel {
-    background: #537081 !important;
+    background: #2d3b56 !important;
 }
 #fraChatChannelMenu {
-    background: #537081 !important;
+    background: #2d3b56 !important;
 }
 .channelSwitcher:hover, .channelSwitcher.active {
-    background: #374f5c !important;
+    background: #4e6186 !important;
 }
 
 .s-chat-message__pinned {
-    background-color: #314652 !important;
+    background-color: #162646 !important;
 }
 
 .s-chat-message {
     padding-left: 4px !important;
     padding-right: 4px !important;
-    background: #537081 !important;
+    background: #2d3b56 !important;
 	border-bottom: 2px solid #cfcfcf !important;
 }
 .s-chat-message_timestamp {
@@ -180,11 +180,11 @@ form:has(#editdetailspanel) .left {
     padding-right: 4px !important;
 }
 .s-chat-message.hasContext {
-    background: #7592a3 !important;
-    border-left: 4px solid #3d6075 !important;
+    background: #4a5b7c !important;
+    border-left: 4px solid #7c88a0 !important;
 	padding-left: 4px !important;
 }
 
 .featured-lion, .featured-lion p, .featured-lion a {
-	background: #314e5e !important;
+	background: #19202e !important;
 }
