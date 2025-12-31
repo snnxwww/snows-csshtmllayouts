@@ -99,9 +99,6 @@ img[src*="logo-full-2.png"] {
 .comment:first-of-type {
     border-top: none !important;
 }
-#commentBox a, #commentBox small {
-    color: #dddddd !important;
-}
 #makeComment input::placeholder {
     color: #e3e3e3 !important;
 }
