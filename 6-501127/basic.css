@@ -335,7 +335,7 @@ button.navbar-toggle {
 	#about {
 		color: #e6e6e6 !important;
 	}
-	#about table a, #about .bottom a {
+	#about table a, #about .bottom a, a {
 		color: #e6e6e6 !important;
 	}
 	#about table a:hover, #about .bottom a:hover {
@@ -665,7 +665,7 @@ button.navbar-toggle {
 	#about {
 		color: #d4d4d4 !important;
 	}
-	#about table a, #about .bottom a {
+	#about table a, #about .bottom a, a {
 		color: #d4d4d4 !important;
 	}
 	#about table a:hover, #about .bottom a:hover {
