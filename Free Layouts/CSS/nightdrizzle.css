@@ -98,7 +98,7 @@ img[src*="logo-full-2.png"] {
 #makeComment input::placeholder {
     color: #e6e6e6 !important;
 }
-table. .sub_sub_menu {
+table, .sub_sub_menu {
     background: #556720d5 !important;
 }
 table .left {
