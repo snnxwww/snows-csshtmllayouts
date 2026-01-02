@@ -69,7 +69,7 @@ img[src*="logo-full-2.png"] {
 
 .breadcrumb {
     background: #ceae35d5 !important;
-    color: #d5d5d5 !important
+    color: #1e1e1e !important
 }
 .breadcrumb::after {
     content: "CSS by Snow #553411";
