@@ -1,0 +1,190 @@
+/* CSS MADE BY SNOW #553411
+DO NOT REMOVE CREDIT
+DO NOT EDIT OR USE AS A TEMPLATE
+DO NOT REDISTRIBUTE OR RESELL
+--------------------
+MORE FREE CSS HERE: https://www.lioden.com/topic.php?id=304429594308&page=1
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+* {
+    font-family: "Amarante";
+    color: #e6e6e6 !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    border: none !important;
+	transition: 0.4s !important;
+}
+.main {
+    background: transparent !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+}
+a {
+    color: #f9f8f2 !important;
+}
+p {
+    color: #e6e6e6 !important;
+}
+input, select, textarea, form[action="/account-link.php"] button, .button {
+    background: #2d5076d5 !important;
+    color: #e6e6e6 !important;
+}
+input:hover, select:hover, form[action="/account-link.php"] button:hover, .button:hover {
+    filter: brightness(0.9)
+}
+
+body {
+    background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/Free%20Layouts/CSS/Background%20Images/midsummernight.png?raw=true');
+	background-attachment: fixed !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.topbar {
+    background: #093059d5 !important;
+}
+
+.navbar {
+    background: #071743d5 !important;
+}
+.navbar a {
+    color: #e6e6e6 !important;
+}
+.navbar a:hover:not(:has(img[src*="logo-full-2.png"])) {
+    background: #2d390ed5 !important;
+    color: #e9e9e9 !important;
+}
+img[src*="logo-full-2.png"] {
+	filter: hue-rotate(175deg) brightness(0.5) saturate(0.6);
+}
+
+.col-md-9 {
+    background: #1a3b7a60 !important;
+}
+
+.breadcrumb {
+    background: #0a2746d5 !important;
+    color: #d5d5d5 !important
+}
+.breadcrumb::after {
+    content: "CSS by Snow #553411";
+	position: absolute !important;
+	right: 120px;
+}
+.breadcrumb a {
+    color: #e2e2e2 !important;
+}
+.breadcrumb-item, .breadcrumb-item::before {
+    color: #e6e6e6 !important;
+}
+
+.alert, .alert b, .alert a, .badge {
+    background: #133151d5 !important;
+    color: #e6e6e6 !important;
+}
+
+.comment {
+    background: #133151d5 !important;
+    border-top: 1px solid #e6e6e6 !important;
+}
+.comment:first-of-type {
+    border-top: none !important;
+}
+#makeComment input::placeholder {
+    color: #e6e6e6 !important;
+}
+table, .sub_sub_menu {
+    background: #133151d5 !important;
+}
+table .left {
+    background: #2d4e71d5 !important;
+}
+table td .right {
+    background: #1b4169d5 !important;
+}
+table .top, table th, table .bottom, .sub_menu {
+    background: #041324d5 !important;
+}
+table .left.b.center, table .right_odd {
+    background: #1d3d60d5 !important;
+}
+table span {
+    color: #e6e6e6 !important;
+}
+
+.member-online {
+    background: #93a9c1 !important;
+}
+.member-offline {
+    background: #020f1d !important;
+}
+
+.cave-grid, .mound-grid {
+    background: #133151d5 !important;
+}
+
+.feature {
+    background: #133151d5 !important;
+}
+
+.col-md-4 .left {
+    background: #133151d5 !important;
+}
+.col-sm-4 .left {
+    background: #133151d5 !important;
+}
+form:has(#editdetailspanel) .left {
+    background: #133151d5 !important;
+}
+
+.row:nth-child(2) {
+    background: #0d386580 !important
+}
+.panel {
+    background: #0b2c4fd5 !important;
+}
+.progress {
+    background: #1a395bd5 !important;
+}
+.progress-bar {
+    background: #185fabd5 !important;
+}
+
+#label_currentChannel {
+    background: #0b2c4fd5 !important;
+}
+#fraChatChannelMenu {
+    background: #0b2c4f !important;
+}
+.channelSwitcher:hover, .channelSwitcher.active {
+    background: #1863b3d5 !important;
+}
+
+.s-chat-message__pinned {
+    background-color: #185fabd5 !important;
+}
+
+.s-chat-message {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+    background: #0b2c4fd5 !important;
+	border-bottom: 2px solid #e6e6e6 !important;
+}
+.s-chat-message_timestamp {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+}
+.s-chat-message.hasContext {
+    background: #16406ed5 !important;
+    border-left: 4px solid #1b5089d5 !important;
+	padding-left: 4px !important;
+}
+
+.featured-lion, .featured-lion p, .featured-lion a {
+	background: #041324d5 !important;
+}
