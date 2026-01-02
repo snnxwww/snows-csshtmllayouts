@@ -98,7 +98,7 @@ img[src*="logo-full-2.png"] {
 #makeComment input::placeholder {
     color: #1e1e1e !important;
 }
-table {
+table, .sub_sub_menu {
     background: #eddeadd5 !important;
 }
 table .left {
@@ -107,7 +107,7 @@ table .left {
 table td .right {
     background: #decd96d5 !important;
 }
-table .top, table th, table .bottom {
+table .top, table th, table .bottom, .sub_menu {
     background: #c29b1ed5 !important;
 }
 table .left.b.center, table .right_odd {
