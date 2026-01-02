@@ -1,0 +1,190 @@
+/* CSS MADE BY SNOW #553411
+DO NOT REMOVE CREDIT
+DO NOT EDIT OR USE AS A TEMPLATE
+DO NOT REDISTRIBUTE OR RESELL
+--------------------
+MORE FREE CSS HERE: https://www.lioden.com/topic.php?id=304429594308&page=1
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+* {
+    font-family: "Amarante";
+    color: #1e1e1e !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    border: none !important;
+	transition: 0.4s !important;
+}
+.main {
+    background: transparent !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #1e1e1e !important;
+}
+a {
+    color: #111103 !important;
+}
+p {
+    color: #1e1e1e !important;
+}
+input, select, textarea, form[action="/account-link.php"] button, .button {
+    background: #f1ead3d5 !important;
+    color: #1e1e1e !important;
+}
+input:hover, select:hover, form[action="/account-link.php"] button:hover, .button:hover {
+    filter: brightness(0.9)
+}
+
+body {
+    background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/Free%20Layouts/CSS/Background%20Images/summersun.png?raw=true');
+	background-attachment: fixed !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.topbar {
+    background: #eae0bdd5 !important;
+}
+
+.navbar {
+    background: #e7d493d5 !important;
+}
+.navbar a {
+    color: #0d0e03 !important;
+}
+.navbar a:hover:not(:has(img[src*="logo-full-2.png"])) {
+    background: #c6b26dd5 !important;
+    color: #202208 !important;
+}
+img[src*="logo-full-2.png"] {
+	filter: hue-rotate(35deg) brightness(1.5) saturate(0.6);
+}
+
+.col-md-9 {
+    background: #f2f0eb60 !important;
+}
+
+.breadcrumb {
+    background: #e7d493d5 !important;
+    color: #1e1e1e !important
+}
+.breadcrumb::after {
+    content: "CSS by Snow #553411";
+	position: absolute !important;
+	right: 120px;
+}
+.breadcrumb a {
+    color: #2e2e2e !important;
+}
+.breadcrumb-item, .breadcrumb-item::before {
+    color: #1e1e1e !important;
+}
+
+.alert, .alert b, .alert a, .badge {
+    background: #eddeadd5 !important;
+    color: #1e1e1e !important;
+}
+
+.comment {
+    background: #eddeadd5 !important;
+    border-top: 1px solid #313131 !important;
+}
+.comment:first-of-type {
+    border-top: none !important;
+}
+#makeComment input::placeholder {
+    color: #1e1e1e !important;
+}
+table {
+    background: #eddeadd5 !important;
+}
+table .left {
+    background: #d3bd73d5 !important;
+}
+table td .right {
+    background: #decd96d5 !important;
+}
+table .top, table th, table .bottom {
+    background: #c29b1ed5 !important;
+}
+table .left.b.center, table .right_odd {
+    background: #eddeadd5 !important;
+}
+table span {
+    color: #1e1e1e !important;
+}
+
+.member-online {
+    background: #eddead !important;
+}
+.member-offline {
+    background: #eddead !important;
+}
+
+.cave-grid, .mound-grid {
+    background: #eddeadd5 !important;
+}
+
+.feature {
+    background: #eddeadd5 !important;
+}
+
+.col-md-4 .left {
+    background: #eddeadd5 !important;
+}
+.col-sm-4 .left {
+    background: #eddeadd5 !important;
+}
+form:has(#editdetailspanel) .left {
+    background: #eddeadd5 !important;
+}
+
+.row:nth-child(2) {
+    background: #ede2bd80 !important
+}
+.panel {
+    background: #f3e5b6d5 !important;
+}
+.progress {
+    background: #f8eeced5 !important;
+}
+.progress-bar {
+    background: #e1c056d5 !important;
+}
+
+#label_currentChannel {
+    background: #f3e5b6d5 !important;
+}
+#fraChatChannelMenu {
+    background: #f3e5b6 !important;
+}
+.channelSwitcher:hover, .channelSwitcher.active {
+    background: #d7b540d5 !important;
+}
+
+.s-chat-message__pinned {
+    background-color: #e1c056d5 !important;
+}
+
+.s-chat-message {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+    background: #f3e5b6d5 !important;
+	border-bottom: 2px solid #1e1e1e !important;
+}
+.s-chat-message_timestamp {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+}
+.s-chat-message.hasContext {
+    background: #e3d299d5 !important;
+    border-left: 4px solid #be991bd5 !important;
+	padding-left: 4px !important;
+}
+
+.featured-lion, .featured-lion p, .featured-lion a {
+	background: #8a752ad5 !important;
+}
