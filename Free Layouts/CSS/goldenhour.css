@@ -1,0 +1,190 @@
+/* CSS MADE BY SNOW #553411
+DO NOT REMOVE CREDIT
+DO NOT EDIT OR USE AS A TEMPLATE
+DO NOT REDISTRIBUTE OR RESELL
+--------------------
+MORE FREE CSS HERE: https://www.lioden.com/topic.php?id=304429594308&page=1
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+* {
+    font-family: "Amarante";
+    color: #1e1e1e !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    border: none !important;
+	transition: 0.4s !important;
+}
+.main {
+    background: transparent !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #1e1e1e !important;
+}
+a {
+    color: #111103 !important;
+}
+p {
+    color: #1e1e1e !important;
+}
+input, select, textarea, form[action="/account-link.php"] button, .button {
+    background: #c05c28d5 !important;
+    color: #1e1e1e !important;
+}
+input:hover, select:hover, form[action="/account-link.php"] button:hover, .button:hover {
+    filter: brightness(0.9)
+}
+
+body {
+    background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/Free%20Layouts/CSS/Background%20Images/goldenhour.png?raw=true');
+	background-attachment: fixed !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.topbar {
+    background: #f2712fd5 !important;
+}
+
+.navbar {
+    background: #df5f1ed5 !important;
+}
+.navbar a {
+    color: #0d0e03 !important;
+}
+.navbar a:hover:not(:has(img[src*="logo-full-2.png"])) {
+    background: #a8410dd5 !important;
+    color: #202208 !important;
+}
+img[src*="logo-full-2.png"] {
+	filter: hue-rotate(0deg) brightness(1.1) saturate(0.8);
+}
+
+.col-md-9 {
+    background: #ce835760 !important;
+}
+
+.breadcrumb {
+    background: #d86e39d5 !important;
+    color: #1e1e1e !important
+}
+.breadcrumb::after {
+    content: "CSS by Snow #553411";
+	position: absolute !important;
+	right: 120px;
+}
+.breadcrumb a {
+    color: #2e2e2e !important;
+}
+.breadcrumb-item, .breadcrumb-item::before {
+    color: #1e1e1e !important;
+}
+
+.alert, .alert b, .alert a, .badge {
+    background: #db7a48d5 !important;
+    color: #1e1e1e !important;
+}
+
+.comment {
+    background: #db7a48d5 !important;
+    border-top: 1px solid #313131 !important;
+}
+.comment:first-of-type {
+    border-top: none !important;
+}
+#makeComment input::placeholder {
+    color: #1e1e1e !important;
+}
+table, .sub_sub_menu {
+    background: #db7a48d5 !important;
+}
+table .left {
+    background: #bc5c2bd5 !important;
+}
+table td .right {
+    background: #c86938d5 !important;
+}
+table .top, table th, table .bottom, .sub_menu {
+    background: #8d431dd5 !important;
+}
+table .left.b.center, table .right_odd {
+    background: #de7f4ed5 !important;
+}
+table span {
+    color: #1e1e1e !important;
+}
+
+.member-online {
+    background: #e69d79 !important;
+}
+.member-offline {
+    background: #622b0f !important;
+}
+
+.cave-grid, .mound-grid {
+    background: #db7a48d5 !important;
+}
+
+.feature {
+    background: #db7a48d5 !important;
+}
+
+.col-md-4 .left {
+    background: #db7a48d5 !important;
+}
+.col-sm-4 .left {
+    background: #db7a48d5 !important;
+}
+form:has(#editdetailspanel) .left {
+    background: #db7a48d5 !important;
+}
+
+.row:nth-child(2) {
+    background: #b5856d80 !important
+}
+.panel {
+    background: #c05c28d5 !important;
+}
+.progress {
+    background: #db7a48d5 !important;
+}
+.progress-bar {
+    background: #7c330dd5 !important;
+}
+
+#label_currentChannel {
+    background: #c05c28d5 !important;
+}
+#fraChatChannelMenu {
+    background: #c05c28 !important;
+}
+.channelSwitcher:hover, .channelSwitcher.active {
+    background: #833710d5 !important;
+}
+
+.s-chat-message__pinned {
+    background-color: #7c330dd5 !important;
+}
+
+.s-chat-message {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+    background: #c05c28d5 !important;
+	border-bottom: 2px solid #1e1e1e !important;
+}
+.s-chat-message_timestamp {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+}
+.s-chat-message.hasContext {
+    background: #d37a4cd5 !important;
+    border-left: 4px solid #863c15d5 !important;
+	padding-left: 4px !important;
+}
+
+.featured-lion, .featured-lion p, .featured-lion a {
+	background: #8a752ad5 !important;
+}
