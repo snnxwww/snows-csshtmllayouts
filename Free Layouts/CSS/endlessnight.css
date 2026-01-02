@@ -1,0 +1,190 @@
+/* CSS MADE BY SNOW #553411
+DO NOT REMOVE CREDIT
+DO NOT EDIT OR USE AS A TEMPLATE
+DO NOT REDISTRIBUTE OR RESELL
+--------------------
+MORE FREE CSS HERE: https://www.lioden.com/topic.php?id=304429594308&page=1
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+* {
+    font-family: "Amarante";
+    color: #e6e6e6 !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    border: none !important;
+	transition: 0.4s !important;
+}
+.main {
+    background: transparent !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+}
+a {
+    color: #f9f8f2 !important;
+}
+p {
+    color: #e6e6e6 !important;
+}
+input, select, textarea, form[action="/account-link.php"] button, .button {
+    background: #595959d5 !important;
+    color: #e6e6e6 !important;
+}
+input:hover, select:hover, form[action="/account-link.php"] button:hover, .button:hover {
+    filter: brightness(0.9)
+}
+
+body {
+    background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/Free%20Layouts/CSS/Background%20Images/endlessnight.png?raw=true');
+	background-attachment: fixed !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.topbar {
+    background: #242424d5 !important;
+}
+
+.navbar {
+    background: #272727d5 !important;
+}
+.navbar a {
+    color: #e6e6e6 !important;
+}
+.navbar a:hover:not(:has(img[src*="logo-full-2.png"])) {
+    background: #454545d5 !important;
+    color: #e9e9e9 !important;
+}
+img[src*="logo-full-2.png"] {
+	filter: hue-rotate(180deg) brightness(0.3) saturate(0.7);
+}
+
+.col-md-9 {
+    background: #2e2e2e60 !important;
+}
+
+.breadcrumb {
+    background: #272727d5 !important;
+    color: #d5d5d5 !important
+}
+.breadcrumb::after {
+    content: "CSS by Snow #553411";
+	position: absolute !important;
+	right: 120px;
+}
+.breadcrumb a {
+    color: #e2e2e2 !important;
+}
+.breadcrumb-item, .breadcrumb-item::before {
+    color: #e6e6e6 !important;
+}
+
+.alert, .alert b, .alert a, .badge {
+    background: #3c3c3cd5 !important;
+    color: #e6e6e6 !important;
+}
+
+.comment {
+    background: #3c3c3cd5 !important;
+    border-top: 1px solid #e6e6e6 !important;
+}
+.comment:first-of-type {
+    border-top: none !important;
+}
+#makeComment input::placeholder {
+    color: #e6e6e6 !important;
+}
+table, .sub_sub_menu {
+    background: #3c3c3cd5 !important;
+}
+table .left {
+    background: #242424d5 !important;
+}
+table td .right {
+    background: #2d2d2dd5 !important;
+}
+table .top, table th, table .bottom, .sub_menu {
+    background: #101010d5 !important;
+}
+table .left.b.center, table .right_odd {
+    background: #474747d5 !important;
+}
+table span {
+    color: #e6e6e6 !important;
+}
+
+.member-online {
+    background: #aaaaaa !important;
+}
+.member-offline {
+    background: #171717 !important;
+}
+
+.cave-grid, .mound-grid {
+    background: #3c3c3cd5 !important;
+}
+
+.feature {
+    background: #3c3c3cd5 !important;
+}
+
+.col-md-4 .left {
+    background: #3c3c3cd5 !important;
+}
+.col-sm-4 .left {
+    background: #3c3c3cd5 !important;
+}
+form:has(#editdetailspanel) .left {
+    background: #3c3c3cd5 !important;
+}
+
+.row:nth-child(2) {
+    background: #2f2f2f80 !important
+}
+.panel {
+    background: #313131d5 !important;
+}
+.progress {
+    background: #3c3c3cd5 !important;
+}
+.progress-bar {
+    background: #1c1c1cd5 !important;
+}
+
+#label_currentChannel {
+    background: #313131d5 !important;
+}
+#fraChatChannelMenu {
+    background: #313131 !important;
+}
+.channelSwitcher:hover, .channelSwitcher.active {
+    background: #484848d5 !important;
+}
+
+.s-chat-message__pinned {
+    background-color: #1c1c1cd5 !important;
+}
+
+.s-chat-message {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+    background: #313131d5 !important;
+	border-bottom: 2px solid #e6e6e6 !important;
+}
+.s-chat-message_timestamp {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+}
+.s-chat-message.hasContext {
+    background: #474747d5 !important;
+    border-left: 4px solid #898989d5 !important;
+	padding-left: 4px !important;
+}
+
+.featured-lion, .featured-lion p, .featured-lion a {
+	background: #041324d5 !important;
+}
