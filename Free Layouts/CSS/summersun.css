@@ -118,10 +118,10 @@ table span {
 }
 
 .member-online {
-    background: #eddead !important;
+    background: #f3f1e9 !important;
 }
 .member-offline {
-    background: #eddead !important;
+    background: #826a1b !important;
 }
 
 .cave-grid, .mound-grid {
