@@ -56,7 +56,7 @@ body {
     color: #e6e6e6 !important;
 }
 .navbar a:hover:not(:has(img[src*="logo-full-2.png"])) {
-    background: #2d390ed5 !important;
+    background: #25304cd5 !important;
     color: #e9e9e9 !important;
 }
 img[src*="logo-full-2.png"] {
