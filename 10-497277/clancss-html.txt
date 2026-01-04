@@ -1,0 +1,7 @@
+<link rel="stylesheet" href="https://snnxwww.github.io/snows-csshtmllayouts/10-497277/standardclan.css"><div class="box"><div class="left-section">
+<div class="link-box"><a href="#">Link</a> - <a href="#">Link</a> - <a href="#">Link</a> - <a href="#">Link</a> - <a href="#">Link</a> - <a href="#">Link</a> - <a href="#">Link</a></div>
+<div class="main-box">TEXT</div></div>
+<div class="right-section">
+<div class="box-top">TEXT</div>
+<div class="box-bottom">TEXT</div>
+<img class="pagedoll" src="https://github.com/snnxwww/snows-csshtmllayouts/blob/main/10-497277/pagedoll.png?raw=true">
