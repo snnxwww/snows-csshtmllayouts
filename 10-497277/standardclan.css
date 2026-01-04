@@ -57,6 +57,14 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
     color: #f1f1ee
 }
 
+.pagedoll {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    width: 200px;
+}
+
 body {
     background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/10-497277/background.png?raw=true');
     background-size: cover;
