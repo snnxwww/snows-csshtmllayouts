@@ -1,3 +1,4 @@
+
 /*  CSS MADE BY SNOW #553411, COMMISSIONED BY #497277
 DO NOT REMOVE CREDIT
 DO NOT EDIT OR USE AS A TEMPLATE
@@ -26,10 +27,10 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
     border-radius: 15px;
     border: 6px solid #2c2512;
     text-align: center;
-    color: #f1f1ee
+    color: #f1f1ee;
 }
 .link-box a {
-    color: #f1f1ee
+    color: #f1f1ee;
 }
 .main-box {
     background: #95a643;
@@ -37,7 +38,7 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
     border: 6px solid #6a772f;
     height: 300px;
     overflow-y: auto;
-    color: #13140b
+    color: #13140b;
 }
 .box-top {
     background: #b28520;
@@ -54,4 +55,129 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
     height: 175px;
     overflow-y: auto;
     color: #f1f1ee
+}
+
+body {
+    background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/10-497277/background.png?raw=true');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+a {
+    color: #f1f1ee !important;
+}
+button, input, textarea, select, .btn {
+    background: #5e522e !important;
+    text-shadow: none !important;
+    color: #f1f1ee !important;
+    border: none !important;
+}
+button:hover, input:hover, textarea:hover, select:hover, .btn:hover{
+    background: #6b5e37 !important;
+}
+
+.topbar {
+    background: #4f4321 !important;
+    color: #f1f1ee !important;
+}
+.topbar a {
+    color: #f1f1ee !important;
+    transition: 0.4s !Important;
+}
+.topbar a:hover {
+    padding-left: 1px !important;
+    padding-right: 1px !important;
+}
+
+.navbar {
+    background: #95a643 !important;
+}
+.navbar a {
+    color: #13140b !important;
+    z-index: 10 !important;
+    transition: 0.2s !importan;
+}
+.navbar a:not(:has(img)):hover {
+    background: #859535 !important;
+    border-bottom: 5px solid #13140b !important;
+    margin-bottom: -10px !important;
+}
+img[src*="logo-full-2.png"] {
+    filter: hue-rotate(55deg) brightness(0.9) saturate(0.8);
+}
+
+.col-md-9 {
+    background: #c8d587 !important;
+}
+
+.breadcrumb {
+    background: #b28520 !important;
+}
+.breadcrumb-item {
+    color: #f1f1ee !important;
+}
+.breadcrumb a {
+    color: #e2e2d3 !important;
+}
+
+.alert {
+    background: #c3952d !important;
+    color: #f1f1ee !important;
+}
+.alert a {
+    color: #f1f1ee !important;
+}
+
+h1, h2 {
+    color: #4f4321 !important;
+}
+
+table .top, table .bottom, table th {
+    background: #4f4321 !important;
+}
+table {
+    border: none !important;
+    background: #b28520 !important;
+    color: #13140b !important;
+}
+table a {
+    color: #2f311d !important;
+}
+table .left {
+    background: #d4a63d !important;
+}
+table .inner-table .right {
+    background: #e1b44f !important;
+}
+
+.page-description {
+    border: 1px solid #4f4321 !important;
+    color: #13140b !important;
+}
+
+
+.main {
+    background: #b3c460 !important;;
+}
+.panel {
+    background: #4f4321 !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #f1f1ee !important;
+}
+.panel a {
+    color: #dbc79c !important;
+}
+
+.progress {
+    background: #695c35 !important;
+}
+.progress-bar {
+    background: #b28520 !important;
+}
+.col-md-12 h3 {
+    color: #4f4321 !important;
+}
+a[href="./chat.php"] {
+    color: #4f4321 !important;
 }
