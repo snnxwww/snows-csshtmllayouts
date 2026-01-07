@@ -239,8 +239,18 @@ table th:has(a[onclick="toggle_visibility('editdetailspanel'); return false;"]) 
 .lion-image img {
     position: absolute !important;
 	max-width: 100% !important;
-	top: 75px !important;
+	top: 0 !important;
 	left: 15% !important;
+}
+@media(max-width: 1200px) {
+	.lion-image img {
+		left: 5% !important;
+	}
+}
+@media(max-width: 550px) {
+	.lion-image img {
+		left: 0% !important;
+	}
 }
 
 #about td.right > table.inner-table.auto {
