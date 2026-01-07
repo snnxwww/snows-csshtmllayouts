@@ -175,9 +175,9 @@ table th:has(a[onclick="toggle_visibility('editdetailspanel'); return false;"]) 
 }
 
 .breadcrumb {
-    height: 600px !important;
+    height: 500px !important;
     background-size: cover !important;
-    margin-bottom: 200px !important;
+    margin-bottom: 220px !important;
     border-radius: 0px !important
 }
 
@@ -205,7 +205,7 @@ table th:has(a[onclick="toggle_visibility('editdetailspanel'); return false;"]) 
 
 .top.center .xlarge.b {
     position: absolute !important;
-    top: -420px !important;
+    top: -320px !important;
     right: 5% !important;
     z-index: 10 !important;
     font-size: 60px !important;
@@ -214,7 +214,7 @@ table th:has(a[onclick="toggle_visibility('editdetailspanel'); return false;"]) 
 
 .floatright form {
     position: relative !important;
-    bottom: 192px !important;
+    bottom: 212px !important;
     right: 20px !important;
     background: transparent !important;
     z-index: 20 !important;
@@ -225,17 +225,22 @@ table th:has(a[onclick="toggle_visibility('editdetailspanel'); return false;"]) 
 }
 
 .lion-container {
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
+	position: absolute !important;
+	top: 0 !important;
+	left: 0 !important;
+	right: 0 !important;
 }
-
-.lion-image-block {
+.lion-image {
     padding-bottom: 0px !important;
     max-width: 620px !important;
     margin-top: 60px !important;
-    overflow: visible !important;
+	overflow: visible !important;
+}
+.lion-image img {
+    position: absolute !important;
+	max-width: 100% !important;
+	top: 75px !important;
+	left: 15% !important;
 }
 
 #about td.right > table.inner-table.auto {
@@ -262,7 +267,7 @@ table th:has(a[onclick="toggle_visibility('editdetailspanel'); return false;"]) 
 
 #about {
     position: absolute !important;
-    top: 525px !important;
+    top: 425px !important;
     border: none !important;
     width: 95% !important;
     left: 1.5% !important;
