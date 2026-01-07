@@ -178,13 +178,16 @@ table th:has(a[onclick="toggle_visibility('editdetailspanel'); return false;"]) 
     height: 500px !important;
     background-size: cover !important;
     margin-bottom: 220px !important;
-    border-radius: 0px !important
+    border-radius: 0px !important;
+	width: 97.5% !important;
+	margin-left: 1.25% !important;
+	margin-top: 1.5% !important;
 }
 
 .breadcrumb:after {
     content: "CSS by Snow #553411";
     position: absolute;
-    right: 10px;
+    right: 15px;
     font-size: 14px;
     color: #ffffff !important;
 }
@@ -206,7 +209,7 @@ table th:has(a[onclick="toggle_visibility('editdetailspanel'); return false;"]) 
 .top.center .xlarge.b {
     position: absolute !important;
     top: -320px !important;
-    right: 5% !important;
+    right: 7.5% !important;
     z-index: 10 !important;
     font-size: 60px !important;
     font-family: "Teutonic" !important;
@@ -214,7 +217,7 @@ table th:has(a[onclick="toggle_visibility('editdetailspanel'); return false;"]) 
 
 .floatright form {
     position: relative !important;
-    bottom: 212px !important;
+    bottom: 235px !important;
     right: 20px !important;
     background: transparent !important;
     z-index: 20 !important;
@@ -240,7 +243,7 @@ table th:has(a[onclick="toggle_visibility('editdetailspanel'); return false;"]) 
     position: absolute !important;
 	max-width: 100% !important;
 	top: 0 !important;
-	left: 15% !important;
+	left: 10% !important;
 }
 @media(max-width: 1200px) {
 	.lion-image img {
@@ -426,9 +429,7 @@ button.navbar-toggle {
     }
 
     .breadcrumb {
-        background: url('https://static.lioden.com/images/dynamic/backgrounds/Bloukrans_River.png') !important;
-        background-position: center !important;
-        background-size: cover !important;
+        background: #90a19660 !important;
     }
 
     .floatright input {
@@ -822,10 +823,6 @@ button.navbar-toggle {
         backdrop-filter: brightness(0.7);
     }
 
-    .breadcrumb {
-        filter: brightness(0.7);
-    }
-
     .topbar {
         background: #2e3430e6 !important;
         color: #e6e6e6 !important;
@@ -854,9 +851,7 @@ button.navbar-toggle {
     }
 
     .breadcrumb {
-        background: url('https://static.lioden.com/images/dynamic/backgrounds/Bloukrans_River.png') !important;
-        background-position: center !important;
-        background-size: cover !important;
+        background: #1f262660 !important;
     }
 
     .floatright input {
