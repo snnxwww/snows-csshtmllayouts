@@ -170,9 +170,21 @@ table th:has(a[onclick="toggle_visibility('editdetailspanel'); return false;"]) 
     border-radius: 0px !important
 }
 
+.breadcrumb:after {
+    content: "CSS by Snow #553411";
+    position: absolute;
+    right: 10px;
+    font-size: 14px;
+    color: #ffffff !important;
+}
+
 .breadcrumb a {
     content: none;
     color: transparent !important;
+}
+
+.breadcrumb-item:before {
+    display: none !important;
 }
 
 .breadcrumb li {
@@ -402,7 +414,7 @@ button.navbar-toggle {
         background: #9db0a3e6 !important;
     }
 
-    #about {
+    #about, .breadcrumb:after {
         color: #e6e6e6 !important;
     }
 
@@ -948,7 +960,7 @@ button.navbar-toggle {
         color: #d4d4d4 !important;
     }
 
-    table .bottom a {
+    table .bottom a,  {
         color: #d4d4d4 !important;
     }
 
@@ -964,7 +976,7 @@ button.navbar-toggle {
 
     table div {
         color: #e6e6e6 !important;
-        !important }
+   }
 
     table input, select, textarea {
         background: #36493de6 !important;
