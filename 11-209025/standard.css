@@ -1,10 +1,4 @@
-/*  CSS MADE BY SNOW #553411, COMMISSIONED BY #209025
-DO NOT REMOVE CREDIT
-DO NOT EDIT OR USE AS A TEMPLATE
-DO NOT REDISTRIBUTE OR RESELL
---------------------
-COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
-*/
+
 
 @import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
@@ -201,24 +195,6 @@ table .inner-table .right {
     border: none !important;
     color: #949E7A !important;
 }
-img[src*="unsortedlionsbanner.png"] {
-    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/11-209025/unsortedimg.png?raw=true');
-    height: 60px !important;
-	object-fit: cover !important;
-	object-position: center center !important;
-}
-img[src*="nestingbanner.png"] {
-    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/11-209025/preglionessesimg.png?raw=true');
-    height: 60px !important;
-	object-fit: cover !important;
-	object-position: bottom center !important;
-}
-img[src*="prideoverviewbanner.png"] {
-    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/11-209025/prideoverviewimg.png?raw=true');
-    height: 60px !important;
-	object-fit: cover !important;
-	object-position: center center !important;
-}
 #fraCaveList .col-md-4:nth-child(1) .cave-grid img {
     content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/11-209025/cave1img.png?raw=true');
     height: 100px !important;
@@ -332,17 +308,5 @@ img[src*="den_beetlebook.png"] {
     background: #596348 !important;
 }
 .s-chat-message:nth-child(even) {
-    background: #475138 !important;
-}
-#label_currentChannel, #fraChatChannelMenu, .channelSwitcher {
-    background: #596348 !important;
-    border: none !important;
-    box-shadow: none !important;
-    color: #949E7A !important;
-}
-.channelSwitcher:hover {
-    background: #475138 !important;
-}
-.channelSwitcher.active {
     background: #475138 !important;
 }
