@@ -195,6 +195,24 @@ table .inner-table .right {
     border: none !important;
     color: #949E7A !important;
 }
+img[src*="unsortedlionsbanner.png"] {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/11-209025/unsortedimg.png?raw=true');
+    height: 60px !important;
+	object-fit: cover !important;
+	object-position: center center !important;
+}
+img[src*="nestingbanner.png"] {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/11-209025/preglionessesimg.png?raw=true');
+    height: 60px !important;
+	object-fit: cover !important;
+	object-position: bottom center !important;
+}
+img[src*="prideoverviewbanner.png"] {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/11-209025/prideoverviewimg.png?raw=true');
+    height: 60px !important;
+	object-fit: cover !important;
+	object-position: center center !important;
+}
 #fraCaveList .col-md-4:nth-child(1) .cave-grid img {
     content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/11-209025/cave1img.png?raw=true');
     height: 100px !important;
