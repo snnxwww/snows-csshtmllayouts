@@ -1,3 +1,10 @@
+/*  CSS MADE BY SNOW #553411, COMMISSIONED BY #209025
+DO NOT REMOVE CREDIT
+DO NOT EDIT OR USE AS A TEMPLATE
+DO NOT REDISTRIBUTE OR RESELL
+--------------------
+COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
+*/
 
 
 @import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
@@ -24,6 +31,13 @@
 .navbar a {
     color: #949E7A !important;
     font-size: 16.5px !important;
+}
+.navbar a:not(:has(img[src*="logo-full-2.png"])) {
+	background: #31412C;
+}
+.navbar a:not(:has(img[src*="logo-full-2.png"])):hover {
+	background: #31412C;
+	filter: brightness(1.2);
 }
 @media (max-width: 1200px) {
     .navbar a {
