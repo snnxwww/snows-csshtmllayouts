@@ -342,3 +342,7 @@ img[src*="den_beetlebook.png"] {
 .s-chat-message:nth-child(even) {
     background: #475138 !important;
 }
+.s-chat-message.hasContext {
+	border-left: 4px solid #949E7A !important;
+	filter: brightness(1.15)
+}
