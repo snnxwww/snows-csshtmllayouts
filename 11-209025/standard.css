@@ -310,3 +310,15 @@ img[src*="den_beetlebook.png"] {
 .s-chat-message:nth-child(even) {
     background: #475138 !important;
 }
+#label_currentChannel, #fraChatChannelMenu, .channelSwitcher {
+    background: #596348 !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #949E7A !important;
+}
+.channelSwitcher:hover {
+    background: #475138 !important;
+}
+.channelSwitcher.active {
+    background: #475138 !important;
+}
