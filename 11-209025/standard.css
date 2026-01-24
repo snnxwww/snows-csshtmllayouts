@@ -52,7 +52,8 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
 img[src*="logo-full-2.png"] {
     content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/11-209025/logo.png?raw=true');
     width: 250px;
-    margin-top: -15px;
+    margin-top: -45px;
+	margin-right: -40px !important;
 }
 
 body {
@@ -106,9 +107,6 @@ input:hover, button[type="submit"]:hover, select:hover, .btn:hover {
 .alert a {
     color: #414837 !important;
 }
-center .alert {
-	background: #737D59 !important;
-}
 
 h1 {
     display: none;
@@ -153,15 +151,6 @@ h1 {
 .comment {
     background: #59634833 !important;
 }
-#makeComment input {
-	background: #323928 !important;
-}
-#makeComment input:hover {
-	filter: brightness(1)
-}
-#makeComment input[type="submit"]:hover {
-	filter: brightness(1.1)
-}
 
 table .top, table th {
     background: #31412C !important;
@@ -202,11 +191,9 @@ table a {
 }
 table .left {
     background: #707C54 !important;
-	color: #373926 !important;
 }
 table .inner-table .right {
     background: #828E67 !important;
-	color: #373926 !important;
 }
 .xlarge a, .center a, .center {
     color: #949E7A !important;
@@ -243,33 +230,18 @@ img[src*="prideoverviewbanner.png"] {
 }
 #fraCaveList .col-md-4:nth-child(1) .cave-grid img {
     content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/11-209025/cave1img.png?raw=true');
-    height: 100px !important;
-	object-fit: cover !important;
-	object-position: center center !important;
 }
 #fraCaveList .col-md-4:nth-child(2) .cave-grid img {
     content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/11-209025/cave2img.png?raw=true');
-    height: 100px !important;
-	object-fit: cover !important;
-	object-position: top center !important;
 }
 #fraCaveList .col-md-4:nth-child(3) .cave-grid img {
     content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/11-209025/cave3img.png?raw=true');
-    height: 100px !important;
-	object-fit: cover !important;
-	object-position: bottom center !important;
 }
 #fraCaveList .col-md-4:nth-child(4) .cave-grid img {
     content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/11-209025/cave4img.png?raw=true');
-    height: 100px !important;
-	object-fit: cover !important;
-	object-position: center center !important;
 }
 #fraCaveList .col-md-4:nth-child(5) .cave-grid img {
     content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/11-209025/cave5img.png?raw=true');
-    height: 100px !important;
-	object-fit: cover !important;
-	object-position: center center !important;
 }
 img[src*="beetleunsorted.png"], img[src*="beetlemound.png"] {
     content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/11-209025/moundimg.png?raw=true');
@@ -333,7 +305,6 @@ img[src*="den_beetlebook.png"] {
 .progress {
     background: #737d59 !important;
 }
-
 .progress-bar {
     background: linear-gradient(90deg, #949E7A, #838D67);
 }
@@ -352,24 +323,12 @@ img[src*="den_beetlebook.png"] {
     padding-right: 2px !important;
 }
 .s-chat-message:nth-child(odd) {
-    background: #32392880 !important;
+    background: #596348 !important;
 }
 .s-chat-message:nth-child(even) {
-    background: #3d453280 !important;
+    background: #475138 !important;
 }
 .s-chat-message.hasContext {
 	border-left: 4px solid #949E7A !important;
 	filter: brightness(1.15)
-}
-
-#label_currentChannel, #fraChatChannelMenu, .channelSwitcher {
-	background: #828E67 !important;
-	border: none !important;
-	color: #373926 !important;
-}
-.channelSwitcher:hover {
-	filter: brightness(1.3)
-}
-.channelSwitcher.active {
-	filter: brightness(1.3)
 }
