@@ -165,6 +165,9 @@ h1 {
 #makeComment input[type="submit"]:hover {
 	filter: brightness(1.1)
 }
+#makeComment input::placeholder {
+	color: #949E7A !important;
+}
 
 table .top, table th {
     background: #2B3826 !important;
@@ -215,10 +218,10 @@ table .inner-table .right {
     color: #949E7A !important;
 }
 .member-online {
-    background: #c9d4ac !important;
+    background: #4E9C40 !important;
 }
 .member-offline {
-    background: #383d2b !important;
+    background: #404040 !important;
 }
 
 .cave-grid, .mound-grid, .col-md-4 div, .col-md-4 div h3, .col-sm-4 .left, .left:has(a[href="/account-settings.php"]), .left:has(a[href="/account-settings.php"]) a {
