@@ -126,6 +126,7 @@ h1 {
     border-radius: 8px;
     height: 200px;
     color: #949E7A;
+	overflow-y: auto;
 }
 
 .box-small-left {
