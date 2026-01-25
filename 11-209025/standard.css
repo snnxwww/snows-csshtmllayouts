@@ -16,7 +16,7 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
 }
 
 .topbar {
-    background: #31412C;
+    background: #2B3826;
     color: #949E7A !important;
 }
 .topbar a {
@@ -27,17 +27,17 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
 }
 
 .navbar {
-    background: #31412C;
+    background: #2B3826;
 }
 .navbar a {
     color: #949E7A !important;
     font-size: 16.5px !important;
 }
 .navbar a:not(:has(img[src*="logo-full-2.png"])) {
-	background: #31412C;
+	background: #2B3826;
 }
 .navbar a:not(:has(img[src*="logo-full-2.png"])):hover {
-	background: #31412C;
+	background: #2B3826;
 	filter: brightness(1.2);
 }
 @media (max-width: 1200px) {
@@ -85,24 +85,24 @@ input:hover, button[type="submit"]:hover, select:hover, .btn:hover {
 
 .breadcrumb {
     background: #828E67;
-    color: #373926 !important;
+    color: #2B3826 !important;
 }
 .breadcrumb a {
-    color: #373926 !important;
+    color: #2B3826 !important;
 }
 .breadcrumb-item {
-    color: #373926 !important;
+    color: #2B3826 !important;
 }
 .breadcrumb-item:before {
-    color: #373926 !important;
+    color: #2B3826 !important;
 }
 .breadcrumb-item.active {
-    color: #373926 !important;
+    color: #2B3826 !important;
 }
 
 .alert {
     background: #828E67;
-    color: #373926 !important;
+    color: #2B3826 !important;
     border: none !important;
 }
 .alert a {
@@ -166,13 +166,13 @@ h1 {
 }
 
 table .top, table th {
-    background: #31412C !important;
+    background: #2B3826 !important;
     color: #949E7A !important;
     border-top-left-radius: 12px !important;
     border-top-right-radius: 12px !important;
 }
  table .bottom {
-    background: #31412C !important;
+    background: #2B3826 !important;
     color: #949E7A !important;
     border-bottom-left-radius: 12px !important;
     border-bottom-right-radius: 12px !important;
@@ -182,12 +182,12 @@ table .top a, table th a, table .bottom a {
 }
 table, table .right_odd {
     background: #596348 !important;
-    color: #373926 !important;
+    color: #2B3826 !important;
     border-radius: 12px !important;
     border: none !important;
 }
 table td a {
-    color: #373926 !important;
+    color: #2B3826 !important;
 }
 .table .right_odd {
     border-top-left-radius: 0px !important;
@@ -204,11 +204,11 @@ table a {
 }
 table .left {
     background: #707C54 !important;
-	color: #373926 !important;
+	color: #2B3826 !important;
 }
 table .inner-table .right {
     background: #828E67 !important;
-	color: #373926 !important;
+	color: #2B3826 !important;
 }
 .xlarge a, .center a, .center {
     color: #949E7A !important;
@@ -221,7 +221,7 @@ table .inner-table .right {
 }
 
 .cave-grid, .mound-grid, .col-md-4 div, .col-md-4 div h3, .col-sm-4 .left, .left:has(a[href="/account-settings.php"]), .left:has(a[href="/account-settings.php"]) a {
-    background: #31412C !important;
+    background: #2B3826 !important;
     border: none !important;
     color: #949E7A !important;
 }
@@ -326,7 +326,9 @@ img[src*="den_beetlebook.png"] {
 .progress {
     background: #737d59 !important;
 }
-
+.progress div {
+	color: #2B3826 !important;
+}
 .progress-bar {
     background: linear-gradient(90deg, #949E7A, #838D67);
 }
@@ -336,7 +338,7 @@ img[src*="den_beetlebook.png"] {
 }
 #chatMessagePinned {
     background-color: #A4A46A !important;
-    color: #373926 !important;
+    color: #2B3826 !important;
     border-bottom: 0px !important;
 }
 .s-chat-message, .s-chat-message a, .s-chat-message_timestamp {
@@ -358,7 +360,7 @@ img[src*="den_beetlebook.png"] {
 #label_currentChannel, #fraChatChannelMenu, .channelSwitcher {
 	background: #828E67 !important;
 	border: none !important;
-	color: #373926 !important;
+	color: #2B3826 !important;
 }
 .channelSwitcher:hover {
 	filter: brightness(1.3)
