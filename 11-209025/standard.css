@@ -53,7 +53,8 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
 img[src*="logo-full-2.png"] {
     content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/11-209025/logo.png?raw=true');
     width: 250px;
-    margin-top: -15px;
+    margin-top: -55px;
+	margin-right: -40px;
 }
 
 body {
@@ -247,15 +248,9 @@ img[src*="prideoverviewbanner.png"] {
 }
 #fraCaveList .col-md-4:nth-child(2) .cave-grid img {
     content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/11-209025/cave2img.png?raw=true');
-    height: 100px !important;
-	object-fit: cover !important;
-	object-position: top center !important;
 }
 #fraCaveList .col-md-4:nth-child(3) .cave-grid img {
     content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/11-209025/cave3img.png?raw=true');
-    height: 100px !important;
-	object-fit: cover !important;
-	object-position: bottom center !important;
 }
 #fraCaveList .col-md-4:nth-child(4) .cave-grid img {
     content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/11-209025/cave4img.png?raw=true');
