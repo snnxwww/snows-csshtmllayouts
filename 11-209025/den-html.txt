@@ -1,0 +1,3 @@
+<link rel="stylesheet" href="https://snnxwww.github.io/snows-csshtmllayouts/11-209025/standard.css?v=2" />
+
+<div class="box-section"><div class="box box-small-left">BOX 1</div><div class="box box-centre">BOX 2</div><div class="box box-right">BOX 3</div></div>
