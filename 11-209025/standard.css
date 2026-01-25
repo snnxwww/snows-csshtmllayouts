@@ -87,6 +87,11 @@ input:hover, button[type="submit"]:hover, select:hover, .btn:hover {
     background: #828E67;
     color: #2B3826 !important;
 }
+.breadcrumb:after {
+	content: "CSS by Snow #553411";
+	position: absolute;
+    right: 120px;
+}
 .breadcrumb a {
     color: #2B3826 !important;
 }
