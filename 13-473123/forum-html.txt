@@ -4,4 +4,4 @@
 <div style="background: rgba(70, 19, 128, 0.8); font-size: 20px; text-align: center; width: 48%; float: left;">TEXT</div><div style="background: rgba(70, 19, 128, 0.8); font-size: 20px; text-align: center; width: 48%; float: right;">TEXT</div><div style="clear: both;"></div>
 <img src="https://github.com/snnxwww/snows-csshtmllayouts/blob/main/13-473123/imgdivider.png?raw=true" width="100%"><br>
 <div style="background: rgba(95, 6, 196, 0.8); font-family: 'courier new'; font-size: 60px; text-align: center;">TITLE</div>
-<div class="scrollBox" style="background: rgba(70, 19, 128, 0.8); font-size: 20px; text-align: center; height: 500px;">TEXT</div>
+<div class="scrollBox" style="background: rgba(70, 19, 128, 0.8); font-size: 20px; text-align: center; height: 500px;">TEXT</div><div style="font-size: 10px; padding: 4px; text-align: center; margin-bottom: -20px;">HTML by Snow #553411</div></div>
