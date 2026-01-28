@@ -1,1 +1,7 @@
-
+<div style="background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/13-473123/background.png?raw=true'); padding: 30px; color: #ece9f0; font-family: 'palatino';"><div style="background: rgba(78, 35, 135, 0.8); text-align: center; padding: 15px;"><img src="https://github.com/snnxwww/snows-csshtmllayouts/blob/main/13-473123/star.png?raw=true" width="25%"><img src="https://github.com/snnxwww/snows-csshtmllayouts/blob/main/13-473123/title.png?raw=true" width="50%"><img src="https://github.com/snnxwww/snows-csshtmllayouts/blob/main/13-473123/star.png?raw=true" width="25%"></div>
+<img src="https://github.com/snnxwww/snows-csshtmllayouts/blob/main/13-473123/imgdivider.png?raw=true" width="100%"><br>
+<div style="background: rgba(95, 6, 196, 0.8); font-family: 'courier new'; font-size: 60px; text-align: center;">TITLE</div>
+<div style="background: rgba(70, 19, 128, 0.8); font-size: 20px; text-align: center; width: 48%; float: left;">TEXT</div><div style="background: rgba(70, 19, 128, 0.8); font-size: 20px; text-align: center; width: 48%; float: right;">TEXT</div><div style="clear: both;"></div>
+<img src="https://github.com/snnxwww/snows-csshtmllayouts/blob/main/13-473123/imgdivider.png?raw=true" width="100%"><br>
+<div style="background: rgba(95, 6, 196, 0.8); font-family: 'courier new'; font-size: 60px; text-align: center;">TITLE</div>
+<div class="scrollBox" style="background: rgba(70, 19, 128, 0.8); font-size: 20px; text-align: center; height: 500px;">TEXT</div>
