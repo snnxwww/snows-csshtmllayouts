@@ -179,9 +179,9 @@ table th:has(a[onclick="toggle_visibility('editdetailspanel'); return false;"]) 
     background-size: cover !important;
     margin-bottom: 220px !important;
     border-radius: 0px !important;
-	width: 97.5% !important;
-	margin-left: 1.25% !important;
-	margin-top: 1.5% !important;
+    width: 97.5% !important;
+    margin-left: 1.25% !important;
+    margin-top: 1.5% !important;
 }
 
 .breadcrumb:after {
@@ -208,10 +208,12 @@ table th:has(a[onclick="toggle_visibility('editdetailspanel'); return false;"]) 
 
 .top.center .xlarge.b {
     position: absolute !important;
-    top: -320px !important;
-    right: 7.5% !important;
+    top: -350px !important;
+    right: 0.5% !important;
     z-index: 10 !important;
-    font-size: 60px !important;
+    font-size: 40px !important;
+    left: 310px !important;
+    text-align: right !important;;
     font-family: "Teutonic" !important;
 }
 
@@ -228,32 +230,36 @@ table th:has(a[onclick="toggle_visibility('editdetailspanel'); return false;"]) 
 }
 
 .lion-container {
-	position: absolute !important;
-	top: 0 !important;
-	left: 0 !important;
-	right: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
 }
+
 .lion-image {
     padding-bottom: 0px !important;
     max-width: 620px !important;
     margin-top: 60px !important;
-	overflow: visible !important;
+    overflow: visible !important;
 }
+
 .lion-image img {
     position: absolute !important;
-	max-width: 100% !important;
-	top: 0 !important;
-	left: 10% !important;
+    max-width: 100% !important;
+    top: 0 !important;
+    left: 10% !important;
 }
+
 @media(max-width: 1200px) {
-	.lion-image img {
-		left: 5% !important;
-	}
+    .lion-image img {
+        left: 5% !important;
+    }
 }
+
 @media(max-width: 550px) {
-	.lion-image img {
-		left: 0% !important;
-	}
+    .lion-image img {
+        left: 0% !important;
+    }
 }
 
 #about td.right > table.inner-table.auto {
@@ -491,7 +497,7 @@ button.navbar-toggle {
         background: #8b9d94e6 !important;
         color: #263533 !important
     }
-    
+
     .box-footer {
         background: #8b9d94e6 !important;
         color: #263533 !important
@@ -915,7 +921,7 @@ button.navbar-toggle {
         color: #d4d4d4 !important
     }
 
-     .box-footer {
+    .box-footer {
         background: #36493de6 !important;
         color: #d4d4d4 !important
     }
