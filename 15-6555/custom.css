@@ -18,7 +18,10 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
 }
 
 body {
-    background: #dcdcdc url('');
+    background: #dcdcdc url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/background.png?raw=true');
+    background-size: cover;
+    background-attachment: fixed !important;
+    backgronud-repeat: no-repeat;
 }
 
 input, .button, textarea, select {
@@ -55,11 +58,6 @@ p, h1 {
     border: 8px solid #000;
     color: #000;
 }
-@media (max-width: 1200px) {
-    .navbar {   
-        height: 55px;
-    }
-}
 .navbar a {
     color: #000;
     transition: 0.4s;
@@ -83,11 +81,12 @@ p, h1 {
 }
 .navbar-header button {
     border: none !important;
+    background: none !important;
 }
 .navbar-header button .icon-bar {
     background: #000 !important;
 }
-    .navbar-header button:hover {
+.navbar-header button:hover {
     background: none !important;
 }
 img[src*="logo-full-2.png"] {
@@ -361,6 +360,7 @@ table .inner-table .right {
     border: 8px solid #000 !important;
     background: #D3D2C0 !important;
     color: #000 !important;
+    box-shadow: none !important;
 }
 .panel a {
     color: #393939 !important;
@@ -436,4 +436,148 @@ table .inner-table .right {
     border-bottom: 3px solid #000;
     border-radius: 0px !important;
     background: #BEBAA7 !important;
+}
+
+#fraCaveList .col-md-4:nth-child(1) .cave-grid img {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/cave1.png?raw=true');
+    height: 100px;
+    object-fit: cover !important;
+	object-position: center center !important;
+}
+
+#fraCaveList .col-md-4:nth-child(2) .cave-grid img {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/cave2.png?raw=true');
+    height: 100px;
+    object-fit: cover !important;
+	object-position: center center !important;
+}
+
+#fraCaveList .col-md-4:nth-child(3) .cave-grid img {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/cave3.png?raw=true');
+    height: 100px;
+    object-fit: cover !important;
+	object-position: center center !important;
+}
+
+#fraCaveList .col-md-4:nth-child(4) .cave-grid img {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/cave4.png?raw=true');
+    height: 100px;
+    object-fit: cover !important;
+	object-position: center center !important;
+}
+
+#fraCaveList .col-md-4:nth-child(5) .cave-grid img {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/cave5.png?raw=true');
+    height: 100px;
+    object-fit: cover !important;
+	object-position: center center !important;
+}
+
+#fraCaveList .col-md-4:nth-child(6) .cave-grid img {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/cave6.png?raw=true');
+    height: 100px;
+    object-fit: cover !important;
+	object-position: center center !important;
+}
+
+
+#fraMoundList .col-md-3:nth-child(1) .mound-grid img {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/mound1.png?raw=true');
+    height: 100px;
+    object-fit: cover !important;
+	object-position: center center !important;
+}
+
+#fraMoundList .col-md-3:nth-child(2) .mound-grid img {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/mound2.png?raw=true');
+    height: 100px;
+    object-fit: cover !important;
+	object-position: center center !important;
+}
+
+#fraMoundList .col-md-3:nth-child(3) .mound-grid img {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/mound3.png?raw=true');
+    height: 100px;
+    object-fit: cover !important;
+	object-position: center center !important;
+}
+
+#fraMoundList .col-md-3:nth-child(4) .mound-grid img {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/mound4.png?raw=true');
+    height: 100px;
+    object-fit: cover !important;
+	object-position: center center !important;
+}
+
+#fraMoundList .col-md-3:nth-child(5) .mound-grid img {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/mound5.png?raw=true');
+    height: 100px;
+    object-fit: cover !important;
+	object-position: center center !important;
+}
+
+#fraMoundList .col-md-3:nth-child(6) .mound-grid img {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/mound6.png?raw=true');
+    height: 100px;
+    object-fit: cover !important;
+	object-position: center center !important;
+}
+
+#fraMoundList .col-md-3:nth-child(7) .mound-grid img {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/mound7.png?raw=true');
+    height: 100px;
+    object-fit: cover !important;
+	object-position: center center !important;
+}
+
+#fraMoundList .col-md-3:nth-child(8) .mound-grid img {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/mound8.png?raw=true');
+    height: 100px;
+    object-fit: cover !important;
+	object-position: center center !important;
+}
+
+img[src*="den_achievements.png"] {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/achievements.png?raw=true');
+    height: 50px;
+    width: 240px;
+    object-fit: cover !important;
+	object-position: center center !important;
+}
+
+img[src*="unsortedlionsbanner.png"] {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/unsorted.png?raw=true');
+    height: 60px;
+    object-fit: cover !important;
+	object-position: center center !important;
+}
+img[src*="nestingbanner.png"] {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/nesting.png?raw=true');
+    height: 60px;
+    object-fit: cover !important;
+	object-position: center center !important;
+}
+img[src*="prideoverviewbanner.png"] {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/overview.png?raw=true');
+    height: 60px;
+    object-fit: cover !important;
+	object-position: center center !important;
+}
+img[src*="unsortedlionsbanner.png"]:hover {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/unsorted2.png?raw=true');
+    height: 60px;
+    object-fit: cover !important;
+	object-position: center center !important;
+}
+img[src*="nestingbanner.png"]:hover {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/nesting2.png?raw=true');
+    height: 60px;
+    object-fit: cover !important;
+	object-position: center center !important;
+}
+img[src*="prideoverviewbanner.png"]:hover {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/overview2.png?raw=true');
+    height: 60px;
+    object-fit: cover !important;
+	object-position: center center !important;
 }
