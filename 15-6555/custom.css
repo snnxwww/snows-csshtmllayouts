@@ -22,7 +22,6 @@ body {
     background-size: cover;
     background-attachment: scroll !important;
     backgronud-repeat: no-repeat;
-    transform: rotate(0.0001deg);
 }
 
 input, .button, textarea, select {
