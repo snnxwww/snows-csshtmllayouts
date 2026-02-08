@@ -105,6 +105,20 @@ img[src*="logo-full-2.png"] {
     border-right: 8px solid #000;
     border-bottom: 8px solid #000;
 }
+@media (max-width: 992px) {
+    .col-md-9, .main {
+        background: none;
+        box-shadow: none;
+    }
+    .col-md-9 {
+        border-left: 8px solid #000;
+        border-right: 8px solid #000;
+    }
+    .row:has(.sidebar) {
+        border-right: none;
+        border-bottom: 8px solid #000;
+    }
+}
 
 .breadcrumb {
     background: #BEBAA7;
