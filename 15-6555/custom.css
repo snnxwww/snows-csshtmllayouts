@@ -311,6 +311,9 @@ table .bottom {
     border-top: 8px solid #000 !important;
     background: #D3D2C0 !important;
 }
+table td.right_odd {
+	border-top: 8px solid #000 !important;
+}
 table .right_odd {
     background: #c9c8bc !important;
     border-left: 8px solid #000 !important;;
