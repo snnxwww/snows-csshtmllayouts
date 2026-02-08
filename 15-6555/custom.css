@@ -36,7 +36,7 @@ input:hover, .button:hover {
 a {
     color: #4a4a4a !important;
 }
-p {
+p, h1 {
     color: #000 !important;
 }
 
