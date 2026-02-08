@@ -20,7 +20,7 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
 body {
     background: #dcdcdc url('https://i.postimg.cc/C5xDvH90/Untitled23-20260208010050.png');
     background-size: cover;
-    background-attachment: fixed !important;
+    background-attachment: scroll !important;
     backgronud-repeat: no-repeat;
     transform: rotate(0.0001deg);
 }
