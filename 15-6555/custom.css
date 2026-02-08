@@ -22,6 +22,7 @@ body {
     background-size: cover;
     background-attachment: scroll !important;
     backgronud-repeat: no-repeat;
+	background-position: center;
 }
 
 input, .button, textarea, select {
