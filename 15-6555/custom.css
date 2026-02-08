@@ -22,6 +22,7 @@ body {
     background-size: cover;
     background-attachment: fixed !important;
     backgronud-repeat: no-repeat;
+    transform: rotate(0.0001deg);
 }
 
 input, .button, textarea, select {
@@ -310,9 +311,6 @@ table .top a, table th a, table .bottom a {
 table .bottom {
     border-top: 8px solid #000 !important;
     background: #D3D2C0 !important;
-}
-table td.right_odd {
-	border-top: 8px solid #000 !important;
 }
 table .right_odd {
     background: #c9c8bc !important;
