@@ -308,6 +308,9 @@ table .top, table th {
 table .top a, table th a, table .bottom a {
     color: #000 !important;
 }
+td.right_odd {
+    border-top: 8px solid #000 !important;
+}
 table .bottom {
     border-top: 8px solid #000 !important;
     background: #D3D2C0 !important;
