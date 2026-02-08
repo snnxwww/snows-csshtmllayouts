@@ -18,7 +18,7 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
 }
 
 body {
-    background: #dcdcdc url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/background.png?raw=true');
+    background: #dcdcdc url('https://i.postimg.cc/C5xDvH90/Untitled23-20260208010050.png');
     background-size: cover;
     background-attachment: fixed !important;
     backgronud-repeat: no-repeat;
@@ -162,16 +162,18 @@ img[src*="logo-full-2.png"] {
     overflow-y: auto;
 }
 .no-heading.text-box {
-    height: 150px !important;
-    margin-top: 8px;
+    height: 140px !important;
     background: #BEBAA7;
     overflow-y: auto;
+	transform: skewY(-0.5deg) !important;
 }
 .heading-textbox-section {
-    margin-top: 7px;
+    margin-top: 9px;
     display: flex;
     gap: 25px;
     font-size: 20px;
+	transform: skewY(-1.5deg);
+	padding-bottom: 10px;
 }
 .heading-textbox-section .heading.box-left {
     flex: 2;
@@ -183,42 +185,49 @@ img[src*="logo-full-2.png"] {
 }
 
 .textbox-section {
-    margin-top: 7px;
+    margin-top: -2px;
     display: flex;
     gap: 25px;
     height: 180px;
+	transform: skewY(-1.5deg);
 }
 .textbox-section .box-left {
     flex: 1;
     background: #BEBAA7;
     overflow-y: auto;
+	padding-top: 22px;
 }
 .textbox-section .box-right {
     flex: 1;
     background: #BEBAA7;
     overflow-y: auto;
+	padding-top: 10px;
 }
 
 .heading.text-box {
     font-size: 25px;
     background: #D3D2C0 !important;
     margin-top: 7px;
+	transform: skewY(-2deg);
 }
 .text-box:not(.heading) {
     background: #BEBAA7;
     height: 200px;
     overflow-y: auto;
+	transform: skewY(-2deg);
 }
 
 .heading.thin-text-box {
     font-size: 25px;
     background: #D3D2C0 !important;
     margin-top: 7px;
+	transform: skewY(-2.5deg);
 }
 .thin-text-box:not(.heading) {
     background: #BEBAA7;
     height: 100px;
-    overflow-y: auto
+    overflow-y: auto;
+	transform: skewY(-2.75deg);
 }
 
 .box-section {
@@ -229,36 +238,43 @@ img[src*="logo-full-2.png"] {
 
 .box-container:has(.heading.box-leftmost) {
     flex: 2;
-    background: #D3D2C0;
+	margin-top: 14px;
 }
 .center-art-box {
     flex: 3;
     background: #D3D2C0;
     overflow-y: auto;
+	height: 255px;
+	transform: skewY(-2.75deg);
+
 }
 .box-container:has(.heading.box-rightmost) {
     flex: 2;
-    background: #D3D2C0;
+	margin-top: -15px;
 }
 
 .heading.box-leftmost {
     font-size: 20px;
     background: #D3D2C0;
+	transform: skewY(-2.75deg);
 }
 .heading.box-rightmost {
     font-size: 20px;
     background: #D3D2C0;
+	transform: skewY(-2.75deg);
 }
 
 .box-leftmost:not(.heading) {
     background: #BEBAA7;
     height: 220px;
     overflow-y: auto;
+	padding-top: 14px;
 }
 .box-rightmost:not(.heading) {
     background: #BEBAA7;
-    height: 220px;
+    height: 250px;
     overflow-y: auto;
+	padding-top: 14px;
 }
 
 #commentBox {
