@@ -592,10 +592,8 @@ img[src*="nestingbanner.png"] {
 	object-position: center center !important;
 }
 img[src*="prideoverviewbanner.png"] {
-    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/overview.png?raw=true');
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/overview2.png?raw=true');
     height: 60px;
-    object-fit: cover !important;
-	object-position: center 25% !important;
 }
 img[src*="unsortedlionsbanner.png"]:hover {
     content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/unsorted2.png?raw=true');
@@ -608,10 +606,4 @@ img[src*="nestingbanner.png"]:hover {
     height: 60px;
     object-fit: cover !important;
 	object-position: center center !important;
-}
-img[src*="prideoverviewbanner.png"]:hover {
-    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/overview2.png?raw=true');
-    height: 60px;
-    object-fit: cover !important;
-	object-position: center 25% !important;
 }
