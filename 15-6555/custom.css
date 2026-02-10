@@ -607,3 +607,47 @@ img[src*="nestingbanner.png"]:hover {
     object-fit: cover !important;
 	object-position: center center !important;
 }
+
+*:has(.featured-lion) {
+	td.right_odd {
+		border: none !important;
+	}
+	tr:has(.right_odd) {
+		border: 4px solid #000;
+	}
+	.table.auto .left.b {
+		border-right: 4px solid #000 !important;
+	}
+	.lionImage {
+		border: 8px solid #000;
+		background: #D3D2C0;
+		color: #000 !important;
+		width: 90%;
+		left: 5%;
+	}
+	.lionImage a {
+		color: #3b3b3b !important;
+	}
+	.lionImage:has(p.center) {
+		display: none !important;
+	}
+	.lionImage p {
+		border-top: 8px solid #000 !important;
+		margin-top: -20px !important;
+		margin-bottom: 5px !important;
+	}
+}
+@media(min-width: 1200px) {
+	.lionImage {
+		width: 75% !important;
+		left: 12.5% !important;
+	}
+}
+@media(max-width: 638px) {
+	.lionImage {
+		margin-bottom: 20px;
+	}
+}
+.lion-link {
+	padding: 1000px !important;
+}
