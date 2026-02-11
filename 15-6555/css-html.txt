@@ -1,0 +1,7 @@
+<link rel="stylesheet" href="https://snnxwww.github.io/snows-csshtmllayouts/15-6555/custom.css" />
+<div class="main-container">
+<div class="box art-box">ART BOX</div><div class="box no-heading text-box">TEXT BOX</div>
+<div class="heading-textbox-section"><div class="heading box box-left">LEFT HEADING</div><div class="heading box box-right">RIGHT HEADING</div></div><div class="textbox-section"><div class="box box-left">LEFT TEXT</div><div class="box box-right">RIGHT TEXT</div></div>
+<div class="heading box text-box">HEADING</div><div class="box text-box">TEXT</div>
+<div class="heading box thin-text-box">HEADING</div><div class="box thin-text-box">TEXT</div>
+<div class="box-section"><div class="box-container"><div class="heading box box-leftmost">LEFT HEADING</div><div class="box box-leftmost">LEFT TEXT</div></div><div class="box center-art-box">ART BOX</div><div class="box-container"><div class="heading box box-rightmost">RIGHT HEADING</div><div class="box box-rightmost">RIGHT TEXT</div></div></div></div>
