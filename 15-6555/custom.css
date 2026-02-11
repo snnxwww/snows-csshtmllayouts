@@ -476,7 +476,7 @@ table .inner-table .right {
     content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/15-6555/cave1.png?raw=true');
     height: 100px;
     object-fit: cover !important;
-	object-position: center center !important;
+	object-position: center top !important;
 }
 
 #fraCaveList .col-md-4:nth-child(2) .cave-grid img {
