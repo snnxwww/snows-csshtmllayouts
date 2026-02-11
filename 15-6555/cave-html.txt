@@ -1,0 +1,9 @@
+<div class="lionImage"><div class="lion-image-block" data-image-type="lioness">
+<img src="BACKGROUNDIMGLINK" data-fixed="true" data-type="background" data-layer="background">
+<!-- Lion Image -->
+  <img src="//static.lioden.com/images/dynamic/lioness/bases/mongoose.png" data-fixed="true" style="">
+  <img src="//static.lioden.com/images/dynamic/lioness//markings/scoriapaws.png" data-fixed="true" style="opacity:0.71; filter:alpha(opacity=0.71);">
+  <img src="//static.lioden.com/images/dynamic/lioness/eyes/mosaic.png" data-fixed="true"><img src="//static.lioden.com/images/dynamic/lioness/lineart.png" data-fixed="true">
+  <img src="//static.lioden.com/images/dynamic/lioness/noses/pink.png" data-fixed="true"><img src="//static.lioden.com/images/decors/female/over/deertushpurplestarling.png" style="top: 0px; left: 0px;" data-type="decor">
+  <img src="//static.lioden.com/images/blank.png" data-fixed="true"></div>
+<p class="lion-link">Featured Lion: <a href="/lion.php?id=794260955618">Test</a></p></div>
