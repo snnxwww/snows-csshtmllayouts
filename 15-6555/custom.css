@@ -126,6 +126,11 @@ img[src*="logo-full-2.png"] {
     border: 6px solid #000;
     color: #000;
 }
+.breadcrumb:after {
+	content: "CSS by Snow #553411";
+	position: absolute;
+	right: 120px;
+}
 .floatright input {
     margin-top: -7px;
     margin-right: 2px;
