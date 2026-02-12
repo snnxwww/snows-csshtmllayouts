@@ -657,6 +657,27 @@ img[src*="nestingbanner.png"]:hover {
 .lion-link {
 	padding: 1000px !important;
 }
-.table.auto {
-	max-width: 100% !important;
+.sub_menu {
+	border: 8px solid #000;
+	border-radius: 0px !important;
+	background: #D3D2C0;
+	color: #000 !important
+}
+.sub_menu a {
+	color: #000 !important;
+}
+.sub_sub_menu {;;
+	border: 8px solid #000;
+	border-top: none;
+	background: #c4c1b2;
+	color: #333333 !important;
+}
+.sub_sub_menu a {
+	color: #333333 !important;
+}
+@media (max-width: 992px) {
+	.sidebar {
+		border: 8px solid #000;
+		border-bottom: none;
+	}
 }
