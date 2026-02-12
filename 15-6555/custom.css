@@ -682,5 +682,5 @@ img[src*="nestingbanner.png"]:hover {
 	}
 }
 .table.auto {
-	max-width: 100% !important;
+	max-width: 90% !important;
 }
