@@ -1,3 +1,5 @@
+
+
 /*  CSS MADE BY SNOW #553411, COMMISSIONED BY #497277
 DO NOT REMOVE CREDIT
 DO NOT EDIT OR USE AS A TEMPLATE
@@ -12,6 +14,7 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
     padding: 20px;
     border: 8px solid #ddaa61;
     border-radius: 25px;
+    min-height: 350px !important;
 }
 .rp-box-b {
     width: 100% !important;
@@ -19,19 +22,20 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
     padding: 20px;
     border: 8px solid #ddaa61;
     border-radius: 25px;
-}
-.rp-content {
-    display: flex;
+    min-height: 350px !important;
+
 }
 .rp-text {
     flex: 4;
     text-align: left;
 }
 .rp-image {
-    flex: 5;
+    float: right;
+    width: 60%;
 }
 .rp-image img {
     max-width: 100%;
+    padding: 10px;
 }
 .rp-button {
     text-align: left !important;
@@ -65,4 +69,3 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
     top: 0;
     left: 0;
 }
-
