@@ -657,3 +657,6 @@ img[src*="nestingbanner.png"]:hover {
 .lion-link {
 	padding: 1000px !important;
 }
+.table.auto {
+	max-width: 100% !important;
+}
