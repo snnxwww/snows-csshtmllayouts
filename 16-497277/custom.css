@@ -66,4 +66,15 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
     position: absolute;
     top: 0;
     left: 0;
+    max-width: 100%;
+}
+@media(max-width: 676px) {
+    .lion-container {
+        height: 500px !important;;
+    }
+}
+@media(max-width: 650px) {
+    .lion-container {
+        height: 475px !important;;
+    }
 }
