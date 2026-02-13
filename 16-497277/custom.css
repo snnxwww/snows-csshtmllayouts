@@ -6,13 +6,48 @@ DO NOT REDISTRIBUTE OR RESELL
 COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
 */
 
+h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+.panel:has(a[href="/online.php"]):after {
+    content: '';
+    height: 150px;
+    width: 300px;
+    background: url('https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    z-index: 999;
+    margin-left: -20px;
+    top: 80px;
+}
+@media(max-width: 1200px) {
+    .panel:has(a[href="/online.php"]):after {
+        width: 250px;        
+    }
+}
+
 .rp-box-a {
     width: 100% !important;
     background: #f9e0c0;
     padding: 20px;
     border: 8px solid #ddaa61;
     border-radius: 25px;
-    min-height: 350px !important;
+    min-height: 375px !important;
+}
+.rp-box-a .rp-text {
+    flex: 4;
+    text-align: left;
+}
+.rp-box-a .rp-image {
+    float: right;
+    width: 60%;
+}
+.rp-box-a .rp-button {
+    text-align: left !important;
+    margin-top: 18px;
 }
 .rp-box-b {
     width: 100% !important;
@@ -20,28 +55,25 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
     padding: 20px;
     border: 8px solid #ddaa61;
     border-radius: 25px;
-    min-height: 350px !important;
-
+    min-height: 375px !important;
 }
-.rp-text {
+.rp-box-b .rp-text {
     flex: 4;
-    text-align: left;
+    text-align: right;
 }
-.rp-image {
-    float: right;
+.rp-box-b .rp-image {
+    float: left;
     width: 60%;
+}
+.rp-box-b .rp-button {
+    text-align: right !important;
+    margin-top: 18px;
 }
 .rp-image img {
     max-width: 100%;
     padding: 10px;
 }
-.rp-button {
-    text-align: left !important;
-}
-.rp-button {
-    margin-top: 18px;
-}
-.rp-button a  {
+.rp-button a {
     background: #ddaa61;
     color: #6d381f;
     padding: 4px;
@@ -78,3 +110,18 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
         height: 475px !important;;
     }
 }
+#commentBox {
+    width: 70%;
+    margin-left: 30% !important;
+}
+#commentBox:before {
+    content: '';
+    height: 300px;
+    width: 27.5%;
+    background: url('https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute !important;
+    left: 2%;
+}
+
