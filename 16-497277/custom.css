@@ -91,6 +91,18 @@ h1 {
     border: 8px solid #ddaa61;
     border-radius: 25px;
 }
+.lion-container:after {
+    content: 'The butterflies are gonna be overlayed here (note to self: delete this text later)';
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: url('https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    opacity: 40%
+}
 .lion-image {
     position: relative !important;
 }
