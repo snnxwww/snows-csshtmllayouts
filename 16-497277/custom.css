@@ -10,6 +10,14 @@ h1 {
     font-size: 80px;
     text-align: center;
 }
+a {
+    color: #81462b !important;
+    text-shadow: none !important;
+    text-decoration: none !important;
+}
+p {
+    color: #6d381f !important;
+}
 
 .panel:has(a[href="/online.php"]):after {
     content: '';
@@ -111,6 +119,7 @@ h1 {
     background-position: center;
     position: absolute;
     z-index: 999;
+    pointer-events: none;
 }
 .lion-image {
     position: relative !important;
@@ -346,7 +355,7 @@ table .auto .right {
 
 .panel {
     background: #f9e0c0 !important;
-    border: 10px solid #ddaa61 !important;;
+    border: 10px solid #ddaa61 !important;
     border-radius: 25px;
     box-shadow: none !important;
     color: #6d381f !important;
@@ -361,9 +370,70 @@ table .auto .right {
 .progress {
     background: #fdecd8 !important;
 }
+.progress div {
+    color: #6d381f !important;
+}
 .progress-bar {
     background: #a38c6e !important;
 }
+
+#label_currentChannel, #fraChatChannelMenu {
+    background: #f9e0c0 !important;
+    border: 8px solid #ddaa61 !important;;
+    color: #6d381f !important;
+    border-radius: 15px !important;
+}
+#fraChatChannelMenu {
+    padding: 0px !important;
+}
+.channelSwitcher {
+    background: #f9e0c0 !important;
+    color: #6d381f !important;
+}
+.channelSwitcher.active , .channelSwitcher:hover{
+    background: #edc27d !important;
+    color: #6d381f !important;
+    border-bottom: 4px solid #ddaa61;
+    border-radius: 0px !important
+}
+.channelSwitcher:nth-child(1) {
+    border-top-right-radius: 8px !important;
+    border-top-left-radius: 8px !important;
+}
+.channelSwitcher:nth-child(7) {
+    border-bottom-right-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
+}
+#chatMessageContainer {
+    background: #edc27d !important;
+    color: #6d381f !important;
+    border: 10px solid #ddaa61;
+    border-radius: 20px;
+}
+#chatMessagePinned {
+    background-color: #edc27d !important;
+    color: #6d381f !important;
+    border-bottom: none !important;
+    padding: 0;
+}
+#chatMessagePinned a {
+    color: #6d381f !important;
+}
+#chatMessagePinned .s-chat-message_content {
+    border-bottom: 7px solid #ddaa61 !important;
+    padding: 4px !important;
+}
+.s-chat-message {
+    background: #f9e0c0 !important;
+    color: #6d381f !important;
+}
+.s-chat-message a {
+    color: #6d381f !important;
+}
+.s-chat-message_timestamp {
+    color: #8b553b !important;
+}
+
 
 
 #f9e0c0 / #edc27d / #ddaa61 / #e48c2d / #da5b33 / #6d381f / #a38c6e
