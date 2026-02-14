@@ -13,19 +13,25 @@ h1 {
 
 .panel:has(a[href="/online.php"]):after {
     content: '';
-    height: 150px;
-    width: 300px;
-    background: url('https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png');
-    background-size: cover;
+    height: 250px;
+    width: 350px !important;;
+    background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/16-497277/pagedoll.png?raw=true');
+    background-size: 130%;;
     background-position: center;
     position: fixed;
     z-index: 999;
-    margin-left: -20px;
-    top: 80px;
+    margin-left: -80px;
+    top: 100px;
+    pointer-events: none;
 }
 @media(max-width: 1200px) {
     .panel:has(a[href="/online.php"]):after {
         width: 250px;        
+    }
+}
+@media(max-width: 768px) {
+    .panel:has(a[href="/online.php"]):after {
+        left: 50px;        
     }
 }
 
@@ -33,7 +39,7 @@ h1 {
     width: 100% !important;
     background: #f9e0c0;
     padding: 20px;
-    border: 8px solid #ddaa61;
+    border: 12px solid #ddaa61;
     border-radius: 25px;
     min-height: 375px !important;
 }
@@ -43,7 +49,7 @@ h1 {
 }
 .rp-box-a .rp-image {
     float: right;
-    width: 60%;
+    width: 60%;   
 }
 .rp-box-a .rp-button {
     text-align: left !important;
@@ -53,7 +59,7 @@ h1 {
     width: 100% !important;
     background: #f9e0c0;
     padding: 20px;
-    border: 8px solid #ddaa61;
+    border: 12px solid #ddaa61;
     border-radius: 25px;
     min-height: 375px !important;
 }
@@ -70,8 +76,11 @@ h1 {
     margin-top: 18px;
 }
 .rp-image img {
-    max-width: 100%;
+    height: 250px;
+    width: 100%;
     padding: 10px;
+    object-fit: cover !important;
+	object-position: center center !important;
 }
 .rp-button a {
     background: #ddaa61;
@@ -82,26 +91,26 @@ h1 {
     padding-right: 8px;
 }
 
-
 .lion-container {
     position: relative !important;
     height: 550px;
     background: #f9e0c0;
     padding: 20px;
-    border: 8px solid #ddaa61;
+    border: 12px solid #ddaa61;
     border-radius: 25px;
+    background: url('ttps://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png')
 }
 .lion-container:after {
-    content: 'The butterflies are gonna be overlayed here (note to self: delete this text later)';
+    content: '';
     height: 100%;
-    width: 100%;
-    left: 0;
+    width: 140%;
+    left: -22.5%;
     top: 0;
-    background: url('https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png');
+    background:  url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/16-497277/featuredecor.png?raw=true');
     background-size: cover;
     background-position: center;
     position: absolute;
-    opacity: 40%
+    z-index: 999;
 }
 .lion-image {
     position: relative !important;
@@ -112,7 +121,7 @@ h1 {
     left: 0;
     max-width: 100%;
 }
-@media(max-width: 676px) {
+@media(max-width: 678px) {
     .lion-container {
         height: 500px !important;;
     }
@@ -122,18 +131,239 @@ h1 {
         height: 475px !important;;
     }
 }
+
 #commentBox {
-    width: 70%;
-    margin-left: 30% !important;
+    width: 60%;
+    margin-left: 40% !important;
+    padding: 20px;
+    border: 8px solid #DC7823 !important;;
+    border-radius: 25px;
+}
+.comment {
+    background: #FDA756 !important;
 }
 #commentBox:before {
     content: '';
     height: 300px;
-    width: 27.5%;
+    width: 37.5%;
+    margin-top: 8px;
     background: url('https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png');
     background-size: cover;
     background-position: center;
     position: absolute !important;
     left: 2%;
 }
+#makeComment {
+    width: 60% !important;
+    margin-left: 40%;
+}
+#makeComment input {
+    border: 5px solid #DC7823 !important;
+    width: 80%;
+    background: #FDA756;
+    color: #6d381f;
+}
+#makeComment input[type="submit"] {
+    width: 15%;
+}
+#makeComment input[type="submit"]:hover {
+    background: #FDA756d5;
+    text-shadow: none !important;
+}
+#makeComment input::placeholder {
+    color: #6d381f !important;
+}
 
+.main {
+    border: 12px solid #e48c2d;
+    border-radius: 40px;
+    box-shadow: none !important;
+    background: #edc27d;
+}
+.col-md-9 {
+    background: none !important;
+}
+
+input, .button, textarea, select {
+    background: #ddaa61 !important;
+    color: #6d381f !important;
+    box-shadow: none !important;
+    border: none !important;
+    text-shadow: none !important;
+}
+input:hover, .button:hover, .rp-button a:hover  {
+    background: #ddaa61d5 !important;
+    color: #6d381f !important;
+    box-shadow: none !important;
+    border: none !important;
+    text-shadow: none !important;
+}
+
+.topbar {
+    background: #edc27d;
+    border: 12px solid #e48c2d;
+    border-top: none;
+    color: #6d381f;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    
+}
+.topbar a {
+    color: #6d381f !important;
+}
+
+.navbar {
+    background: #f9e0c0;
+    border-bottom: 12px solid #ddaa61;
+    border-top-left-radius: 25px !important;
+    border-top-right-radius: 25px !important;
+}
+.navbar a {
+    color: #6d381f !important;
+    transition: 0.4s;
+}
+.navbar a:hover {
+    background: #edc27d50 !important;
+    border-bottom: 8px solid #ddaa61;
+    color: #6d381f !important;
+}
+
+.breadcrumb {
+    background: #f9e0c0;
+    border: 8px solid #ddaa61;
+}
+.floatright input {
+    margin-top: -5px;
+    margin-right: 7.5px;
+}
+.floatright input:hover {
+    margin-top: -5px;
+    margin-right: 7.5px;
+}
+
+.alert {
+    background: #f9e0c0 !important;
+    border: 8px solid #ddaa61 !important;;
+    border-radius: 20px;
+    box-shadow: none !important;
+    color: #6d381f !important;
+}
+.alert a {
+    color: #6d381f !important;
+}
+
+table {
+    margin-top: 50px;
+    border: none !important;
+    background: #f9e0c0;
+    box-shadow: 0 0 0 12px #ddaa61 !important;
+    border-radius: 25px !important;
+    width: 97.5% !important;;
+    color: #6d381f !important;
+}
+.table .auto {
+    box-shadow: none !important;
+}
+table .top, table th {
+    background: #edc27d !important;
+    border-bottom: 8px solid #ddaa61 !important;;
+    border-top-left-radius: 25px !important;
+    border-top-right-radius: 25px !important;
+    color: #6d381f !important;
+}
+table .left {
+    background: #eac68b !important;
+    border-bottom: 8px solid #ddaa61 !important;;
+    color: #6d381f !important;
+}
+table .bottom {
+    background: #edc27d !important;
+    border-top: 8px solid #ddaa61 !important;;
+    border-bottom-left-radius: 25px !important;
+    border-bottom-right-radius: 25px !important;
+    color: #6d381f !important;
+}
+table th:has(a[onclick]) {
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 20px !important;
+    color: #6d381f !important;
+}
+table th:has(a[onclick]) a {
+    color: #6d381f !important;
+}    
+#editdetailspanel .left.b {
+    border-right: 8px solid #ddaa61;
+    border-top-left-radius: 25px;
+    color: #6d381f !important;
+}
+table a {
+    color: #593220 !important;
+}
+table .auto .left {
+    border: 4px solid #ddaa61 !important;
+    background: #edc27d !important;
+    color: #6d381f !important;
+}
+table .auto .right {
+    border: 4px solid #ddaa61 !important;
+    border-left: none !important;
+    background: #f9e0c0 !important;
+    color: #6d381f !important;
+}
+.col-sm-4 div, .col-sm-6 div {
+    background: #f9e0c0 !important;
+    border: 8px solid #ddaa61;
+    border-radius: 20px;
+    color: #6d381f !important;
+}
+.col-sm-6 h3 {
+    color: #6d381f !important;
+}
+.col-sm-4 {
+    margin-bottom: -40px !important;
+}
+.left:has(a[href="/account-settings.php"]) {
+    margin-top: 30px !important;
+    background: #f9e0c0 !important;
+    border: 8px solid #ddaa61;
+    border-radius: 20px;
+}
+.left:has(a[href="/account-settings.php"]) a {
+    color: #6d381f !important;
+}
+.table .right_odd {
+    background: #f8e8d5 !important;
+    border-bottom-right-radius: 25px;
+}
+
+.cave-grid, .mound-grid {
+    background: #f9e0c0 !important;
+    border: 10px solid #ddaa61 !important;
+    border-radius: 25px;
+    color: #6d381f !important;
+}
+
+.panel {
+    background: #f9e0c0 !important;
+    border: 10px solid #ddaa61 !important;;
+    border-radius: 25px;
+    box-shadow: none !important;
+    color: #6d381f !important;
+}
+.panel a {
+    color: #6d381f !important;
+}
+.sidebar h3 {
+    color: #6d381f !important;
+}
+
+.progress {
+    background: #fdecd8 !important;
+}
+.progress-bar {
+    background: #a38c6e !important;
+}
+
+
+#f9e0c0 / #edc27d / #ddaa61 / #e48c2d / #da5b33 / #6d381f / #a38c6e
