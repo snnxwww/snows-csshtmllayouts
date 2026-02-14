@@ -440,6 +440,36 @@ table .auto .right {
     color: #8b553b !important;
 }
 
+#fraCaveList .col-md-4 .cave-grid img {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/16-497277/cave1.png?raw=true');
+    height: 100px !important;
+	object-fit: cover !important;
+	object-position: center center !important;
+}
+#fraCaveList .col-md-4:nth-child(2) .cave-grid img {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/16-497277/cave2.png?raw=true');
+    height: 100px !important;
+	object-fit: cover !important;
+	object-position: center center !important;
+}
+#fraCaveList .col-md-4:nth-child(3) .cave-grid img {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/16-497277/cave3.png?raw=true');
+    height: 100px !important;
+	object-fit: cover !important;
+	object-position: center center !important;
+}
+#fraCaveList .col-md-4:nth-child(4) .cave-grid img {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/16-497277/cave4.png?raw=true');
+    height: 100px !important;
+	object-fit: cover !important;
+	object-position: center center !important;
+}
+#fraCaveList .col-md-4:nth-child(5) .cave-grid img {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/16-497277/cave5.png?raw=true');
+    height: 100px !important;
+	object-fit: cover !important;
+	object-position: center center !important;
+}
 
 
 #f9e0c0 / #edc27d / #ddaa61 / #e48c2d / #da5b33 / #6d381f / #a38c6e
