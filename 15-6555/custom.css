@@ -680,39 +680,29 @@ tr:has(.right_odd) {
 		border-bottom: none;
 	}
 }
-.table.auto {
+*:has(img[src="//static.lioden.com/images/layout/arrowleft.png"]) .table.auto {
 	max-width: 90% !important;
 }
 
-.col-md-9 {
+*:has(img[src="//static.lioden.com/images/layout/arrowleft.png"]) .col-md-9 {
 	display: flex;
 	flex-direction: column;
 	overflow: hidden;
 }
-.table.auto {
+*:has(img[src="//static.lioden.com/images/layout/arrowleft.png"]) .table.auto {
 	flex-shrink: 1;
 }
-/*.floatright input {
-	margin-right: -412% !important;
+*:has(img[src="//static.lioden.com/images/layout/arrowleft.png"]) .floatright input {
+	pointer-events: none;
+	background: none !important;
+	color: transparent !important;
+	border: none !important;
+	text-shadow: none !important;
 	margin-bottom: 20px;
 }
-@media(max-width: 1200px) {
-	.floatright input {
-		margin-right: -317% !important;
-	}
+*:has(img[src="//static.lioden.com/images/layout/arrowleft.png"]) img[src="//static.lioden.com/images/layout/arrow.png"] {
+	position: absolute;
+	right: 10px;
+	margin-top: -30px !important;
 }
-@media(max-width: 993px) {
-	.floatright input {
-		margin-right: -335% !important;
-	}
-}
-@media(max-width: 650px) {
-	.floatright input {
-		margin-right: -415px !important;
-	}
-}
-@media(max-width: 605px) {
-	.floatright input {
-		margin-right: -385px !important;
-	}
-}
+
