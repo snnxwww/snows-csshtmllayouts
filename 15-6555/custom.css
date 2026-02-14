@@ -706,3 +706,30 @@ tr:has(.right_odd) {
 	margin-top: -30px !important;
 }
 
+*:has(img[src="//static.lioden.com/images/layout/arrow.png"]) .table.auto {
+	max-width: 90% !important;
+}
+
+*:has(img[src="//static.lioden.com/images/layout/arrow.png"]) .col-md-9 {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+*:has(img[src="//static.lioden.com/images/layout/arrow.png"]) .table.auto {
+	flex-shrink: 1;
+}
+*:has(img[src="//static.lioden.com/images/layout/arrow.png"]) .floatright input {
+	pointer-events: none;
+	background: none !important;
+	color: transparent !important;
+	border: none !important;
+	text-shadow: none !important;
+	margin-bottom: 20px;
+}
+*:has(img[src="//static.lioden.com/images/layout/arrow.png"]) img[src="//static.lioden.com/images/layout/arrow.png"] {
+	position: absolute;
+	right: 10px;
+	margin-top: -30px !important;
+}
+
+
