@@ -26,6 +26,11 @@ a {
 p {
     color: #230d04 !important;
 }
+body {
+	background: #f9e0c0 url('https://static.lioden.com/images/dynamic/backgrounds/carpathian.png');
+	background-attachment: fixed;
+	background-size: cover;
+}
 
 .panel:has(a[href="/online.php"]):after {
     content: '';
@@ -112,9 +117,9 @@ p {
 .lion-container {
     position: relative !important;
     height: 550px;
-    background: #f9e0c0 url('https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png');
-    background-size: cover;
-    background-position: center;
+    background: #f9e0c0 url('https://static.lioden.com/images/dynamic/backgrounds/carpathian.png');
+    background-size: 180%;
+    background-position: center 80%;
     padding: 20px;
     border: 12px solid #ddaa61;
     border-radius: 25px;
@@ -248,11 +253,12 @@ input:hover, .button:hover, .rp-button a:hover  {
     color: #230d04 !important;
     transition: 0.4s;
 }
-.navbar a:hover {
+.navbar a:hover:not(:has(img[src*="logo-full-2.png"])) {
     background: #edc27d50 !important;
     border-bottom: 8px solid #ddaa61;
     color: #6d381f !important;
 }
+
 
 .breadcrumb {
     background: #f9e0c0;
@@ -340,6 +346,10 @@ table .auto .right {
 .table .right_odd {
     background: #f8e8d5 !important;
     border-bottom-right-radius: 25px;
+}
+#player .right img {
+    border: 8px solid #ddaa61 !important;
+	border-radius: 15px;
 }
 
 .col-sm-4 div, .col-sm-6 div, .feature {
@@ -503,5 +513,18 @@ table .auto .right {
 	object-position: center center !important;
 }
 
+img[src*="logo-full-2.png"] {
+	filter: hue-rotate(0deg) brightness(1.2) saturate(0.6);
+}
+
+img[src*="beetleunsorted.png"] {
+	content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/16-497277/mound1.png?raw=true');
+}
+img[src*="beetlemound.png"] {
+	content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/16-497277/mound2.png?raw=true');
+}
+img[src*="addbeetlemound.png"] {
+	content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/16-497277/mound3.png?raw=true');
+}
 
 #f9e0c0 / #edc27d / #ddaa61 / #e48c2d / #da5b33 / #6d381f / #a38c6e
