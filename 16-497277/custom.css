@@ -1,3 +1,4 @@
+
 /*  CSS MADE BY SNOW #553411, COMMISSIONED BY #497277
 DO NOT REMOVE CREDIT
 DO NOT EDIT OR USE AS A TEMPLATE
@@ -6,17 +7,23 @@ DO NOT REDISTRIBUTE OR RESELL
 COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+	font-family: 'quicksand'
+}
+
 h1 {
     font-size: 80px;
     text-align: center;
 }
 a {
-    color: #81462b !important;
+    color: #59301e !important;
     text-shadow: none !important;
     text-decoration: none !important;
 }
 p {
-    color: #6d381f !important;
+    color: #230d04 !important;
 }
 
 .panel:has(a[href="/online.php"]):after {
@@ -50,6 +57,7 @@ p {
     border: 12px solid #ddaa61;
     border-radius: 25px;
     min-height: 375px !important;
+    color: #230d04 !important;
 }
 .rp-box-a .rp-text {
     flex: 4;
@@ -70,6 +78,7 @@ p {
     border: 12px solid #ddaa61;
     border-radius: 25px;
     min-height: 375px !important;
+    color: #230d04 !important;
 }
 .rp-box-b .rp-text {
     flex: 4;
@@ -112,12 +121,12 @@ p {
 .lion-container:after {
     content: '';
     height: 100%;
-    width: 140%;
-    left: -22.5%;
+    width: 115%;
     top: 0;
-    background:  url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/16-497277/featuredecor.png?raw=true');
-    background-size: cover;
-    background-position: center;
+	left: -10%;
+    background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/16-497277/featuredecor.png?raw=true');
+    background-size: 122.5%;
+    background-position: center;;
     position: absolute;
     z-index: 999;
     pointer-events: none;
@@ -152,6 +161,12 @@ p {
 .comment {
     background: #FDA756 !important;
 }
+.comment a {
+    color: #6d381f !important;
+}
+.comment small {
+    color: #995e42 !important;
+}
 #commentBox:before {
     content: '';
     height: 300px;
@@ -171,7 +186,7 @@ p {
     border: 5px solid #DC7823 !important;
     width: 80%;
     background: #FDA756;
-    color: #6d381f;
+    color: #230d04 !important;
 }
 #makeComment input[type="submit"] {
     width: 15%;
@@ -196,14 +211,14 @@ p {
 
 input, .button, textarea, select {
     background: #ddaa61 !important;
-    color: #6d381f !important;
+    color: #230d04 !important;
     box-shadow: none !important;
     border: none !important;
     text-shadow: none !important;
 }
 input:hover, .button:hover, .rp-button a:hover  {
     background: #ddaa61d5 !important;
-    color: #6d381f !important;
+    color: #230d04 !important;
     box-shadow: none !important;
     border: none !important;
     text-shadow: none !important;
@@ -213,7 +228,7 @@ input:hover, .button:hover, .rp-button a:hover  {
     background: #edc27d;
     border: 12px solid #e48c2d;
     border-top: none;
-    color: #6d381f;
+    color: #230d04 !important;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     
@@ -229,7 +244,7 @@ input:hover, .button:hover, .rp-button a:hover  {
     border-top-right-radius: 25px !important;
 }
 .navbar a {
-    color: #6d381f !important;
+    color: #230d04 !important;
     transition: 0.4s;
 }
 .navbar a:hover {
@@ -256,7 +271,7 @@ input:hover, .button:hover, .rp-button a:hover  {
     border: 8px solid #ddaa61 !important;;
     border-radius: 20px;
     box-shadow: none !important;
-    color: #6d381f !important;
+    color: #230d04 !important;
 }
 .alert a {
     color: #6d381f !important;
@@ -269,7 +284,7 @@ table {
     box-shadow: 0 0 0 12px #ddaa61 !important;
     border-radius: 25px !important;
     width: 97.5% !important;;
-    color: #6d381f !important;
+    color: #230d04 !important;
 }
 .table .auto {
     box-shadow: none !important;
@@ -279,33 +294,33 @@ table .top, table th {
     border-bottom: 8px solid #ddaa61 !important;;
     border-top-left-radius: 25px !important;
     border-top-right-radius: 25px !important;
-    color: #6d381f !important;
+    color: #230d04 !important;
 }
 table .left {
     background: #eac68b !important;
     border-bottom: 8px solid #ddaa61 !important;;
-    color: #6d381f !important;
+    color: #230d04 !important;
 }
 table .bottom {
     background: #edc27d !important;
     border-top: 8px solid #ddaa61 !important;;
     border-bottom-left-radius: 25px !important;
     border-bottom-right-radius: 25px !important;
-    color: #6d381f !important;
+    color: #230d04 !important;
 }
 table th:has(a[onclick]) {
     border: none !important;
     box-shadow: none !important;
     border-radius: 20px !important;
-    color: #6d381f !important;
+    color: #230d04 !important;
 }
 table th:has(a[onclick]) a {
-    color: #6d381f !important;
+    color: #230d04 !important;
 }    
 #editdetailspanel .left.b {
     border-right: 8px solid #ddaa61;
     border-top-left-radius: 25px;
-    color: #6d381f !important;
+    color: #230d04 !important;
 }
 table a {
     color: #593220 !important;
@@ -313,13 +328,13 @@ table a {
 table .auto .left {
     border: 4px solid #ddaa61 !important;
     background: #edc27d !important;
-    color: #6d381f !important;
+    color: #230d04 !important;
 }
 table .auto .right {
     border: 4px solid #ddaa61 !important;
     border-left: none !important;
     background: #f9e0c0 !important;
-    color: #6d381f !important;
+    color: #230d04 !important;
 }
 .table .right_odd {
     background: #f8e8d5 !important;
@@ -330,10 +345,10 @@ table .auto .right {
     background: #f9e0c0 !important;
     border: 8px solid #ddaa61;
     border-radius: 20px;
-    color: #6d381f !important;
+    color: #230d04 !important;
 }
 .col-sm-6 h3 {
-    color: #6d381f !important;
+    color: #230d04 !important;
 }
 .col-sm-4 {
     margin-bottom: -40px !important;
@@ -350,14 +365,14 @@ table .auto .right {
     border-radius: 20px;
 }
 .left:has(a[href="/account-settings.php"]) a {
-    color: #6d381f !important;
+    color: #230d04 !important;
 }
 
 .cave-grid, .mound-grid {
     background: #f9e0c0 !important;
     border: 10px solid #ddaa61 !important;
     border-radius: 25px;
-    color: #6d381f !important;
+    color: #230d04 !important;
 }
 
 .member-online {
@@ -380,20 +395,20 @@ table .auto .right {
     border: 10px solid #ddaa61 !important;
     border-radius: 25px;
     box-shadow: none !important;
-    color: #6d381f !important;
+    color: #230d04 !important;
 }
 .panel a {
     color: #6d381f !important;
 }
 .sidebar h3 {
-    color: #6d381f !important;
+    color: #230d04 !important;
 }
 
 .progress {
     background: #fdecd8 !important;
 }
 .progress div {
-    color: #6d381f !important;
+    color: #230d04 !important;
 }
 .progress-bar {
     background: #a38c6e !important;
@@ -402,7 +417,7 @@ table .auto .right {
 #label_currentChannel, #fraChatChannelMenu {
     background: #f9e0c0 !important;
     border: 8px solid #ddaa61 !important;;
-    color: #6d381f !important;
+    color: #230d04 !important;
     border-radius: 15px !important;
 }
 #fraChatChannelMenu {
@@ -410,7 +425,7 @@ table .auto .right {
 }
 .channelSwitcher {
     background: #f9e0c0 !important;
-    color: #6d381f !important;
+    color: #230d04 !important;
 }
 .channelSwitcher.active , .channelSwitcher:hover{
     background: #edc27d !important;
@@ -428,13 +443,13 @@ table .auto .right {
 }
 #chatMessageContainer {
     background: #edc27d !important;
-    color: #6d381f !important;
+    color: #230d04 !important;
     border: 10px solid #ddaa61;
     border-radius: 20px;
 }
 #chatMessagePinned {
     background-color: #edc27d !important;
-    color: #6d381f !important;
+    color: #230d04 !important;
     border-bottom: none !important;
     padding: 0;
 }
@@ -447,13 +462,13 @@ table .auto .right {
 }
 .s-chat-message {
     background: #f9e0c0 !important;
-    color: #6d381f !important;
+    color: #230d04 !important;
 }
 .s-chat-message a {
     color: #6d381f !important;
 }
 .s-chat-message_timestamp {
-    color: #8b553b !important;
+    color: #773c24 !important;
 }
 
 #fraCaveList .col-md-4 .cave-grid img {
