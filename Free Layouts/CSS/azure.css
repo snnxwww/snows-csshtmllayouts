@@ -60,7 +60,8 @@ body {
     color: #f0f0f0 !important;
 }
 img[src*="logo-full-2.png"] {
-	filter: hue-rotate(180deg) brightness(0.9) saturate(0.4);}
+	filter: hue-rotate(180deg) brightness(0.9) saturate(0.4);
+}
 
 .col-md-9 {
     background: #829faf !important;
