@@ -5,3 +5,19 @@ DO NOT REDISTRIBUTE OR RESELL
 --------------------
 COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
 */
+
+.pagedoll {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    min-width: 200px;
+    width: 20%;
+    z-index: 99999;
+}
+.info-box {
+    background: #000;
+    height: 300px;
+}
+#clans {
+    display: none;
+}
