@@ -325,7 +325,7 @@ table .auto .right {
     border-bottom-right-radius: 25px;
 }
 
-.col-sm-4 div, .col-sm-6 div {
+.col-sm-4 div, .col-sm-6 div, .feature {
     background: #f9e0c0 !important;
     border: 8px solid #ddaa61;
     border-radius: 20px;
