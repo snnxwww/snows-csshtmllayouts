@@ -102,11 +102,12 @@ p {
 .lion-container {
     position: relative !important;
     height: 550px;
-    background: #f9e0c0;
+    background: #f9e0c0 url('https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png');
+    background-size: cover;
+    background-position: center;
     padding: 20px;
     border: 12px solid #ddaa61;
     border-radius: 25px;
-    background: url('ttps://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png')
 }
 .lion-container:after {
     content: '';
