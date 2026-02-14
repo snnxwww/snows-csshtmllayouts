@@ -320,6 +320,11 @@ table .auto .right {
     background: #f9e0c0 !important;
     color: #6d381f !important;
 }
+.table .right_odd {
+    background: #f8e8d5 !important;
+    border-bottom-right-radius: 25px;
+}
+
 .col-sm-4 div, .col-sm-6 div {
     background: #f9e0c0 !important;
     border: 8px solid #ddaa61;
@@ -332,6 +337,11 @@ table .auto .right {
 .col-sm-4 {
     margin-bottom: -40px !important;
 }
+@media(max-width: 767px) {
+    .col-sm-4 {
+        margin-bottom: 0 !important;
+    }
+}
 .left:has(a[href="/account-settings.php"]) {
     margin-top: 30px !important;
     background: #f9e0c0 !important;
@@ -340,10 +350,6 @@ table .auto .right {
 }
 .left:has(a[href="/account-settings.php"]) a {
     color: #6d381f !important;
-}
-.table .right_odd {
-    background: #f8e8d5 !important;
-    border-bottom-right-radius: 25px;
 }
 
 .cave-grid, .mound-grid {
