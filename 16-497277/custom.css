@@ -359,6 +359,21 @@ table .auto .right {
     color: #6d381f !important;
 }
 
+.member-online {
+    background: url('https://static.lioden.com/images/items/Other/shinygreen.png') !important;
+    background-position: center !important;
+    background-size: cover !important;
+    height: 15px;
+    width: 20px;
+}
+.member-offline {
+    background: url('https://static.lioden.com/images/items/Other/shinyred.png') !important;
+    background-position: center !important;
+    background-size: cover !important;
+    height: 15px;
+    width: 20px;
+}
+
 .panel {
     background: #f9e0c0 !important;
     border: 10px solid #ddaa61 !important;
