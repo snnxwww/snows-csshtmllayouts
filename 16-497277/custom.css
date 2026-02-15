@@ -264,6 +264,11 @@ input:hover, .button:hover, .rp-button a:hover  {
     background: #f9e0c0;
     border: 8px solid #ddaa61;
 }
+.breadcrumb:after {
+	content: 'CSS by Snow #553411';
+	position: absolute;
+	right: 120px;
+}
 .floatright input {
     margin-top: -5px;
     margin-right: 7.5px;
