@@ -264,3 +264,18 @@ img[src*="beetlebook"] {
     width: 65px !important;
     object-fit: cover;
 }
+
+.badge {
+    background: #ffffff50 !important;
+}
+
+*:has(img[src*="arrow"]) {
+    table .right_odd {
+        background: none !important;
+        border: none !important;
+        border-top: 2px solid #fff !important;
+    }
+    table .right {
+        border-top: 2px solid #fff !important;
+    }
+}
