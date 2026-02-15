@@ -46,9 +46,9 @@ input:hover, .button:hover {
 }
 .navbar a {
     color: #eee !important;
+    transition: 0.2s;
 }
 .navbar a:hover {
-    color: #ccc !important;
     background: none !important;
     border-left: 2px solid #fff;
     border-right: 2px solid #fff;
