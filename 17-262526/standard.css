@@ -6,6 +6,64 @@ DO NOT REDISTRIBUTE OR RESELL
 COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Risque&display=swap');
+* {
+    font-family: 'risque';
+    color: #fff !important;
+}
+a {
+    color: #eee !important;
+}
+body {
+    background: #000 url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/17-262526/background.png?raw=true');
+}
+
+.topbar {
+    background: linear-gradient(to right, #ff0000d5, #ffa500d5, #ffff00d5, #00ff00d5, #0000ffd5, #800080d5);
+    border: 3px solid #fff;
+    border-top: none;
+    color: #fff !important;
+}
+.topbar a {
+    color: #eee !important;
+}
+
+.navbar {
+    background: linear-gradient(to right, #ff0000a5, #ffa500a5, #ffff00a5, #00ff00a5, #0000ffa5, #800080a5) !important;
+    border-bottom: 3px solid #fff;
+    color: #fff !important;
+}
+.navbar a {
+    color: #eee !important;
+}
+.navbar a:hover {
+    color: #ccc !important;
+    background: none !important;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
+@media(max-width: 1200px) {
+    .navbar a {
+        height: 48px;
+    }
+}
+.main {
+    background: #000000d5;
+    border: 3px solid #fff;
+}
+.col-md-9 {
+    background: none;
+}
+
+.breadcrumb {
+    background: linear-gradient(to right, #ff0000a5, #ffa500a5, #ffff00a5, #00ff00a5, #0000ffa5 105%) !important;
+    border: 2px solid #fff;
+    color: #fff !important;
+}
+.breadcrumb a, .breadcrumb-item, .breadcrumb-item.active {
+    color: #fff !important;
+}
+
 .pagedoll {
     position: fixed;
     right: 20px;
