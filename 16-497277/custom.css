@@ -526,5 +526,9 @@ img[src*="beetlemound.png"] {
 img[src*="addbeetlemound.png"] {
 	content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/16-497277/mound3.png?raw=true');
 }
+.badge {
+	background: #a38c6e !important;
+	color: #230d04;
+}
 
 #f9e0c0 / #edc27d / #ddaa61 / #e48c2d / #da5b33 / #6d381f / #a38c6e
