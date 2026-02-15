@@ -71,6 +71,11 @@ input:hover, .button:hover {
     color: #fff !important;
     border-radius: 8px;
 }
+.breadcrumb:after {
+    content: 'CSS by Snow #553411';
+    position: absolute;
+    right: 120px;
+}
 .breadcrumb a, .breadcrumb-item, .breadcrumb-item.active {
     color: #fff !important;
 }
