@@ -264,6 +264,9 @@ img[src*="beetlebook"] {
     width: 65px !important;
     object-fit: cover;
 }
+img[src*="logo"] {
+    filter: hue-rotate(-20deg) brightness(0.6) saturate(1.6)
+}
 
 .badge {
     background: #ffffff50 !important;
