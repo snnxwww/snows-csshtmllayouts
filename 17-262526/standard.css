@@ -267,3 +267,31 @@ img[src*="beetlebook"] {
     width: 65px !important;
     object-fit: cover;
 }
+.badge {
+    background: #ffffff50 !important;
+}
+
+*:has(img[src*="arrow"]) {
+    table .right_odd {
+        background: none !important;
+        border: none !important;
+        border-top: 2px solid #fff !important;
+    }
+    table .right {
+        border-top: 2px solid #fff !important;
+    }
+}
+
+#player .right .right:has(img[style="max-width: 150px; max-height: 150px;"]):after {
+    content: '';
+    height: 200px;
+    width: 180px;
+    background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/17-262526/pfpframe.png?raw=true') !important;
+    background-position: center 0% !important;;
+    background-size: 80% !important;
+    background-repeat: no-repeat !important;;
+    position: absolute;
+    top: -7%;
+    left: -10%;
+    transform: scaleX(-1);
+}
