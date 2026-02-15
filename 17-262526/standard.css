@@ -225,7 +225,7 @@ img[src*="banner"] {
     height: 60px;
     object-fit: cover;
 }
-img[src*="cave"] {
+img[src*="cavedefault"], img[src*="caveunused"] {
     content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/17-262526/caveimg.png?raw=true') !important;
 }
 img[src*="beetlemound"], img[src*="beetleunsorted"] {
