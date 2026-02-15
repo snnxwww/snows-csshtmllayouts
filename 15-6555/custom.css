@@ -732,4 +732,6 @@ tr:has(.right_odd) {
 	margin-top: -30px !important;
 }
 
-
+.badge {
+	background: #00000050
+}
