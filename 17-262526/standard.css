@@ -5,7 +5,6 @@ DO NOT REDISTRIBUTE OR RESELL
 --------------------
 COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
 */
-@import url('https://fonts.googleapis.com/css2?family=Risque&display=swap');
 
 * {
     font-family: 'risque';
@@ -46,9 +45,9 @@ input:hover, .button:hover {
 }
 .navbar a {
     color: #eee !important;
-    transition: 0.2s;
 }
 .navbar a:hover {
+    color: #ccc !important;
     background: none !important;
     border-left: 2px solid #fff;
     border-right: 2px solid #fff;
@@ -219,4 +218,49 @@ table .auto .right {
 .s-chat-message {
     background: #ffffff40 !important;
     border-top: 2px solid #fff;
+}
+
+img[src*="banner"] {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/17-262526/caveimg.png?raw=true') !important;
+    height: 60px;
+    object-fit: cover;
+}
+img[src*="cave"] {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/17-262526/caveimg.png?raw=true') !important;
+}
+img[src*="beetle"] {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/17-262526/caveimg.png?raw=true') !important;
+    height: 100px;
+    object-fit: cover;
+}
+
+img[src*="ancestors"] {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/17-262526/kingdynasty.png?raw=true') !important;
+    height: 60px;
+    width: 65px !important;
+    object-fit: cover;
+}
+img[src*="ancestorsfem"] {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/17-262526/pridedynasty.png?raw=true') !important;
+    height: 60px;
+    width: 65px !important;
+    object-fit: cover;
+}
+img[src*="achievements"] {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/17-262526/achievements.png?raw=true') !important;
+    height: 60px;
+    width: 65px !important;
+    object-fit: cover;
+}
+img[src*="showcase"] {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/17-262526/showcase.png?raw=true') !important;
+    height: 60px;
+    width: 65px !important;
+    object-fit: cover;
+}
+img[src*="beetlebook"] {
+    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/17-262526/beetlebook.png?raw=true') !important;
+    height: 60px;
+    width: 65px !important;
+    object-fit: cover;
 }
