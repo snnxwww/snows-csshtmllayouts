@@ -49,7 +49,7 @@ input:hover, .button:hover {
 .navbar a {
     color: #eee !important;
 }
-.navbar a:hover {
+.navbar a:hover:not(:has(img[src*="logo-full-2.png"])) {
     color: #ccc !important;
     background: none !important;
     border-left: 2px solid #fff;
@@ -60,6 +60,10 @@ input:hover, .button:hover {
         height: 48px;
     }
 }
+img[src*="logo-full-2.png"] {
+    filter: hue-rotate(-20deg) saturate(1.6) brightness(0.7)
+}
+
 .main {
     background: #000000d5;
     border: 3px solid #fff;
@@ -294,4 +298,12 @@ img[src*="beetlebook"] {
     top: -7%;
     left: -10%;
     transform: scaleX(-1);
+}
+.featured-lion {
+    background: linear-gradient(to right, #ff0000a5, #ffa500a5, #ffff00a5, #00ff00a5, #0000ffa5 105%) !important;
+    border: 2px solid #fff;
+    border-radius: 15px;
+}
+.featured-lion p.center {
+    border-top: 2px solid #fff;
 }
