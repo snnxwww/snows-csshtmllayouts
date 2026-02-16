@@ -13,10 +13,11 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
 }
 
 body {
-    background: #A18974 url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/18-432133/background.png?raw=true');
+    background: #A18974 url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/18-432133/backgroundimg.png?raw=true');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    backdrop-filter: brightness(0.7)
 }
 
 img[src*="cave/default.png"] {
