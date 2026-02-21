@@ -1,10 +1,4 @@
 <div style="background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/19-490964/background.png?raw=true'); background-size: cover; background-position: center;; padding: 20px; color: #fff;"><div style="background: #694630; font-size: 40px; text-align: center; padding: 8px;"><img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" width="30%">
 TITLE</div>
-<div style="background: #7d5a45; font-size: 18px; padding: 6px;">TEXT
-[spoiler]Spoilered text
-[/spoiler]</div>
-<div style="background: #7d5a45; font-size: 18px; padding: 6px; float: left; width: 49%">TEXT
-[spoiler]Spoilered text
-[/spoiler]</div><div style="background: #7d5a45; font-size: 18px; padding: 6px; float: right; width: 49%">TEXT
-[spoiler]Spoilered text
-[/spoiler]</div><div style="clear: both;"></div><div style="margin-top: 4px; font-size: 10px; text-align: center;">HTML by Snow #553411</div></div>
+<div style="background: #7d5a45; font-size: 18px; padding: 6px;">TEXT</div>
+<div style="background: #7d5a45; font-size: 18px; padding: 6px; float: left; width: 49%">TEXT</div><div style="background: #7d5a45; font-size: 18px; padding: 6px; float: right; width: 49%">TEXT</div><div style="clear: both;"></div><div style="margin-top: 4px; font-size: 10px; text-align: center;">HTML by Snow #553411</div></div>
