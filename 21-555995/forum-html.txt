@@ -1,1 +1,8 @@
+<div style="background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/21-555995/background.png?raw=true'); background-position: center; background-size: 100%; color: #9C1649; border: double 12px double #FFF1F7; padding: 20px; font-family: serif;"><div style="background: #FFD9EA; font-size: 60px; border: 8px double #FFF1F7; text-align: center; padding: 6px;">TITLE</div>
 
+<div style="background: #FFD9EA; font-size: 40px; border: 8px double #FFF1F7; text-align: center; padding: 4px;">HEADING</div>
+<div style="background: #FFD9EA; font-size: 20px; border: 4px solid #FFF1F7; text-align: center; padding: 4px;">TEXT</div>
+<div style="background: #FFD9EA; font-size: 40px; border: 8px double #FFF1F7; text-align: center; padding: 4px;">HEADING</div>
+<div style="background: #FFD9EA; font-size: 20px; border: 4px solid #FFF1F7; text-align: center; padding: 4px;">TEXT</div>
+<div style="background: #FFD9EA; font-size: 40px; border: 8px double #FFF1F7; text-align: center; padding: 4px;">HEADING</div>
+<div style="background: #FFD9EA; font-size: 20px; border: 4px solid #FFF1F7; text-align: center; padding: 4px;">TEXT</div><div style="font-size: 10px; margin-top: 4px; margin-bottom: -15px; text-align: center;">HTML by Snow #553411</div></div>
