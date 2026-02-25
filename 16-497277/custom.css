@@ -42,7 +42,7 @@ body {
     position: fixed;
     z-index: 999;
     margin-left: -80px;
-    top: 0px;
+    top: 100px;
     pointer-events: none;
 }
 @media(max-width: 1200px) {
@@ -351,6 +351,9 @@ table .auto .right {
 .table .right_odd {
     background: #f8e8d5 !important;
     border-bottom-right-radius: 25px;
+}
+#player .right_odd {
+	border-bottom-left-radius: 25px !important;
 }
 #player .right img {
     border: 8px solid #ddaa61 !important;
