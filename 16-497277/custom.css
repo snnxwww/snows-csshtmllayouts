@@ -42,7 +42,7 @@ body {
     position: fixed;
     z-index: 999;
     margin-left: -80px;
-    top: 100px;
+    top: 0px;
     pointer-events: none;
 }
 @media(max-width: 1200px) {
