@@ -1,1 +1,57 @@
+<div style="background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/20-569694/background.png?raw=true'); color: #fff; font-family: 'century gothic'; padding: 20px; border: 3px solid #fff;"><div style="background: rgba(18, 30, 79, 0.9); font-size: 30px; padding: 6px; text-align: center; border: 8px double #fff; border-bottom: none;">TITLE</div><div style="background: rgba(18, 30, 79, 0.9); font-size: 20px; padding: 6px; text-align: center; border: 8px double #fff; border-top: 3px solid #fff;">TEXT
+———
+Rules
+[spoiler]
+TEXT / IMAGE
+[/spoiler]
 
+———
+
+Items
+[spoiler]
+TEXT / IMAGE
+[/spoiler]
+
+<div style="background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/20-569694/background.png?raw=true'); background-position: 0% 0%; border: 3px solid #fff; padding: 6px; font-size: 30px; margin-left: 20px; margin-right: 20px;">HEADING</div>
+[spoiler]
+<div style="font-size: 26px;">SUBHEADING</div>TEXT
+<img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" placeholder="IMAGE HERE" width="90%">
+TEXT
+[/spoiler]
+
+<div style="background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/20-569694/background.png?raw=true'); background-position: 0% 20%; border: 3px solid #fff; padding: 6px; font-size: 30px; margin-left: 20px; margin-right: 20px;">HEADING</div>
+[spoiler]
+<div style="font-size: 26px;">SUBHEADING</div>TEXT
+<img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" placeholder="IMAGE HERE" width="90%">
+TEXT
+[/spoiler]
+
+<div style="background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/20-569694/background.png?raw=true'); background-position: 0% 40%; border: 3px solid #fff; padding: 6px; font-size: 30px; margin-left: 20px; margin-right: 20px;">HEADING</div>
+[spoiler]
+<div style="font-size: 26px;">SUBHEADING</div>TEXT
+<img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" placeholder="IMAGE HERE" width="90%">
+TEXT
+[/spoiler]
+
+<div style="background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/20-569694/background.png?raw=true'); background-position: 0% 60%; border: 3px solid #fff; padding: 6px; font-size: 30px; margin-left: 20px; margin-right: 20px;">HEADING</div>
+[spoiler]
+<div style="font-size: 26px;">SUBHEADING</div>TEXT
+<img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" placeholder="IMAGE HERE" width="90%">
+TEXT
+[/spoiler]
+
+<div style="background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/20-569694/background.png?raw=true'); background-position: 0% 80%; border: 3px solid #fff; padding: 6px; font-size: 30px; margin-left: 20px; margin-right: 20px;">HEADING</div>
+[spoiler]
+<div style="font-size: 26px;">SUBHEADING</div>TEXT
+<img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" placeholder="IMAGE HERE" width="90%">
+TEXT
+[/spoiler]
+
+<div style="background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/20-569694/background.png?raw=true'); background-position: 0% 100%; border: 3px solid #fff; padding: 6px; font-size: 30px; margin-left: 20px; margin-right: 20px;">HEADING</div>
+[spoiler]
+<div style="font-size: 26px;">SUBHEADING</div>TEXT
+<img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" placeholder="IMAGE HERE" width="90%">
+TEXT
+[/spoiler]
+
+</div><div style="font-size: 10px; margin-top: 4px; text-align: center; margin-bottom: -15px;">HTML by Snow #553411</div>
