@@ -546,7 +546,7 @@ img[src*="addbeetlemound.png"] {
 	width: 100%;
 	height: 100%;
 	z-index: 99999 !important;
-	pointer-events: none !important;
+	pointer-events: none;
 }
 
 .leaf1 {
@@ -557,7 +557,7 @@ img[src*="addbeetlemound.png"] {
 	background-size: 60%;
 	background-repeat: no-repeat;
 	top: 0;
-	offset-path: path("M -50 250 Q 150 50 300 250 C 500 600 500 0 300 150 Q 10 450 1200 250");
+	offset-path: path("M -50 250 Q 150 50 300 250 C 500 600 500 0 300 150 Q 10 450 2000 250");
 	offset-rotate: auto 90deg; 
 	animation-delay: 2s;
 	animation: move-on-path 17s cubic-bezier(0.45, 0, 0.55, 1) infinite forwards, wind-drift 17s linear infinite;
@@ -571,7 +571,7 @@ img[src*="addbeetlemound.png"] {
 	background-size: 60%;
 	background-repeat: no-repeat;
 	top: 0;
-	offset-path: path("M -100 200 C 300 -50 600 600 1600 300");
+	offset-path: path("M -100 200 C 300 -50 600 600 2000 300");
 	offset-rotate: auto 90deg; 
 	animation-delay: 1s;
 	animation: move-on-path 15s cubic-bezier(0.45, 0, 0.55, 1) infinite forwards, leaf-spin 15s linear infinite;
@@ -585,7 +585,7 @@ img[src*="addbeetlemound.png"] {
 	background-size: 90%;
 	background-repeat: no-repeat;
 	top: 0;
-	offset-path: path("M -100 200 C 300 -50 600 600 1600 300");
+	offset-path: path("M -100 200 C 300 -50 600 600 2000 300");
 	offset-rotate: auto 90deg; 
 	animation: move-on-path 18s cubic-bezier(0.45, 0, 0.55, 1) infinite forwards, leaf-spin 18s linear infinite;
 	z-index: 99999 !important;
@@ -598,7 +598,7 @@ img[src*="addbeetlemound.png"] {
 	background-size: 60%;
 	background-repeat: no-repeat;
 	top: 0;
-	offset-path: path("M -50 250 Q 150 50 300 250 C 500 600 500 0 300 150 Q 10 450 1200 250");
+	offset-path: path("M -50 250 Q 150 50 300 250 C 500 600 500 0 300 150 Q 10 450 2000 300");
 	offset-rotate: auto 90deg; 
 	animation: move-on-path 20s cubic-bezier(0.45, 0, 0.55, 1) infinite forwards, wind-drift 20s linear infinite;
 	z-index: 99999 !important;
