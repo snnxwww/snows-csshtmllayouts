@@ -1,1 +1,13 @@
+<div style="background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/22-396365/background.png?raw=true'); color: #e4ebe5; font-family: 'Goudy Old Style'; padding: 20px;"><div style="background: rgba(43, 79, 49, 0.8); font-size: 60px; padding: 6px; text-align: center; border: 8px double #032909;">TITLE</div>
+<div style="background: rgba(43, 79, 49, 0.8); font-size: 20px; padding: 6px; text-align: left; border: 8px double #032909;">TEXT</div>
+<div style="background: rgba(43, 79, 49, 0.8); font-size: 36px; padding: 6px; text-align: center; border: 8px double #032909;">HEADING</div>
+<div style="background: rgba(43, 79, 49, 0.8); font-size: 20px; padding: 6px; text-align: left; border: 8px double #032909; width: 49%; float: left">TEXT</div><div style="background: rgba(43, 79, 49, 0.8); font-size: 20px; padding: 6px; text-align: left; border: 8px double #032909; width: 49%; float: right">TEXT</div><div style="clear: both;"></div>
+<div style="background: rgba(43, 79, 49, 0.8); font-size: 32px; padding: 6px; text-align: center; border: 8px double #032909;">HEADING<img src="https://www.lioden.com/images/items/Other/fourleafclover.png" width="10%" style="float: right;></div><div style="clear: both;"></div>
+<div style="background: rgba(43, 79, 49, 0.8); font-size: 20px; padding: 6px; text-align: left; border: 8px double #032909;">TEXT</div>
+<div style="background: rgba(43, 79, 49, 0.8); font-size: 32px; padding: 6px; text-align: center; border: 8px double #032909;">HEADING<img src="https://www.lioden.com/images/items/Other/fourleafclover.png" width="10%" style="float: right;></div><div style="clear: both;"></div>
+<div style="background: rgba(43, 79, 49, 0.8); font-size: 20px; padding: 6px; text-align: left; border: 8px double #032909;">TEXT</div>
+<div style="background: rgba(43, 79, 49, 0.8); font-size: 32px; padding: 6px; text-align: center; border: 8px double #032909;">HEADING<img src="https://www.lioden.com/images/items/Other/fourleafclover.png" width="10%" style="float: right;></div><div style="clear: both;"></div>
+<div style="background: rgba(43, 79, 49, 0.8); font-size: 20px; padding: 6px; text-align: left; border: 8px double #032909;">TEXT</div>
+<div style="background: rgba(43, 79, 49, 0.8); font-size: 32px; padding: 6px; text-align: center; border: 8px double #032909;">HEADING<img src="https://www.lioden.com/images/items/Other/fourleafclover.png" width="10%" style="float: right;></div><div style="clear: both;"></div>
+<div style="background: rgba(43, 79, 49, 0.8); font-size: 20px; padding: 6px; text-align: left; border: 8px double #032909;">TEXT</div><div style="font-size: 10px; margin-top: 4px; margin-bottom: -15px; text-align: center;">HTML by Snow #553411</cid></div>
 
