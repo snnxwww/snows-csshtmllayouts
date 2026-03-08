@@ -14,7 +14,7 @@ a {
     color: #eee !important;
 }
 body {
-    background: #000 url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/17-262526/background.png?raw=true');
+    background: #000 url('https://snnxwww.github.io/snows-csshtmllayouts/17-262526/background.png');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -228,45 +228,47 @@ table .auto .right {
 }
 
 img[src*="banner"] {
-    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/17-262526/caveimg.png?raw=true') !important;
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/17-262526/caveimg.png') !important;
     height: 60px;
     object-fit: cover;
 }
 img[src*="cavedefault"], img[src*="caveunused"] {
-    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/17-262526/caveimg.png?raw=true') !important;
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/17-262526/caveimg.png') !important;
+    object-fit: cover;
+    height: 120px;
 }
 img[src*="beetlemound"], img[src*="beetleunsorted"] {
-    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/17-262526/caveimg.png?raw=true') !important;
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/17-262526/caveimg.png') !important;
     height: 100px;
     object-fit: cover;
 }
 
 img[src*="ancestors"] {
-    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/17-262526/kingdynasty.png?raw=true') !important;
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/17-262526/kingdynasty.png') !important;
     height: 60px;
     width: 65px !important;
     object-fit: cover;
 }
 img[src*="ancestorsfem"] {
-    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/17-262526/pridedynasty.png?raw=true') !important;
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/17-262526/pridedynasty.png') !important;
     height: 60px;
     width: 65px !important;
     object-fit: cover;
 }
 img[src*="achievements"] {
-    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/17-262526/achievements.png?raw=true') !important;
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/17-262526/achievements.png') !important;
     height: 60px;
     width: 65px !important;
     object-fit: cover;
 }
 img[src*="showcase"] {
-    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/17-262526/showcase.png?raw=true') !important;
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/17-262526/showcase.png') !important;
     height: 60px;
     width: 65px !important;
     object-fit: cover;
 }
 img[src*="beetlebook"] {
-    content: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/17-262526/beetlebook.png?raw=true') !important;
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/17-262526/beetlebook.png') !important;
     height: 60px;
     width: 65px !important;
     object-fit: cover;
@@ -290,7 +292,7 @@ img[src*="beetlebook"] {
     content: '';
     height: 200px;
     width: 180px;
-    background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/17-262526/pfpframe.png?raw=true') !important;
+    background: url('https://snnxwww.github.io/snows-csshtmllayouts/17-262526/pfpframe.png') !important;
     background-position: center 0% !important;;
     background-size: 80% !important;
     background-repeat: no-repeat !important;;
