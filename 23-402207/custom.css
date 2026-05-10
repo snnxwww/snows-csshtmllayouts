@@ -1,1 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 
+* {
+    font-family: 'playfair'
+}
+
+.mainbox {
+    border: 10px double;
+}
+.boxheading {
+    border-bottom: 10px double;
+    font-size: 20px;
+    padding: 5px;
+}
+.maincontent {
+    border: 8px double;
+    text-align: left;
+    font-size: 18px;
+    padding: 15px;
+    width: 50%;
+    margin-left: 45%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 400px;
+    overflow-y: auto;
+}
+
+.boxsection {
+    display: flex;
+    gap: 15px;
+}
+
+.boxleft {
+    border: 10px double;
+    width: 50%;
+    text-align: left;
+    padding: 5px;
+    font-size: 18px;
+    height: 200px;
+    overflow-y: auto;
+}
+.boxright {
+    border: 10px double;
+    width: 50%;
+    text-align: left;
+    padding: 5px;
+    font-size: 18px;
+    height: 200px;
+    overflow-y: auto;
+}
