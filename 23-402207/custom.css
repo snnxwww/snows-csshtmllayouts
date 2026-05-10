@@ -61,3 +61,13 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
     height: 200px;
     overflow-y: auto;
 }
+
+.pagedoll {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    min-width: 25%;
+    max-width: 40%;
+    z-index: 99;
+}
