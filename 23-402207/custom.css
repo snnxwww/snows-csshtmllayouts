@@ -6,6 +6,8 @@
 
 .mainbox {
     border: 10px double;
+    width: 80%
+    
 }
 .boxheading {
     border-bottom: 10px double;
@@ -28,6 +30,7 @@
 .boxsection {
     display: flex;
     gap: 15px;
+    width: 80%;
 }
 
 .boxleft {
