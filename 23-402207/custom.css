@@ -184,6 +184,12 @@ table th:has([onclick]) {
     border-right: 6px double;
 }
 
+table .left[colspan] {
+    height: 2px !important;
+    padding: 0 2.5% !important; 
+    background-clip: content-box; 
+}
+
 #player .top .floatright:before {
     content: '';
     display: inline-block;
