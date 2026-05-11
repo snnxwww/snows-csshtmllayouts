@@ -452,6 +452,9 @@ img[src*="addbeetlemound.png"] {
     border: 6px double;
     border-radius: 20px;
 }
+#fraSidebarChat {
+    height: 650px;
+}
 #label_currentChannel, #fraChatChannelMenu {
     border: 4px double !important;
     border-radius: 24px !important;
@@ -468,4 +471,20 @@ img[src*="addbeetlemound.png"] {
 #txtChatContainer input, .sidebar input, .sidebar .button {
     border: 4px double !important;
     border-radius: 24px !important;
+}
+
+*:has(.featured-lion) table th[colspan="4"] {
+    border-radius: 0px !important;
+    border-top-left-radius: 20px !important;
+}
+*:has(.featured-lion) table th[colspan="2"] {
+    border-radius: 0px !important;
+    border-top-right-radius: 20px !important;
+}
+*:has(.featured-lion) .right_odd {
+    border-radius: 0px;
+    border: none !important;
+}
+*:has(.featured-lion) .left.b[colspan] {
+    padding: 0% !important;
 }
