@@ -26,7 +26,7 @@ input:hover, .button:hover, select:hover, textarea:hover {
 a {
     transition: 0.4s
 }
-a:hover {
+a:not(:has(img[src*="logo-full-2.png"])):hover {
     margin-left: 4px;
 }
 
