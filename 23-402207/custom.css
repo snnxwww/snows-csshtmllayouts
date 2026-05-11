@@ -20,7 +20,8 @@ input, .button, select, textarea {
     transition: 0.4s;
 }
 input:hover, .button:hover, select:hover, textarea:hover {
-    transform: rotate(0.75deg) scale(105%)
+    transform: rotate(0.75deg) scale(105%);
+    filter: hue-rotate(20deg);
 }
 a {
     transition: 0.4s
@@ -178,9 +179,14 @@ table {
     border-collapse: separate;
     border: 6px double !important;
     border-radius: 26px;
+    transition: 0.4s;
+}
+table:hover {
+    filter: drop-shadow(0 0 10px #ffffff) saturate(120%);
 }
 table .auto {
     border: none !important;
+    filter: none;
 }
 table .right_odd {
     border-bottom-left-radius: 20px;
@@ -198,11 +204,16 @@ table th, table .top {
     border-bottom: 6px double !important;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    transition: 0.4s
 }
 table .bottom {
     border-top: 6px double !important;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    transition: 0.4s;
+}
+table th:hover, table .top:hover, table .bottom:hover {
+    filter: hue-rotate(20deg);
 }
 table .top, table .top a, table th {
     font-size: 18px !important;
@@ -387,11 +398,19 @@ div#lion_image:hover {
 .cave-grid, .mound-grid {
     border: 6px double;
     border-radius: 20px;
+    transition: 0.4s;
+}
+.cave-grid:hover, .mound-grid:hover {
+    filter: drop-shadow(0 0 10px #ffffff) saturate(120%);
 }
 
 .col-sm-4 div, .col-md-4 div, .left:has(a[href="/account-settings.php"]) {
     border: 6px double !important;
     border-radius: 16px !important;
+    transition: 0.4s;
+}
+.col-sm-4 div:hover, .col-md-4 div:hover, .left:has(a[href="/account-settings.php"]):hover {
+    filter: hue-rotate(20deg);
 }
 
 img[src*="unsortedlionsbanner.png"] {
