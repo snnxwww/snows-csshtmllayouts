@@ -14,7 +14,9 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
 }
 
 input, .button, select, textarea {
-    border-radius: 40px !important;
+    border-radius: 10px !important;
+    box-shadow: none !important;
+    border: none !important;
 }
 
 .topbar {
