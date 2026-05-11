@@ -17,6 +17,16 @@ input, .button, select, textarea {
     border-radius: 10px !important;
     box-shadow: none !important;
     border: none !important;
+    transition: 0.4s;
+}
+input:hover, .button:hover, select:hover, textarea:hover {
+    transform: rotate(0.75deg) scale(105%)
+}
+a {
+    transition: 0.4s
+}
+a:hover {
+    margin-left: 4px;
 }
 
 .topbar {
@@ -48,12 +58,12 @@ input, .button, select, textarea {
     transform: scale(120%) rotate(-2deg);
     filter: drop-shadow(0 0 10px #ffffff);
     background: none;
-    animation: 3s pulse infinite
+    animation: 3s pulse infinite alternate;
 }
 @keyframes pulse {
-    0% { opacity: 100%; }
-    50% { opacity: 60%; }
-    100% { opacity: 100%; }
+    0% { opacity: 100%; transform: translateY(0px) rotate(0deg) scale(110%); }
+    50% { opacity: 60%; transform: translateY(-2px) rotate(-1deg) scale(120%); }
+    100% { opacity: 100%; transform: translateY(0px)rotate(0deg) scale(110%); }
 }
 
 .breadcrumb {
@@ -241,6 +251,7 @@ div#lion_image {
         linear-gradient(to right, #ffffff00, #dcabca, #a54683, #ffffff00) border-box;
     background-size: 200% 200%; /* Makes the gradient big enough to slide */
     animation: border 4s ease infinite;
+
 }
 div#lion_image:hover {
     width: 100%; !important;
