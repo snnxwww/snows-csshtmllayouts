@@ -148,7 +148,6 @@ a:not(:has(img[src*="logo-full-2.png"])):hover {
 }
 .pagedoll:hover {
     filter: drop-shadow(0 0 10px #ffffff) saturate(120%);
-
 }
 
 @keyframes float {
@@ -401,7 +400,7 @@ div#lion_image:hover {
     transition: 0.4s;
 }
 .cave-grid:hover, .mound-grid:hover {
-    filter: drop-shadow(0 0 10px #ffffff) saturate(120%);
+    filter: drop-shadow(0 0 10px #ffffff) saturate(120%) !important;
 }
 
 .col-sm-4 div, .col-md-4 div, .left:has(a[href="/account-settings.php"]) {
@@ -411,6 +410,7 @@ div#lion_image:hover {
 }
 .col-sm-4 div:hover, .col-md-4 div:hover, .left:has(a[href="/account-settings.php"]):hover {
     filter: hue-rotate(20deg);
+    transform: rotate(-0.5deg);
 }
 
 img[src*="unsortedlionsbanner.png"] {
