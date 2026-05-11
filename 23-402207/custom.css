@@ -99,6 +99,25 @@ img[src*="logo-full-2.png"]:hover {
     filter: drop-shadow(0 0 10px #ffffff);
 }
 
+
+table .top, table .top a, table th {
+    font-size: 20px !important;
+}
+table .bottom, table .bottom a  {
+    font-size: 16px !important;
+}
+
+#player .top .floatright:before {
+    content: '';
+    display: inline-block;
+    height: 30px !important;
+    width: 30px !important;
+    background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/transflag.png');
+    background-size: contain;
+    margin-bottom: -10px;
+    margin-right: 10px;
+}
+
 .cave-grid, .mound-grid {
     border: 6px double;
     border-radius: 20px;
