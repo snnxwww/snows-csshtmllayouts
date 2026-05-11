@@ -569,10 +569,23 @@ img[src*="addbeetlemound.png"] {
     border-radius: 0px !important;
     border-top-right-radius: 20px !important;
 }
+*:has(.featured-lion) .auto th[colspan="2"] {
+    border-top-left-radius: 20px !important;
+}
+*:has(.featured-lion) tr:last-child td {
+    border-bottom-left-radius: 20px !important;
+}
 *:has(.featured-lion) .right_odd {
     border-radius: 0px;
     border: none !important;
 }
 *:has(.featured-lion) .left.b[colspan] {
     padding: 0% !important;
+}
+*:has(.featured-lion) .featured-lion {
+    border: 6px double;
+    border-radius: 20px;
+}
+*:has(.featured-lion) .lionImage .center {
+    border-top: 6px double;
 }
