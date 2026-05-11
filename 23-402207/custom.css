@@ -36,6 +36,7 @@ a:not(:has(img[src*="logo-full-2.png"])):hover {
     border: 8px double;
     border-top: none;
     font-size: 14px;
+    animation: 2s borderpulse infinite alternate !important;
 }
 .topbar a {
     font-size: 14px;
@@ -89,9 +90,15 @@ a:not(:has(img[src*="logo-full-2.png"])):hover {
 .main {
     border-radius: 26px !important;
     border: 8px double;
+    animation: 2s borderpulse infinite alternate;
 }
 .col-md-9 {
     background: none;
+}
+
+@keyframes borderpulse {
+    0% { filter: drop-shadow(0 0 10px #e5ade6); }
+    100% { filter: drop-shadow(0 0 0px #b85cba); }
 }
 
 .mainbox {
