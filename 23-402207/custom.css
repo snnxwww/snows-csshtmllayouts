@@ -101,12 +101,42 @@ img[src*="logo-full-2.png"]:hover {
     filter: drop-shadow(0 0 10px #ffffff);
 }
 
-
+table {
+    border-collapse: separate;
+    border: 6px double !important;
+    border-radius: 26px;
+}
+table .auto {
+    border: none !important;
+}
+table .right_odd {
+    border-bottom-right-radius: 20px;
+}
+table th, table .top {
+    border-bottom: 6px double !important;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+table .bottom {
+    border-top: 6px double !important;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
 table .top, table .top a, table th {
     font-size: 20px !important;
 }
 table .bottom, table .bottom a  {
     font-size: 16px !important;
+}
+table th:has([onclick]) {
+    border-radius: 20px; !important;
+    border: none !important;
+}
+#editdetailspanel tr:nth-child(1) .left {
+    border-top-left-radius: 20px;
+}
+#editdetailspanel .left {
+    border-right: 6px double;
 }
 
 #player .top .floatright:before {
