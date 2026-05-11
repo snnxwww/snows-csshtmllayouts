@@ -98,3 +98,58 @@ img[src*="logo-full-2.png"]:hover {
     transform: translateX(-10px) rotate(-4deg);
     filter: drop-shadow(0 0 10px #ffffff);
 }
+
+.cave-grid, .mound-grid {
+    border: 6px double;
+    border-radius: 20px;
+}
+
+img[src*="unsortedlionsbanner.png"] {
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/unsorted.png');
+    height: 100px;
+    object-fit: cover;
+    object-position: 0px -50px;
+}
+img[src*="nestingbanner.png"] {
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/nesting.png');
+    height: 100px;
+    object-fit: cover;
+    object-position: 0px -45px;
+}
+img[src*="prideoverviewbanner.png"] {
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/overview.png');
+    height: 100px;
+    object-fit: cover;
+    object-position: 0px -50px;
+}
+
+img[src*="cavedefault.jpg"] {
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/cave.png');
+    height: 140px;
+    object-fit: cover;
+    object-position: 0px -45px;
+}
+img[src*="caveunused.jpg"] {
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/cave.png');
+    height: 140px;
+    object-fit: cover;
+    object-position: 0px -45px;
+    filter: saturate(0%);
+}
+
+img[src*="beetleunsorted.png"] {
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/mound.png');
+    height: 80px;
+    width: 80%;
+}
+img[src*="beetlemound.png"] {
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/mound.png');
+    height: 80px;
+    width: 80%;
+}
+img[src*="addbeetlemound.png"] {
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/mound.png');
+    height: 80px;
+    width: 80%;
+    filter: saturate(0%);
+}
