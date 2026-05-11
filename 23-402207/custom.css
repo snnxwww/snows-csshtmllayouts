@@ -9,7 +9,8 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
 @import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 
 * {
-    font-family: 'playfair'
+    font-family: 'playfair';
+    cursor: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/cursor.png'), auto;
 }
 
 .breadcrumb:after {
@@ -117,6 +118,10 @@ table .bottom, table .bottom a  {
     background-size: contain;
     margin-bottom: -10px;
     margin-right: 10px;
+    transition: 0.4s;
+}
+#player .top .floatright:hover:before {
+    filter: drop-shadow(0 0 3px #ffffff);
 }
 
 .cave-grid, .mound-grid {
