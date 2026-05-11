@@ -12,6 +12,12 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
     font-family: 'playfair'
 }
 
+.breadcrumb:after {
+    content: "CSS by Snow #553411";
+    position: absolute;
+    right: 120px;
+}
+
 .mainbox {
     border: 10px double;
     border-radius: 20px;
@@ -64,10 +70,31 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
 
 .pagedoll {
     position: fixed;
-    bottom: 0;
-    right: 0;
+    bottom: 10px;
+    right: 20px;
     width: 200px;
-    min-width: 25%;
-    max-width: 40%;
+    min-width: 20%;
+    max-width: 30%;
     z-index: 99;
+    transition: 0.4s !important;
+    animation: float 4s ease-in-out infinite !important;
+}
+.pagedoll:hover {
+    filter: drop-shadow(0 0 10px #ffffff) saturate(120%);
+
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(10px); }
+    100% {transform: translateY(0px); }
+}
+
+img[src*="logo-full-2.png"] {
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/logo.png');
+    transition: 0.4s;
+}
+img[src*="logo-full-2.png"]:hover {
+    transform: translateX(-10px) rotate(-4deg);
+    filter: drop-shadow(0 0 10px #ffffff);
 }
