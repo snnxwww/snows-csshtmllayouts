@@ -30,6 +30,7 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
 }
 .maincontent {
     border: 8px double;
+    border-radius: 12px;
     text-align: left;
     font-size: 18px;
     padding: 15px;
