@@ -15,14 +15,20 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
 
 input, .button, select, textarea {
     border-radius: 10px !important;
-    box-shadow: none !important;
     border: none !important;
     transition: 0.4s;
 }
 input:hover, .button:hover, select:hover, textarea:hover {
     transform: rotate(0.75deg) scale(105%);
     filter: hue-rotate(20deg);
+    animation: 2s hoverpulse infinite alternate;
 }
+@keyframes hoverpulse {
+    0% { box-shadow: 0 0 0px #ffffff; }
+    50% { box-shadow: 0 0 4px 5px #ffffff;}
+    100% { box-shadow: 0 0 0px #ffffff; }
+}
+
 a {
     transition: 0.4s
 }
@@ -97,9 +103,11 @@ a:not(:has(img[src*="logo-full-2.png"])):hover {
 }
 
 @keyframes borderpulse {
-    0% { filter: drop-shadow(0 0 10px #e5ade6); }
-    100% { filter: drop-shadow(0 0 0px #b85cba); }
+    0% { box-shadow: 0 0 0px #e5ade6; }
+    50% { box-shadow: 0 0 10px 5px #e5ade6;}
+    100% { box-shadow: 0 0 0px #b85cba; }
 }
+
 
 .mainbox {
     border: 10px double;
@@ -110,6 +118,7 @@ a:not(:has(img[src*="logo-full-2.png"])):hover {
     border-bottom: 10px double;
     font-size: 20px;
     padding: 5px;
+    transition: 0.4s
 }
 .maincontent {
     border: 8px double;
@@ -130,7 +139,6 @@ a:not(:has(img[src*="logo-full-2.png"])):hover {
     gap: 15px;
     width: 80%;
 }
-
 .boxleft, .boxright {
     border: 10px double;
     border-radius: 16px;
@@ -142,8 +150,15 @@ a:not(:has(img[src*="logo-full-2.png"])):hover {
     overflow-y: auto;
 }
 
+.mainbox:hover, .maincontent:hover, .boxleft:hover, .boxright:hover {
+    animation: 2s hoverpulse infinite alternate;
+}
+.boxheading:hover {
+    filter: hue-rotate(20deg);
+}
+
 .pagedoll {
-    position: fixed;
+    position: fixed !important;
     bottom: 10px;
     right: 20px;
     width: 200px;
@@ -180,6 +195,9 @@ img[src*="logo-full-2.png"]:hover {
     border: 4px double !important;
     border-radius: 16px !important;
 }
+#commentBox:hover, #makeComment input:hover {
+    animation: 2s hoverpulse infinite alternate;
+}
 
 table {
     border-collapse: separate;
@@ -187,8 +205,8 @@ table {
     border-radius: 26px;
     transition: 0.4s;
 }
-table:hover {
-    filter: drop-shadow(0 0 10px #ffffff) saturate(120%);
+table:hover, .alert:hover, .breadcrumb:hover {
+    animation: 2s hoverpulse infinite alternate;
 }
 table .auto {
     border: none !important;
@@ -406,8 +424,8 @@ div#lion_image:hover {
     border-radius: 20px;
     transition: 0.4s;
 }
-.cave-grid:hover, .mound-grid:hover {
-    filter: drop-shadow(0 0 10px #ffffff) saturate(120%) !important;
+.cave-grid:hover, .mound-grid:hover, .feature:hover {
+    animation: 2s hoverpulse infinite alternate;
 }
 
 .col-sm-4 div, .col-md-4 div, .left:has(a[href="/account-settings.php"]) {
@@ -418,6 +436,7 @@ div#lion_image:hover {
 .col-sm-4 div:hover, .col-md-4 div:hover, .left:has(a[href="/account-settings.php"]):hover {
     filter: hue-rotate(20deg);
     transform: rotate(-0.5deg);
+    animation: 2s hoverpulse infinite alternate;
 }
 
 img[src*="unsortedlionsbanner.png"] {
@@ -508,16 +527,26 @@ img[src*="addbeetlemound.png"] {
     border: 6px double;
     border-radius: 20px;
 }
+.sidebar .panel:hover {
+    animation: 2s hoverpulse infinite alternate;
+}
 #fraSidebarChat {
     height: 650px;
+}
+#label_currentChannel {
+    margin-top: 10px;
+    margin-left: 5px
 }
 #label_currentChannel, #fraChatChannelMenu {
     border: 4px double !important;
     border-radius: 24px !important;
+    transition: 0.4s;
 }
 #chatMessageContainer {
     border: 6px double;
     border-radius: 24px;
+    width: 96%;
+    margin-left: 5px
 }
 #chatMessagePinned {
     border-bottom: 6px double;
@@ -527,6 +556,9 @@ img[src*="addbeetlemound.png"] {
 #txtChatContainer input, .sidebar input, .sidebar .button {
     border: 4px double !important;
     border-radius: 24px !important;
+}
+#chatMessageContainer:hover, #label_currentChannel:hover  {
+    animation: 2s hoverpulse infinite alternate;
 }
 
 *:has(.featured-lion) table th[colspan="4"] {
