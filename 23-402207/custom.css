@@ -49,17 +49,7 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
     width: 80%;
 }
 
-.boxleft {
-    border: 10px double;
-    border-radius: 16px;
-    width: 50%;
-    text-align: left;
-    padding: 5px;
-    font-size: 18px;
-    height: 200px;
-    overflow-y: auto;
-}
-.boxright {
+.boxleft, .boxright {
     border: 10px double;
     border-radius: 16px;
     width: 50%;
