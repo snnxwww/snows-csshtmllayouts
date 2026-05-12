@@ -113,6 +113,15 @@ a:not(:has(img[src*="logo-full-2.png"])):hover {
     border: 10px double;
     border-radius: 20px;
     width: 80%;
+    background-position: 0px 40px;
+    background-size: 99.5%;
+}
+.boxbg {
+    background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/htmlbg.png');
+    background-size: 100%;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .boxheading {
     border-bottom: 10px double;
@@ -262,6 +271,7 @@ table .left[colspan] {
     background-clip: content-box; 
 }
 
+
 #about > tbody > tr > td {
     display: block !important;
     width: 100% !important;
@@ -270,8 +280,12 @@ table .left[colspan] {
 }
 #about .inner-table {
     display: table !important;
-    width: 100% !important; 
     table-layout: fixed;
+}
+@media (min-width: 664px) {
+    #about .inner-table {
+        width: 100%;
+    }
 }
 div#lion_image {
     width: 100%; !important;
@@ -289,9 +303,6 @@ div#lion_image {
 
 }
 div#lion_image:hover {
-    width: 100%; !important;
-    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/lionimg.png');
-    opacity: 100%;
     filter: drop-shadow(0 0 10px #ffffff);
 }
 @keyframes border {
