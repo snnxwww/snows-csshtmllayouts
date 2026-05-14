@@ -11,11 +11,13 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
 * {
     font-family: 'playfair';
     cursor: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/cursor.png'), auto !important;
+    text-decoration: none !important;
 }
 
 input, .button, select, textarea {
     border-radius: 10px !important;
     border: none !important;
+    text-shadow: none !important;
     transition: 0.4s;
 }
 input:hover, .button:hover, select:hover, textarea:hover {
@@ -25,14 +27,14 @@ input:hover, .button:hover, select:hover, textarea:hover {
 }
 @keyframes hoverpulse {
     0% { box-shadow: 0 0 0px #ffffff; }
-    50% { box-shadow: 0 0 4px 5px #ffffff;}
+    50% { box-shadow: 0 0 0px 4px #ffffff80;}
     100% { box-shadow: 0 0 0px #ffffff; }
 }
 
 a {
     transition: 0.4s
 }
-a:not(:has(img[src*="logo-full-2.png"])):hover {
+a:not(:has(img[src*='logo-full-2.png'])):hover {
     margin-left: 4px;
 }
 
@@ -62,7 +64,7 @@ a:not(:has(img[src*="logo-full-2.png"])):hover {
     font-size: 17.5px !important;
     transition: 0.4s;
 }
-.navbar a:not(:has(img[src*="logo-full-2.png"])):hover {
+.navbar a:not(:has(img[src*='logo-full-2.png'])):hover {
     transform: scale(120%) rotate(-2deg);
     filter: drop-shadow(0 0 10px #ffffff);
     background: none;
@@ -79,7 +81,7 @@ a:not(:has(img[src*="logo-full-2.png"])):hover {
     border-radius: 16px;
 }
 .breadcrumb:after {
-    content: "CSS by Snow #553411";
+    content: 'CSS by Snow #553411';
     position: absolute;
     right: 120px;
 }
@@ -108,6 +110,11 @@ a:not(:has(img[src*="logo-full-2.png"])):hover {
     100% { box-shadow: 0 0 0px #b85cba; }
 }
 
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
 
 .mainbox {
     border: 10px double;
@@ -118,7 +125,7 @@ a:not(:has(img[src*="logo-full-2.png"])):hover {
 }
 .boxbg {
     background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/htmlbg.png');
-    background-size: 100%;
+    background-size: cover;
     padding: 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -127,7 +134,9 @@ a:not(:has(img[src*="logo-full-2.png"])):hover {
     border-bottom: 10px double;
     font-size: 20px;
     padding: 5px;
-    transition: 0.4s
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: 0.4s;
 }
 .maincontent {
     border: 8px double;
@@ -187,11 +196,11 @@ a:not(:has(img[src*="logo-full-2.png"])):hover {
     100% {transform: translateY(0px); }
 }
 
-img[src*="logo-full-2.png"] {
+img[src*='logo-full-2.png'] {
     content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/logo.png');
     transition: 0.4s;
 }
-img[src*="logo-full-2.png"]:hover {
+img[src*='logo-full-2.png']:hover {
     transform: translateX(-10px) rotate(-4deg);
     filter: drop-shadow(0 0 10px #ffffff);
 }
@@ -204,8 +213,18 @@ img[src*="logo-full-2.png"]:hover {
     border: 4px double !important;
     border-radius: 16px !important;
 }
+#makeComment input::placeholder {
+    padding-left: 5px;
+}
 #commentBox:hover, #makeComment input:hover {
     animation: 2s hoverpulse infinite alternate;
+}
+.comment {
+    border-bottom: 4px double;
+    background: none !important;
+}
+.comment:last-of-type {
+    border: none;
 }
 
 table {
@@ -222,7 +241,6 @@ table .auto {
     filter: none;
 }
 table .right_odd {
-    border-bottom-left-radius: 20px;
     border-top: 6px double !important;
 }
 table .right_odd.text-right {
@@ -259,6 +277,9 @@ table th:has([onclick]) {
     border: none !important;
     font-size: 16px !important;
 }
+#editdetailspanel {
+    border-radius: 25px;
+}
 #editdetailspanel tr:nth-child(1) .left {
     border-top-left-radius: 20px;
 }
@@ -278,9 +299,11 @@ table .left[colspan] {
     box-sizing: border-box;
     text-align: center !important;
 }
-#about .inner-table {
+#about .inner-table, #player .inner-table {
     display: table !important;
     table-layout: fixed;
+    background: none !important;
+    animation: none !important
 }
 @media (min-width: 664px) {
     #about .inner-table {
@@ -439,43 +462,43 @@ div#lion_image:hover {
     animation: 2s hoverpulse infinite alternate;
 }
 
-.col-sm-4 div, .col-md-4 div, .left:has(a[href="/account-settings.php"]) {
+.col-sm-4 div, .col-md-4 div, .left:has(a[href='/account-settings.php']) {
     border: 6px double !important;
     border-radius: 16px !important;
     transition: 0.4s;
 }
-.col-sm-4 div:hover, .col-md-4 div:hover, .left:has(a[href="/account-settings.php"]):hover {
+.col-sm-4 div:hover, .col-md-4 div:hover, .left:has(a[href='/account-settings.php']):hover {
     filter: hue-rotate(20deg);
     transform: rotate(-0.5deg);
     animation: 2s hoverpulse infinite alternate;
 }
 
-img[src*="unsortedlionsbanner.png"] {
+img[src*='unsortedlionsbanner.png'] {
     content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/unsorted.png');
     height: 100px;
     object-fit: cover;
     object-position: 0px -50px;
 }
-img[src*="nestingbanner.png"] {
+img[src*='nestingbanner.png'] {
     content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/nesting.png');
     height: 100px;
     object-fit: cover;
     object-position: 0px -40px;
 }
-img[src*="prideoverviewbanner.png"] {
+img[src*='prideoverviewbanner.png'] {
     content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/overview.png');
     height: 100px;
     object-fit: cover;
     object-position: 0px -50px;
 }
 
-img[src*="cavedefault.jpg"] {
+img[src*='cavedefault.jpg'] {
     content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/cave.png');
     height: 140px;
     object-fit: cover;
     object-position: 0px -45px;
 }
-img[src*="caveunused.jpg"] {
+img[src*='caveunused.jpg'] {
     content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/cave.png');
     height: 140px;
     object-fit: cover;
@@ -483,48 +506,59 @@ img[src*="caveunused.jpg"] {
     filter: saturate(0%);
 }
 
-img[src*="beetleunsorted.png"] {
+img[src*='beetleunsorted.png'] {
     content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/mound.png');
     height: 80px;
 }
-img[src*="beetlemound.png"] {
+img[src*='beetlemound.png'] {
     content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/mound.png');
     height: 80px;
 }
-img[src*="addbeetlemound.png"] {
+img[src*='addbeetlemound.png'] {
     content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/mound.png');
     height: 80px;
     filter: saturate(0%);
+}
+
+img[src*='beetle-silver.png'] {
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/sbicon.png');
+    height: 25px;
+    width: 25px;
+}
+img[src*='beetle-gold.png'] {
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/gbicon.png');
+    height: 25px;
+    width: 25px;
 }
 
 @media (max-width: 1200px) {
     @media (min-width: 992px) {
-        img[src*="unsortedlionsbanner.png"] {
+        img[src*='unsortedlionsbanner.png'] {
             content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/unsorted.png');
             height: 75px;
             object-fit: cover;
             object-position: 0px -40px;
         }
-        img[src*="nestingbanner.png"] {
+        img[src*='nestingbanner.png'] {
             content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/nesting.png');
             height: 75px;
             object-fit: cover;
             object-position: 0px -35px;
         }
-        img[src*="prideoverviewbanner.png"] {
+        img[src*='prideoverviewbanner.png'] {
             content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/overview.png');
             height: 75px;
             object-fit: cover;
             object-position: 0px -40px;
         }
         
-        img[src*="cavedefault.jpg"] {
+        img[src*='cavedefault.jpg'] {
             content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/cave.png');
             height: 100px;
             object-fit: cover;
             object-position: 0px -45px;
         }
-        img[src*="caveunused.jpg"] {
+        img[src*='caveunused.jpg'] {
             content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/cave.png');
             height: 100px;
             object-fit: cover;
@@ -541,46 +575,70 @@ img[src*="addbeetlemound.png"] {
 .sidebar .panel:hover {
     animation: 2s hoverpulse infinite alternate;
 }
+.progress, .progress-bar {
+    box-shadow: none;
+}
+
 #fraSidebarChat {
-    height: 650px;
+    height: 680px;
 }
 #label_currentChannel {
     margin-top: 10px;
-    margin-left: 5px
 }
 #label_currentChannel, #fraChatChannelMenu {
-    border: 4px double !important;
-    border-radius: 24px !important;
+    border: 4px double #fff !important;
+    border-radius: 20px !important;
+    margin-left: 5px;
+    background: #abababd5 !important;
     transition: 0.4s;
 }
+.channelSwitcher {
+    border-radius: 20px !important;
+}
 #chatMessageContainer {
-    border: 6px double;
+    border: 6px double #fff;
     border-radius: 24px;
     width: 96%;
-    margin-left: 5px
+    margin-left: 5px;
 }
 #chatMessagePinned {
-    border-bottom: 6px double;
+    border-bottom: 4px double !important;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    background-color: #abababd5 !important;
+    color: #f5edef !important;
+}
+#chatMessagePinned a {
+    color: #f5edef !important;
 }
 #txtChatContainer input, .sidebar input, .sidebar .button {
-    border: 4px double !important;
+    border: 4px double #fff !important;
+    background: #9c9c9c50 !important;
     border-radius: 24px !important;
 }
 #chatMessageContainer:hover, #label_currentChannel:hover  {
     animation: 2s hoverpulse infinite alternate;
 }
+.s-chat-message {
+    border-bottom: 5px double #fff;
+    background: #ffffff80 !important;
+}
+#modalClaimBG {
+    background: none;
+}
+#modalClaimList {
+    border: 4px double;
+}
 
-*:has(.featured-lion) table th[colspan="4"] {
+*:has(.featured-lion) table th[colspan='4'] {
     border-radius: 0px !important;
     border-top-left-radius: 20px !important;
 }
-*:has(.featured-lion) table th[colspan="2"] {
+*:has(.featured-lion) table th[colspan='2'] {
     border-radius: 0px !important;
     border-top-right-radius: 20px !important;
 }
-*:has(.featured-lion) .auto th[colspan="2"] {
+*:has(.featured-lion) .auto th[colspan='2'] {
     border-top-left-radius: 20px !important;
 }
 *:has(.featured-lion) tr:last-child td {
@@ -600,3 +658,178 @@ img[src*="addbeetlemound.png"] {
 *:has(.featured-lion) .lionImage .center {
     border-top: 6px double;
 }
+
+
+
+
+*:has(img[src*='season-dry']):has(img[src*='time-day']) input,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .button,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) select,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) textarea {
+    background: #ee527980 !important;
+    color: #f5edef !important;
+}
+
+*:has(img[src*='season-dry']):has(img[src*='time-day']) body {
+    background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/dry-day.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .topbar {
+    background: #cbb0dd;
+    color: #f5edef;
+    border-color: #fff;
+}
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .topbar a {
+    color: #f5edef;
+}
+
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .navbar {
+    background: #abace2;
+    color: #f5edef;
+}
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .navbar a {
+    color: #f5edef;
+}
+
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .main {
+    background: #fcd9d3cc;
+    border-color: #fff;
+}
+
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .breadcrumb {
+    background: #abace280;
+    border-color: #fff;
+    color: #f5edef;
+}
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .breadcrumb a, 
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .breadcrumb-item,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .breadcrumb-item:before {
+    color: #f5edef;
+}
+
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .alert {
+    background: #abace240;
+    border-color: #fff;
+    color: #ee5279;
+}
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .alert a {
+    color: #ee5279b5;
+}
+
+*:has(img[src*='season-dry']):has(img[src*='time-day']) h1, h2, h3, h4, h5, h6, p, a {
+    color: #ee5279;
+}
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .col-xs-6 div h3 {
+    color: #f5edef;
+}
+
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .boxheading,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) table th,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) table .top,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) table .bottom,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .col-sm-4 div,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .col-md-4 div,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) #editdetailspanel .bottom,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .left:has(a[href='/account-settings.php']) {
+    background: #abace2d5; 
+    color: #f5edef;
+    border-color: #fff !important;
+}
+*:has(img[src*='season-dry']):has(img[src*='time-day']) #editdetailspanel .left.b {
+    background: #abace240; 
+    color: #f5edef;
+    border-color: #fff !important;
+}
+*:has(img[src*='season-dry']):has(img[src*='time-day']) table .top a,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) table .bottom a,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .left:has(a[href='/account-settings.php']) a,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) a[onclick],
+*:has(img[src*='season-dry']):has(img[src*='time-day']) #makeComment input::placeholder,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .inner-table.auto a,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) #player .right_odd a {
+    color: #f5edef;
+}
+
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .maincontent, .mainbox {
+    background: #fcd9d3c5;
+    color: #ee5279;
+    border-color: #fff;
+}
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .boxleft,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .boxright {
+    background: #cbb0ddc5;
+    color: #f5edef;
+    border-color: #fff;
+}
+
+*:has(img[src*='season-dry']):has(img[src*='time-day']) #commentBox,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) table,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .feature,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .mound-grid,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .right_odd {
+    background: #abace240 !important;
+    color: #ee5279;
+    border-color: #fff !important;
+}
+*:has(img[src*='season-dry']):has(img[src*='time-day']) td[colspan].left {
+    background-color: #abace240 !important;
+}
+*:has(img[src*='season-dry']):has(img[src*='time-day']) table a,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) table a[onclick] {
+    color: #ee527990;
+}
+
+*:has(img[src*='season-dry']):has(img[src*='time-day']) b:has(span[style='color: #ff0000;']) {
+    color: #ee5279
+}
+*:has(img[src*='season-dry']):has(img[src*='time-day']) b span[style='color: #ff0000;'] {
+    color: #ee5279d5 !important;
+}
+
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .inner-table.auto .left {
+    background: #b193c4d5;
+    color: #f5edef;
+}
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .inner-table.auto .right {
+    background: #cbb0ddd5;
+    color: #f5edef;
+}
+
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .panel {
+    background: #cbb0dd95 !important;
+    border-color: #fff;
+    color: #f5edef;
+}
+
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .sidebar h3,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .sidebar a {
+    color: #ee5279;
+}
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .panel a {
+    color: #f5edef;
+}
+
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .progress {
+    background: #ffffff50;
+}
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .progress div {
+    color: #f5edef;
+}
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .progress-bar {
+    background: #ee527950;
+}
+
+
+
+*:has(img[src*='season-dry']):has(img[src*='time-day']) #fraSidebarChat {
+    filter: grayscale(1) sepia(1) hue-rotate(235deg)
+}
+
+
+
+/* PLACEHOLDER -
+*:has(img[src*='season-dry']):has(img[src*='time-day']) 
+
+*/
