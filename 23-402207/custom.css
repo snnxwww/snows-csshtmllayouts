@@ -684,6 +684,10 @@ img[src*='beetle-gold.png'] {
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .topbar a {
     color: #f5edef;
 }
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .badge {
+    background: #ee527950;
+    color: #f5edef 
+}
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .navbar {
     background: #abace2;
@@ -821,13 +825,28 @@ img[src*='beetle-gold.png'] {
     background: #ee527950;
 }
 
-
-
 *:has(img[src*='season-dry']):has(img[src*='time-day']) #fraSidebarChat {
     filter: grayscale(1) sepia(1) hue-rotate(235deg)
 }
 
+*:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) td.left.b {
+    background: #abace2a5
+}
+*:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) .right_odd {
+    background: none !important;
+}
 
+*:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) img[src="//static.lioden.com/images/cave/default.png"] {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/RE_fourteenFalls.png');
+}
+*:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) .featured-lion  {
+    background: #abace2a5;
+}
+*:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) .featured-lion p,
+*:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) .featured-lion a {
+    color: #f5edef;
+    border-color: #fff;
+}
 
 /* PLACEHOLDER -
 *:has(img[src*='season-dry']):has(img[src*='time-day']) 
