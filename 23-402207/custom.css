@@ -117,6 +117,8 @@ a:not(:has(img[src*='logo-full-2.png'])):hover {
 h1 {
     font-size: 50px;
     text-align: center;
+    border: 4px double;
+    border-radius: 26px;
 }
 
 
@@ -850,7 +852,13 @@ img[src*='den_beetlebook.png'] {
     text-shadow: 1px 1px 1px #c24665;
 }
 
-*:has(img[src*='season-dry']):has(img[src*='time-day']) h1, h2, h3, h4, h5, h6, p, a {
+*:has(img[src*='season-dry']):has(img[src*='time-day']) h1 {
+    color: #f5edef;
+    text-shadow: 2px 2px 2px #67688a;
+    border-color: #fff;
+    background: linear-gradient( #abace2d5, #cbb0dd80);
+}
+*:has(img[src*='season-dry']):has(img[src*='time-day'])h2, h3, h4, h5, h6, p, a {
     color: #ee5279;
     text-shadow: 2px 2px 2px #f7f7f7;
 }
