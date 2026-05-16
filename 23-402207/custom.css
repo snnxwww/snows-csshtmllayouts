@@ -12,6 +12,7 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
     font-family: 'playfair';
     cursor: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/cursor.png'), auto !important;
     text-decoration: none !important;
+    overflow-x: hidden;
 }
 
 input, .button, select, textarea {
@@ -217,6 +218,58 @@ img[src*='logo-full-2.png']:hover {
 #commentBox {
     border: 6px double #fff !important;
     border-radius: 26px !important;
+}
+#commentBox:before {
+    content: '';
+    background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/flower1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(40deg);
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    margin-top: -50px;
+    left: -10px;
+    z-index: 99;
+}
+#commentBox:after {
+    content: '';
+    background:  url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/petal1.png'), url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/petal2.png'), url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/petal4.png');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 40px 10px, 90px -10px, 140px -10px !important;
+    transform: rotate(20deg);
+    width: 230px;
+    height: 100px;
+    position: absolute;
+    margin-top: -520px;
+    right: -10px;
+    z-index: 99;
+}
+#makeComment:before {
+    content: '';
+    background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/fruit1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(-15deg);
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    margin-top: -50px;
+    left: -10px;
+    z-index: 99;
+}
+#makeComment:after {
+    content: '';
+    background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/flower2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    margin-top: -50px;
+    right: 0px;
+    z-index: 99;
 }
 #makeComment input {
     border: 4px double !important;
@@ -676,6 +729,91 @@ img[src*='den_beetlebook.png'] {
     border: 6px double;
     border-radius: 20px;
 }
+.panel:has(img[src*='icon-time']):before {
+    content: '';
+    background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/petal5.png'), url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/petal2.png');
+    background-position: 0px 0px, 40px 1px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    transform: rotate(-10deg);
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    margin-top: -30px;
+    left: -30px;
+    z-index: 99;
+}
+.panel:has(a[href='/event.php']):before {
+    content: '';
+    background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/flower1.png');
+    background-position: 0px 0px, 40px 1px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    transform: rotate(-10deg);
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    margin-top: -30px;
+    right: -100px;
+    z-index: 99;
+}
+.panel:has(a[href='/cooldowns.php']):before {
+    content: '';
+    background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/petal1.png'), url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/petal4.png');
+    background-position: 0px 0px, 40px 1px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    transform: rotate(50deg);
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    margin-top: -10px;
+    right: -60px;
+    z-index: 99;
+}
+.panel:has(a[href='/cooldowns.php']):after {
+    content: '';
+    background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/flower2.png');
+    background-position: 0px 0px, 40px 1px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    transform: rotate(50deg);
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    margin-top: -30px;
+    left: -40px;
+    z-index: 99;
+}
+.panel:has(.progress):before {
+    content: '';
+    background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/petal3.png');
+    background-position: 0px 0px, 40px 1px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    transform: rotate(50deg);
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    margin-top: -10px;
+    right: -60px;
+    z-index: 99;
+}
+a[href='/bookmarks.php']:after {
+    content: '';
+    background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/petal1.png'), url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/flower1.png');
+    background-position: 0px 0px, 40px 1px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    transform: rotate(-50deg);
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    margin-top: -30px;
+    left: -40px;
+    z-index: 99;
+}
+
 .sidebar .panel:hover {
     animation: 2s hoverpulse infinite alternate;
 }
@@ -686,6 +824,35 @@ img[src*='den_beetlebook.png'] {
 #fraSidebarChat {
     height: 680px;
 }
+.col-md-12.col-xs-12:before {
+    content: '';
+    background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/flower2.png'), url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/petal4.png');
+    background-position: 0px 0px, 40px 1px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    transform: rotate(-120deg);
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    margin-top: 80px;
+    right: -40px;
+    z-index: 99;
+}
+.visible-md.visible-lg .panel .panel-body:has(b):after {
+    content: '';
+    background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/fruit1.png'), url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/petal1.png');
+    background-position: 0px 0px, 40px 1px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    transform: rotate(-10deg);
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    margin-top: -40px;
+    right: -80px;
+    z-index: 99;
+}
+
 #label_currentChannel {
     margin-top: 10px;
 }
@@ -987,7 +1154,7 @@ img[src*='den_beetlebook.png'] {
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) #fraSidebarChat,
-*:has(img[src*='season-dry']):has(img[src*='time-day']) #commentBox,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .comment,
 *:has(img[src*='season-dry']):has(img[src*='time-day']) #makeComment input{
     filter: grayscale(1) sepia(1) hue-rotate(235deg);
 }
