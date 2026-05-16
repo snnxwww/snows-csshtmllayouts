@@ -911,6 +911,13 @@ a[href='/bookmarks.php']:after {
 #modalClaimList {
     border: 4px double;
 }
+@media (max-width: 768px) {
+    .s-chat-message, .comment {
+        border-bottom: 5px double #fff;
+        background: rgb(220 220 220 / 30%) !important;
+        text-shadow: 1px 1px 1px #b1b1b1;
+    }
+}
 
 *:has(.featured-lion) table th[colspan='4'] {
     border-radius: 0px !important;
