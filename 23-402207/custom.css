@@ -117,6 +117,9 @@ a:not(:has(img[src*='logo-full-2.png'])):hover {
 h1 {
     font-size: 50px;
     text-align: center;
+
+}
+*:has(a[href='/refer.php']) h1 {
     border: 4px double;
     border-radius: 26px;
 }
@@ -852,13 +855,20 @@ img[src*='den_beetlebook.png'] {
     text-shadow: 1px 1px 1px #c24665;
 }
 
-*:has(img[src*='season-dry']):has(img[src*='time-day']) h1 {
+*:has(img[src*='season-dry']):has(img[src*='time-day']):has(a[href='/refer.php']) h1 {
     color: #f5edef;
     text-shadow: 2px 2px 2px #67688a;
     border-color: #fff;
     background: linear-gradient( #abace2d5, #cbb0dd80);
 }
-*:has(img[src*='season-dry']):has(img[src*='time-day'])h2, h3, h4, h5, h6, p, a {
+*:has(img[src*='season-dry']):has(img[src*='time-day']) h1,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) h2,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) h3,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) h4,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) h5,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) h6,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) p,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) a {
     color: #ee5279;
     text-shadow: 2px 2px 2px #f7f7f7;
 }
