@@ -218,7 +218,7 @@ img[src*='logo-full-2.png']:hover {
 }
 
 #commentBox {
-    border: 6px double #fff !important;
+    border: 6px double !important;
     border-radius: 26px !important;
 }
 #commentBox:before {
@@ -282,6 +282,9 @@ img[src*='logo-full-2.png']:hover {
 }
 #commentBox:hover, #makeComment input:hover {
     animation: 2s hoverpulse infinite alternate;
+}
+.comment {
+    border-bottom: 4px double;
 }
 .comment:last-of-type {
     border: none;
@@ -886,21 +889,17 @@ a[href='/bookmarks.php']:after {
     color: #f5edef !important;
     text-shadow: 1px 1px 1px #646464;
 }
-#txtChatContainer input, .sidebar input, .sidebar .button, #makeComment input, .comment input {
+#txtChatContainer input, .sidebar input, .sidebar .button {
     border: 4px double #fff !important;
     background: #9c9c9c50 !important;
     border-radius: 24px !important;
     color: #404040 !important;
     text-shadow: 1px 1px 1px #f4f4f4 !important;
 }
-#makeComment input::placeholder {
-    color: #404040 !important;
-    text-shadow: 1px 1px 1px #f4f4f4 !important;
-}
 #chatMessageContainer:hover, #label_currentChannel:hover  {
     animation: 2s hoverpulse infinite alternate;
 }
-.s-chat-message, .comment {
+.s-chat-message {
     border-bottom: 5px double #fff;
     background: #ffffff80 !important;
     text-shadow: 1px 1px 1px #b1b1b1;
@@ -910,13 +909,6 @@ a[href='/bookmarks.php']:after {
 }
 #modalClaimList {
     border: 4px double;
-}
-@media (max-width: 768px) {
-    .s-chat-message, .comment {
-        border-bottom: 5px double #8a8a8a;
-        background: #d2d2d2 !important;
-        text-shadow: 1px 1px 1px #b1b1b1;
-    }
 }
 
 *:has(.featured-lion) table th[colspan='4'] {
@@ -1082,7 +1074,8 @@ a[href='/bookmarks.php']:after {
     text-shadow: 1px 1px 1px #4a4a71 !important;
 }
 
-*:has(img[src*='season-dry']):has(img[src*='time-day']) .maincontent, .mainbox {
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .maincontent,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .mainbox {
     background: #fcd9d3c5;
     color: #ee5279;
     border-color: #fff;
@@ -1094,6 +1087,28 @@ a[href='/bookmarks.php']:after {
     color: #f5edef;
     text-shadow: 1px 1px 1px #64447a;
     border-color: #fff;
+}
+
+*:has(img[src*='season-dry']):has(img[src*='time-day']) #commentBox {
+    border-color: #fff !important;
+    text-shadow: 1px 1px 1px #f7f7f7;
+}
+*:has(img[src*='season-dry']):has(img[src*='time-day']) #makeComment input {
+    border-color: #fff !important;
+    text-shadow: 1px 1px 1px #f7f7f7;
+    background: #e3bece80 !important;
+}
+*:has(img[src*='season-dry']):has(img[src*='time-day']) #makeComment input::placeholder {
+    color: #48394d;
+    text-shadow: 1px 1px 1px #ffd6fd;
+}
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .comment,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .comment a,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .comment small {
+    background: #fceaeb80;
+    border-color: #fff !important;
+    color: #48394d;
+    text-shadow: 1px 1px 1px #ffd6fd;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) table,
@@ -1162,9 +1177,7 @@ a[href='/bookmarks.php']:after {
     background: #ee527950;
 }
 
-*:has(img[src*='season-dry']):has(img[src*='time-day']) #fraSidebarChat,
-*:has(img[src*='season-dry']):has(img[src*='time-day']) .comment,
-*:has(img[src*='season-dry']):has(img[src*='time-day']) #makeComment input{
+*:has(img[src*='season-dry']):has(img[src*='time-day']) #fraSidebarChat {
     filter: grayscale(1) sepia(1) hue-rotate(235deg);
 }
 
