@@ -75,6 +75,10 @@ a:not(:has(img[src*='logo-full-2.png'])):hover {
     50% { opacity: 60%; transform: translateY(-2px) rotate(-1deg) scale(120%); }
     100% { opacity: 100%; transform: translateY(0px)rotate(0deg) scale(110%); }
 }
+.navbar-toggle {
+    background: none !important;
+    border: none;
+}
 
 .breadcrumb {
     border: 6px double;
@@ -206,7 +210,7 @@ img[src*='logo-full-2.png']:hover {
 }
 
 #commentBox {
-    border: 6px double !important;
+    border: 6px double #fff !important;
     border-radius: 26px !important;
 }
 #makeComment input {
@@ -218,10 +222,6 @@ img[src*='logo-full-2.png']:hover {
 }
 #commentBox:hover, #makeComment input:hover {
     animation: 2s hoverpulse infinite alternate;
-}
-.comment {
-    border-bottom: 4px double;
-    background: none !important;
 }
 .comment:last-of-type {
     border: none;
@@ -607,21 +607,30 @@ img[src*='beetle-gold.png'] {
     border-top-right-radius: 20px;
     background-color: #abababd5 !important;
     color: #f5edef !important;
+    text-shadow: 1px 1px 1px #646464;
 }
 #chatMessagePinned a {
     color: #f5edef !important;
+    text-shadow: 1px 1px 1px #646464;
 }
-#txtChatContainer input, .sidebar input, .sidebar .button {
+#txtChatContainer input, .sidebar input, .sidebar .button, #makeComment input, .comment input {
     border: 4px double #fff !important;
     background: #9c9c9c50 !important;
     border-radius: 24px !important;
+    color: #404040 !important;
+    text-shadow: 1px 1px 1px #f4f4f4 !important;
+}
+#makeComment input::placeholder {
+    color: #404040 !important;
+    text-shadow: 1px 1px 1px #f4f4f4 !important;
 }
 #chatMessageContainer:hover, #label_currentChannel:hover  {
     animation: 2s hoverpulse infinite alternate;
 }
-.s-chat-message {
+.s-chat-message, .comment {
     border-bottom: 5px double #fff;
     background: #ffffff80 !important;
+    text-shadow: 1px 1px 1px #b1b1b1;
 }
 #modalClaimBG {
     background: none;
@@ -668,6 +677,7 @@ img[src*='beetle-gold.png'] {
 *:has(img[src*='season-dry']):has(img[src*='time-day']) textarea {
     background: #ee527980 !important;
     color: #f5edef !important;
+    text-shadow: 1px 1px 1px #5e2e3a !important
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) body {
@@ -679,22 +689,27 @@ img[src*='beetle-gold.png'] {
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .topbar {
     background: #cbb0dd;
     color: #f5edef;
+    text-shadow: 1px 1px 1px #66447d;
     border-color: #fff;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .topbar a {
     color: #f5edef;
+    text-shadow: 1px 1px 1px #66447d;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .badge {
     background: #ee527950;
-    color: #f5edef 
+    color: #f5edef;
+    text-shadow: 1px 1px 1px #66447d;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .navbar {
     background: #abace2;
     color: #f5edef;
+    text-shadow: 1px 1px 1px #414276;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .navbar a {
     color: #f5edef;
+    text-shadow: 1px 1px 1px #414276;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .main {
@@ -706,27 +721,33 @@ img[src*='beetle-gold.png'] {
     background: #abace280;
     border-color: #fff;
     color: #f5edef;
+    text-shadow: 1px 1px 1px #4c4d89;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .breadcrumb a, 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .breadcrumb-item,
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .breadcrumb-item:before {
     color: #f5edef;
+    text-shadow: 1px 1px 1px #4c4d89;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .alert {
     background: #abace240;
     border-color: #fff;
     color: #ee5279;
+    text-shadow: 1px 1px 1px #f7f7f7;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .alert a {
     color: #ee5279b5;
+    text-shadow: 1px 1px 1px #f7f7f7;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) h1, h2, h3, h4, h5, h6, p, a {
     color: #ee5279;
+    text-shadow: 2px 2px 2px #f7f7f7;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .col-xs-6 div h3 {
     color: #f5edef;
+    text-shadow: 1px 1px 1px #4a4a71;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .boxheading,
@@ -739,42 +760,46 @@ img[src*='beetle-gold.png'] {
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .left:has(a[href='/account-settings.php']) {
     background: #abace2d5; 
     color: #f5edef;
+    text-shadow: 1px 1px 1px #4a4a71;
     border-color: #fff !important;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) #editdetailspanel .left.b {
     background: #abace240; 
     color: #f5edef;
     border-color: #fff !important;
+    text-shadow: 1px 1px 1px #4a4a71;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) table .top a,
 *:has(img[src*='season-dry']):has(img[src*='time-day']) table .bottom a,
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .left:has(a[href='/account-settings.php']) a,
 *:has(img[src*='season-dry']):has(img[src*='time-day']) a[onclick],
-*:has(img[src*='season-dry']):has(img[src*='time-day']) #makeComment input::placeholder,
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .inner-table.auto a,
 *:has(img[src*='season-dry']):has(img[src*='time-day']) #player .right_odd a {
-    color: #f5edef;
+    color: #f5edef !important;
+    text-shadow: 1px 1px 1px #4a4a71;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .maincontent, .mainbox {
     background: #fcd9d3c5;
     color: #ee5279;
     border-color: #fff;
+    text-shadow: 1px 1px 1px #f7f7f7;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .boxleft,
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .boxright {
     background: #cbb0ddc5;
     color: #f5edef;
+    text-shadow: 1px 1px 1px #64447a;
     border-color: #fff;
 }
 
-*:has(img[src*='season-dry']):has(img[src*='time-day']) #commentBox,
 *:has(img[src*='season-dry']):has(img[src*='time-day']) table,
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .feature,
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .mound-grid,
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .right_odd {
     background: #abace240 !important;
     color: #ee5279;
+    text-shadow: 1px 1px 1px #f7f7f7;
     border-color: #fff !important;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) td[colspan].left {
@@ -783,14 +808,12 @@ img[src*='beetle-gold.png'] {
 *:has(img[src*='season-dry']):has(img[src*='time-day']) table a,
 *:has(img[src*='season-dry']):has(img[src*='time-day']) table a[onclick] {
     color: #ee527990;
+    text-shadow: 1px 1px 1px #f7f7f7;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) b:has(span[style='color: #ff0000;']) {
     color: #ee5279;
-}
-*:has(img[src*='season-dry']):has(img[src*='time-day']) #commentBox a,
-*:has(img[src*='season-dry']):has(img[src*='time-day']) #commentBox small {
-    color: #ee527990;
+    text-shadow: 1px 1px 1px #f7f7f7;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) b span[style='color: #ff0000;'] {
     color: #ee5279d5 !important;
@@ -799,24 +822,29 @@ img[src*='beetle-gold.png'] {
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .inner-table.auto .left {
     background: #b193c4d5;
     color: #f5edef;
+    text-shadow: 1px 1px 1px #5a3d6c;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .inner-table.auto .right {
     background: #cbb0ddd5;
     color: #f5edef;
+    text-shadow: 1px 1px 1px #43334e;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .panel {
     background: #cbb0dd95 !important;
     border-color: #fff;
     color: #f5edef;
+    text-shadow: 1px 1px 1px #43334e;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .sidebar h3,
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .sidebar a {
     color: #ee5279;
+    text-shadow: 1px 1px 1px #f7f7f7;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .panel a {
     color: #f5edef;
+    text-shadow: 1px 1px 1px #43334e;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .progress {
@@ -824,13 +852,16 @@ img[src*='beetle-gold.png'] {
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .progress div {
     color: #f5edef;
+    text-shadow: 1px 1px 1px #753f4c;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .progress-bar {
     background: #ee527950;
 }
 
-*:has(img[src*='season-dry']):has(img[src*='time-day']) #fraSidebarChat {
-    filter: grayscale(1) sepia(1) hue-rotate(235deg)
+*:has(img[src*='season-dry']):has(img[src*='time-day']) #fraSidebarChat,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) #commentBox,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) #makeComment input{
+    filter: grayscale(1) sepia(1) hue-rotate(235deg);
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) td.left.b {
@@ -847,8 +878,12 @@ img[src*='beetle-gold.png'] {
     background: #abace2a5;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) .featured-lion p,
-*:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) .featured-lion a {
-    color: #f5edef;
+*:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) .featured-lion a {    color: #f5edef;
+    border-color: #fff;
+}
+*:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) small,
+*:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) small a {
+    color: #ee5279d5;
     border-color: #fff;
 }
 
