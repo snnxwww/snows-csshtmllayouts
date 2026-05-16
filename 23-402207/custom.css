@@ -14,7 +14,7 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
     text-decoration: none !important;
 }
 body {
-    overflow-x: hidden;
+    overflow-x: hidden !import;
 }
 
 input, .button, select, textarea {
@@ -244,8 +244,8 @@ img[src*='logo-full-2.png']:hover {
     width: 230px;
     height: 100px;
     position: absolute;
-    margin-top: -520px;
-    right: -10px;
+    margin-top: -500px;
+    right: 0px;
     z-index: 99;
 }
 #makeComment:before {
@@ -791,14 +791,14 @@ img[src*='den_beetlebook.png'] {
     content: '';
     background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/petal3.png');
     background-position: 0px 0px, 40px 1px;
-    background-size: 50%;
+    background-size: 90%;
     background-repeat: no-repeat;
     transform: rotate(50deg);
-    width: 150px;
+    width: 100px;
     height: 80px;
     position: absolute;
-    margin-top: -10px;
-    right: -60px;
+    margin-top: -40px;
+    right: -20px;
     z-index: 99;
 }
 a[href='/bookmarks.php']:after {
@@ -837,21 +837,21 @@ a[href='/bookmarks.php']:after {
     height: 80px;
     position: absolute;
     margin-top: 80px;
-    right: -40px;
+    right: -10px;
     z-index: 99;
 }
 .visible-md.visible-lg .panel .panel-body:has(b):after {
     content: '';
     background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/fruit1.png'), url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/petal1.png');
     background-position: 0px 0px, 40px 1px;
-    background-size: 50%;
+    background-size: 80%;
     background-repeat: no-repeat;
     transform: rotate(-10deg);
-    width: 150px;
+    width: 100px;
     height: 80px;
     position: absolute;
     margin-top: -40px;
-    right: -80px;
+    right: -20px;
     z-index: 99;
 }
 
