@@ -1006,9 +1006,10 @@ img[src*='den_beetlebook.png'] {
     background: #abace2a5;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) .featured-lion p,
-*:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) .featured-lion a {
-    color: #f5edef;
-    text-shadow: 1px 1px 1px #444566;
+*:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) .featured-lion a,
+*:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) .floatright a {
+    color: #f5edef !important;
+    text-shadow: 1px 1px 1px #444566 !important;
     border-color: #fff;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) small,
