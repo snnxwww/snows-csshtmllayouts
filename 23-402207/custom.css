@@ -508,15 +508,21 @@ img[src*='caveunused.jpg'] {
 
 img[src*='beetleunsorted.png'] {
     content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/mound.png');
-    height: 80px;
+    height: 70px !important;
+    width: 120px;
+    object-fit: contain;
 }
 img[src*='beetlemound.png'] {
     content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/mound.png');
-    height: 80px;
+    height: 70px !important;
+    width: 120px;
+    object-fit: contain;
 }
 img[src*='addbeetlemound.png'] {
     content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/mound.png');
-    height: 80px;
+    height: 70px !important;
+    width: 120px;
+    object-fit: contain;
     filter: saturate(0%);
 }
 
@@ -529,6 +535,93 @@ img[src*='beetle-gold.png'] {
     content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/gbicon.png');
     height: 25px;
     width: 25px;
+}
+
+img[src*='time-night.png'] {
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/iconnight.png');
+    height: 20px;
+    width: 20px;
+}img[src*='time-day.png'] {
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/iconday.png');
+    height: 20px;
+    width: 20px;
+}
+img[src*='season-dry.png'] {
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/icondry.png');
+    height: 20px;
+    width: 20px;
+}
+img[src*='season-wet.png'] {
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/iconrain.png');
+    height: 20px;
+    width: 20px;
+}
+img[src*='season-wet.png'] {
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/iconrain.png');
+    height: 20px;
+    width: 20px;
+}
+
+img[src*='den_message.png'] {
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/iconmsg.png');
+    height: 24px;
+    width: 24px;
+}
+img[src*='den_gift.png'] {
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/icongift.png');
+    height: 24px;
+    width: 24px;
+}
+img[src*='den_trade.png'] {
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/iconsenttrade.png');
+    height: 24px;
+    width: 24px;
+}
+img[src*='den_viewtrade.png'] {
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/iconseetrade.png');
+    height: 24px;
+    width: 24px;
+}
+img[src*='den_wishlist.png'] {
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/iconwishlist.png');
+    height: 24px;
+    width: 24px;
+}
+img[src*='den_block.png'] {
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/iconblock.png');
+    height: 24px;
+    width: 24px;
+}
+img[src*='den_friend.png'] {
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/iconfriend.png');
+    height: 24px;
+    width: 24px;
+}
+img[src*='den_ancestors.png'],
+img[src*='den_ancestorsfem.png'],
+img[src*='den_achievements.png'],
+img[src*='den_showcase.png'],
+img[src*='den_beetlebook.png'] {
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/icondynastylist.png');
+    height: 50px;
+    width: 150px !important;
+    object-fit: cover;
+    object-position: 0px -25px 
+}
+.member-online {
+    height: 20px;
+    width: 20px;
+    background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/icononline.png');
+    background-size: cover;
+    transform: translateY(5px) !important;
+    animation: 2s pulse infinite alternate;
+}
+.member-offline {
+    height: 20px;
+    width: 20px;
+    background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/iconoffline.png');
+    background-size: cover;
+    transform: translateY(5px) !important;
 }
 
 @media (max-width: 1200px) {
@@ -806,7 +899,8 @@ img[src*='beetle-gold.png'] {
     background-color: #abace240 !important;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) table a,
-*:has(img[src*='season-dry']):has(img[src*='time-day']) table a[onclick] {
+*:has(img[src*='season-dry']):has(img[src*='time-day']) table a[onclick],
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .text-muted {
     color: #ee527990;
     text-shadow: 1px 1px 1px #f7f7f7;
 }
