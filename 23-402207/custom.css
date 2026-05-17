@@ -884,18 +884,18 @@ a[href='/bookmarks.php']:after {
     border-top-right-radius: 20px;
     background-color: #abababd5 !important;
     color: #f5edef !important;
-    text-shadow: 1px 1px 1px #646464;
+    text-shadow: 1px 1px 4px #646464;
 }
 #chatMessagePinned a {
     color: #f5edef !important;
-    text-shadow: 1px 1px 1px #646464;
+    text-shadow: 1px 1px 4px #646464;
 }
 #txtChatContainer input, .sidebar input, .sidebar .button {
     border: 4px double #fff !important;
     background: #9c9c9c50 !important;
     border-radius: 24px !important;
     color: #404040 !important;
-    text-shadow: 1px 1px 1px #f4f4f4 !important;
+    text-shadow: 1px 1px 4px #f4f4f4 !important;
 }
 #chatMessageContainer:hover, #label_currentChannel:hover  {
     animation: 2s hoverpulse infinite alternate;
@@ -903,7 +903,7 @@ a[href='/bookmarks.php']:after {
 .s-chat-message {
     border-bottom: 5px double #fff;
     background: #ffffff80 !important;
-    text-shadow: 1px 1px 1px #b1b1b1;
+    text-shadow: 1px 1px 4px #b1b1b1;
 }
 #modalClaimBG {
     background: none;
@@ -950,7 +950,7 @@ a[href='/bookmarks.php']:after {
 *:has(img[src*='season-dry']):has(img[src*='time-day']) textarea {
     background: #ee527980 !important;
     color: #f5edef !important;
-    text-shadow: 1px 1px 1px #5e2e3a !important
+    text-shadow: 1px 1px 4px #c55676;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) body {
@@ -962,27 +962,27 @@ a[href='/bookmarks.php']:after {
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .topbar {
     background: #cbb0dd;
     color: #f5edef;
-    text-shadow: 1px 1px 1px #66447d;
+    text-shadow: 1px 1px 4px #c55676;
     border-color: #fff;
 }
-*:has(img[src*='season-dry']):has(img[src*='time-day']) .topbar a {
-    color: #f5edef;
-    text-shadow: 1px 1px 1px #66447d;
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .topbar a,
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .topbar a[href='/logout.php'] {
+    color: #f5edef !important;
+    text-shadow: 1px 1px 5px #c55676 !important;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .badge {
     background: #ee527950;
     color: #f5edef;
-    text-shadow: 1px 1px 1px #66447d;
+    text-shadow: 1px 1px 4px #c55676;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .navbar {
     background: #abace2;
     color: #f5edef;
-    text-shadow: 1px 1px 1px #414276;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .navbar a {
     color: #f5edef;
-    text-shadow: 1px 1px 1px #414276;
+    text-shadow: 1px 1px 4px #c55676;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .main {
@@ -994,39 +994,39 @@ a[href='/bookmarks.php']:after {
     background: #abace280;
     border-color: #fff;
     color: #f5edef;
-    text-shadow: 1px 1px 1px #4c4d89;
+    text-shadow: 1px 1px 4px #c55676;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .breadcrumb a, 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .breadcrumb-item,
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .breadcrumb-item:before {
     color: #f5edef;
-    text-shadow: 1px 1px 1px #4c4d89;
+    text-shadow: 1px 1px 4px #c55676;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .alert.alert-danger,
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .alert.alert-warning{
     background: #e5782c40;
     border-color: #fff;
-    text-shadow: 1px 1px 1px #b35e23;
+    text-shadow: 1px 1px 4px #c45922;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .alert.alert-danger a,
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .alert.alert-warning a{
-    text-shadow: 1px 1px 1px #b35e23;
+    text-shadow: 1px 1px 4px #c45922;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .alert {
     background: #ee527940;
     border-color: #fff;
     color: #f5edef;
-    text-shadow: 1px 1px 1px #c24665;
+    text-shadow: 1px 1px 4px #c55676;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .alert a {
     color: #f5edef;
-    text-shadow: 1px 1px 1px #c24665;
+    text-shadow: 1px 1px 4px #c55676;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']):has(a[href='/refer.php']) h1 {
     color: #f5edef;
-    text-shadow: 2px 2px 2px #67688a;
+    text-shadow: 1px 1px 4px #c55676;
     border-color: #fff;
     background: linear-gradient( #abace2d5, #cbb0dd80);
 }
@@ -1039,11 +1039,11 @@ a[href='/bookmarks.php']:after {
 *:has(img[src*='season-dry']):has(img[src*='time-day']) p,
 *:has(img[src*='season-dry']):has(img[src*='time-day']) a {
     color: #ee5279;
-    text-shadow: 2px 2px 2px #f7f7f7;
+    text-shadow: 1px 1px 4px #c55676;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .col-xs-6 div h3 {
     color: #f5edef;
-    text-shadow: 1px 1px 1px #4a4a71;
+    text-shadow: 1px 1px 4px #c55676;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .boxheading,
@@ -1056,14 +1056,14 @@ a[href='/bookmarks.php']:after {
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .left:has(a[href='/account-settings.php']) {
     background: #abace2d5; 
     color: #f5edef;
-    text-shadow: 1px 1px 1px #4a4a71;
+    text-shadow: 1px 1px 4px #c55676;
     border-color: #fff !important;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) #editdetailspanel .left.b {
     background: #abace240; 
     color: #f5edef;
     border-color: #fff !important;
-    text-shadow: 1px 1px 1px #4a4a71;
+    text-shadow: 1px 1px 4px #c55676;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) table .top a,
 *:has(img[src*='season-dry']):has(img[src*='time-day']) table .bottom a,
@@ -1072,7 +1072,7 @@ a[href='/bookmarks.php']:after {
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .inner-table.auto a,
 *:has(img[src*='season-dry']):has(img[src*='time-day']) #player .right_odd a {
     color: #f5edef !important;
-    text-shadow: 1px 1px 1px #4a4a71 !important;
+    text-shadow: 1px 1px 4px #c55676;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .maincontent,
@@ -1080,28 +1080,27 @@ a[href='/bookmarks.php']:after {
     background: #fcd9d3c5;
     color: #ee5279;
     border-color: #fff;
-    text-shadow: 1px 1px 1px #f7f7f7;
+    text-shadow: 1px 1px 4px #cc91ed;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .boxleft,
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .boxright {
     background: #cbb0ddc5;
     color: #f5edef;
-    text-shadow: 1px 1px 1px #64447a;
+    text-shadow: 1px 1px 4px #c55676;
     border-color: #fff;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) #commentBox {
     border-color: #fff !important;
-    text-shadow: 1px 1px 1px #f7f7f7;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) #makeComment input {
     border-color: #fff !important;
-    text-shadow: 1px 1px 1px #f7f7f7;
+    text-shadow: 1px 1px 4px #c55676 !important;
     background: #e3bece80 !important;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) #makeComment input::placeholder {
-    color: #48394d;
-    text-shadow: 1px 1px 1px #ffd6fd;
+    color: #f5edef;
+    text-shadow: 1px 1px 4px #c55676 !important;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .comment,
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .comment a,
@@ -1109,7 +1108,7 @@ a[href='/bookmarks.php']:after {
     background: #fceaeb80;
     border-color: #fff !important;
     color: #48394d;
-    text-shadow: 1px 1px 1px #ffd6fd;
+    text-shadow: 1px 1px 4px #cc91ed;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) table,
@@ -1118,7 +1117,7 @@ a[href='/bookmarks.php']:after {
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .right_odd {
     background: #abace240 !important;
     color: #ee5279;
-    text-shadow: 1px 1px 1px #f7f7f7;
+    text-shadow: 1px 1px 4px #cc91ed;
     border-color: #fff !important;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) td[colspan].left {
@@ -1128,12 +1127,12 @@ a[href='/bookmarks.php']:after {
 *:has(img[src*='season-dry']):has(img[src*='time-day']) table a[onclick],
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .text-muted {
     color: #ee527990;
-    text-shadow: 1px 1px 1px #f7f7f7;
+    text-shadow: 1px 1px 4px #ed91c5;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) b:has(span[style='color: #ff0000;']) {
     color: #ee5279;
-    text-shadow: 1px 1px 1px #f7f7f7;
+    text-shadow: 1px 1px 4px #cc91ed;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) b span[style='color: #ff0000;'] {
     color: #ee5279d5 !important;
@@ -1142,29 +1141,29 @@ a[href='/bookmarks.php']:after {
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .inner-table.auto .left {
     background: #b193c4d5;
     color: #f5edef;
-    text-shadow: 1px 1px 1px #5a3d6c;
+    text-shadow: 1px 1px 4px #c55676;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .inner-table.auto .right {
     background: #cbb0ddd5;
     color: #f5edef;
-    text-shadow: 1px 1px 1px #43334e;
+    text-shadow: 1px 1px 4px #c55676;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .panel {
     background: #cbb0dd95 !important;
     border-color: #fff;
     color: #f5edef;
-    text-shadow: 1px 1px 1px #43334e;
+    text-shadow: 1px 1px 4px #c55676;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .sidebar h3,
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .sidebar a {
     color: #ee5279;
-    text-shadow: 1px 1px 1px #f7f7f7;
+    text-shadow: 1px 1px 4px #cc91ed;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .panel a {
     color: #f5edef;
-    text-shadow: 1px 1px 1px #43334e;
+    text-shadow: 1px 1px 4px #c55676;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .progress {
@@ -1172,7 +1171,7 @@ a[href='/bookmarks.php']:after {
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .progress div {
     color: #f5edef;
-    text-shadow: 1px 1px 1px #753f4c;
+    text-shadow: 1px 1px 4px #c55676;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .progress-bar {
     background: #ee527950;
@@ -1199,7 +1198,7 @@ a[href='/bookmarks.php']:after {
 *:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) .featured-lion a,
 *:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) .floatright a {
     color: #f5edef !important;
-    text-shadow: 1px 1px 1px #444566 !important;
+    text-shadow: 1px 1px 4px #c55676;
     border-color: #fff;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) small,
