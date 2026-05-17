@@ -194,7 +194,7 @@ h1 {
     width: 200px;
     min-width: 20%;
     max-width: 30%;
-    z-index: 99;
+    z-index: 999;
     transition: 0.4s !important;
     animation: float 4s ease-in-out infinite !important;
 }
@@ -390,6 +390,7 @@ div#lion_image {
 }
 div#lion_image:hover {
     filter: drop-shadow(0 0 10px #ffffff);
+    opacity: 100%;
 }
 @keyframes border {
     0% { border: 5px solid transparent; border-radius: 15px; background: linear-gradient(#fff, #fff) padding-box, linear-gradient(0deg, #ffffff00, #dcabca) border-box; }
