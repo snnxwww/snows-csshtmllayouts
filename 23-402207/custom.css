@@ -1749,7 +1749,7 @@ a[href='/bookmarks.php']:after {
 }
 
 *:has(img[src*='season-wet']):has(img[src*='time-day']):has(.featured-lion) img[src="//static.lioden.com/images/cave/default.png"] {
-    content: url('https://static.lioden.com/images/dynamic/backgrounds/CroakingRavens.png');
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/japanese_dragon.png');
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']):has(.featured-lion) .featured-lion  {
     background: #afa975d5;
