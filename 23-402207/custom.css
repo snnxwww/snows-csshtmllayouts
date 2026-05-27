@@ -2073,7 +2073,7 @@ a[href='/bookmarks.php']:after {
     width: 1px;
     height: 20px;
     border-radius: 50px !important;
-    background: #ffffff80;
+    background: #ffffffd5;
     z-index: 100;
     border-radius: 50%;
     transform: rotate(-45deg);
@@ -2091,7 +2091,7 @@ a[href='/bookmarks.php']:after {
     }
 
     100% {
-        transform: translateY(100vh);
+        transform: translateY(150vh);
     }
 }
 .rain:nth-child(1) { top: -10%; right: 0%; animation: rain 1.5s linear 1.4s infinite; }
@@ -2151,6 +2151,10 @@ a[href='/bookmarks.php']:after {
     z-index: 10000;
     animation: snow 16s cubic-bezier(0.4,0,0.2,1) infinite;
     text-shadow: 0px 0px 1px #fff, 0px 0px 2px #fff, 0px 0px 4px #fff, 0px 0px 6px #fff !important;
+    display: none;
+}
+:has(img[src*='season-dry']) .snow {
+    display: block;
 }
 
 .snow:nth-child(1) { left: 5%; animation-delay: 0s; opacity: 1; font-size: 35px; }
