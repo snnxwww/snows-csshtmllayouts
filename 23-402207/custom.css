@@ -1474,7 +1474,9 @@ a[href='/bookmarks.php']:after {
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-night']):has(.featured-lion) img[src="//static.lioden.com/images/cave/default.png"] {
-    content: url('https://static.lioden.com/images/dynamic/backgrounds/SunsetBG.png');
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/cave.jpg');
+    height: 520px !important;
+    object-fit: cover;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-night']):has(.featured-lion) .featured-lion  {
     background: #c68998d5;
@@ -1506,9 +1508,9 @@ a[href='/bookmarks.php']:after {
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .button,
 *:has(img[src*='season-wet']):has(img[src*='time-day']) select,
 *:has(img[src*='season-wet']):has(img[src*='time-day']) textarea {
-    background: #372d35d0 !important;
+    background: #e78890d0 !important;
     color: #efeeec !important;
-    text-shadow: 1px 1px 4px #cf91f3;
+    text-shadow: 1px 1px 4px #d7ff00;
 }
 
 *:has(img[src*='season-wet']):has(img[src*='time-day']) body {
@@ -1520,18 +1522,18 @@ a[href='/bookmarks.php']:after {
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .topbar {
     background: #847b54;
     color: #efeeec;
-    text-shadow: 1px 1px 4px #cf91f3;
+    text-shadow: 1px 1px 4px #d7ff00;
     border-color: #fff;
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .topbar a,
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .topbar a[href='/logout.php'] {
     color: #efeeec !important;
-    text-shadow: 1px 1px 5px #cf91f3 !important;
+    text-shadow: 1px 1px 5px #d7ff00 !important;
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .badge {
-    background: #75688450;
+    background: #afa97550;
     color: #efeeec;
-    text-shadow: 1px 1px 4px #cf91f3;
+    text-shadow: 1px 1px 4px #d7ff00;
 }
 
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .navbar {
@@ -1540,7 +1542,7 @@ a[href='/bookmarks.php']:after {
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .navbar a {
     color: #efeeec;
-    text-shadow: 1px 1px 4px #cf91f3;
+    text-shadow: 1px 1px 4px #d7ff00;
 }
 
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .main {
@@ -1549,44 +1551,44 @@ a[href='/bookmarks.php']:after {
 }
 
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .breadcrumb {
-    background: #c6899880;
+    background: #efeeec80;
     border-color: #fff;
-    color: #efeeec;
-    text-shadow: 1px 1px 4px #cf91f3;
+    color: #847b54;
+    text-shadow: 1px 1px 4px #bfcd71;
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .breadcrumb a, 
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .breadcrumb-item,
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .breadcrumb-item:before {
-    color: #efeeec;
-    text-shadow: 1px 1px 4px #cf91f3;
+    color: #847b54;
+    text-shadow: 1px 1px 4px #bfcd71;
 }
 
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .alert.alert-danger,
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .alert.alert-warning {
-    background: #aa486140;
+    background: #443f2940;
     border-color: #fff;
-    text-shadow: 1px 1px 4px #e13f3f;
+    text-shadow: 1px 1px 4px #bdd731;
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .alert.alert-danger a,
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .alert.alert-warning a{
-    text-shadow: 1px 1px 4px #e13f3f;
+    text-shadow: 1px 1px 4px #bdd731;
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .alert {
-    background: #c6899840;
+    background: #afa97540;
     border-color: #fff;
     color: #efeeec;
-    text-shadow: 1px 1px 4px #cf91f3;
+    text-shadow: 1px 1px 4px #bfcd71;
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .alert a {
     color: #efeeec;
-    text-shadow: 1px 1px 4px #cf91f3;
+    text-shadow: 1px 1px 4px #bfcd71;
 }
 
 *:has(img[src*='season-wet']):has(img[src*='time-day']):has(a[href='/refer.php']) h1 {
     color: #efeeec;
-    text-shadow: 1px 1px 4px #cf91f3;
+    text-shadow: 1px 1px 4px #d8ff00;
     border-color: #fff;
-    background: linear-gradient( #756884d5, #9b86a7d5);
+    background: linear-gradient( #847b54d5, #afa977d5);
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']) h1,
 *:has(img[src*='season-wet']):has(img[src*='time-day']) h2,
@@ -1597,11 +1599,11 @@ a[href='/bookmarks.php']:after {
 *:has(img[src*='season-wet']):has(img[src*='time-day']) p,
 *:has(img[src*='season-wet']):has(img[src*='time-day']) a {
     color: #efeeec;
-    text-shadow: 1px 1px 4px #cf91f3;
+    text-shadow: 1px 1px 4px #bfcd71;
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .col-xs-6 div h3 {
     color: #efeeec;
-    text-shadow: 1px 1px 4px #cf91f3;
+    text-shadow: 1px 1px 4px #bfcd71;
 }
 
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .boxheading,
@@ -1612,16 +1614,16 @@ a[href='/bookmarks.php']:after {
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .col-md-4 div,
 *:has(img[src*='season-wet']):has(img[src*='time-day']) #editdetailspanel .bottom,
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .left:has(a[href='/account-settings.php']) {
-    background: #c68998d5; 
+    background: #afa975d5; 
     color: #efeeec;
-    text-shadow: 1px 1px 4px #cf91f3;
+    text-shadow: 1px 1px 4px #bfcd71;
     border-color: #fff !important;
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .left.b {
     background: #c6899840; 
     color: #efeeec;
     border-color: #fff !important;
-    text-shadow: 1px 1px 4px #cf91f3;
+    text-shadow: 1px 1px 4px #bfcd71;
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']) table .top a,
 *:has(img[src*='season-wet']):has(img[src*='time-day']) table .bottom a,
@@ -1630,21 +1632,21 @@ a[href='/bookmarks.php']:after {
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .inner-table.auto a,
 *:has(img[src*='season-wet']):has(img[src*='time-day']) #player .right_odd a {
     color: #efeeec !important;
-    text-shadow: 1px 1px 4px #cf91f3;
+    text-shadow: 1px 1px 4px #bfcd71;
 }
 
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .maincontent,
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .mainbox {
-    background: #9b86a7c5;
+    background: #ebbfbec5;
     color: #efeeec;
     border-color: #fff;
-    text-shadow: 1px 1px 4px #cc91ed;
+    text-shadow: 1px 1px 4px #bfcd71;
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .boxleft,
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .boxright {
-    background: #82717ad5;
+    background: #e78890d5;
     color: #efeeec;
-    text-shadow: 1px 1px 4px #cf91f3;
+    text-shadow: 1px 1px 4px #bfcd71;
     border-color: #fff;
 }
 
@@ -1653,29 +1655,29 @@ a[href='/bookmarks.php']:after {
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']) #makeComment input {
     border-color: #fff !important;
-    text-shadow: 1px 1px 4px #cf91f3 !important;
-    background: #9e94b380 !important;
+    text-shadow: 1px 1px 4px #bfcd71 !important;
+    background: #bdbb9480 !important;
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']) #makeComment input::placeholder {
     color: #efeeec;
-    text-shadow: 1px 1px 4px #cf91f3 !important;
+    text-shadow: 1px 1px 4px #bfcd71 !important;
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .comment,
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .comment a,
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .comment small {
-    background: #e7dbe380;
+    background: #e2dbce80;
     border-color: #fff !important;
-    color: #35333d;
-    text-shadow: 1px 1px 4px #c39cd8;
+    color: #363728;
+    text-shadow: 1px 1px 4px #d7dbba;
 }
 
 *:has(img[src*='season-wet']):has(img[src*='time-day']) table,
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .feature,
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .mound-grid,
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .right_odd {
-    background: #978e8740 !important;
-    color: #efeeec;
-    text-shadow: 1px 1px 4px #cc91ed;
+    background: #efeeec40 !important;
+    color: #847b54;
+    text-shadow: 1px 1px 4px #bfcd71;
     border-color: #fff !important;
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']) td[colspan].left {
@@ -1684,59 +1686,59 @@ a[href='/bookmarks.php']:after {
 *:has(img[src*='season-wet']):has(img[src*='time-day']) table a,
 *:has(img[src*='season-wet']):has(img[src*='time-day']) table a[onclick],
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .text-muted {
-    color: #efeeec90;
-    text-shadow: 1px 1px 4px #cc91ed;
+    color: #847b5490;
+    text-shadow: 1px 1px 4px #bfcd71;
 }
 
 *:has(img[src*='season-wet']):has(img[src*='time-day']) b:has(span[style='color: #ff0000;']) {
     color: #efeeec;
-    text-shadow: 1px 1px 4px #cc91ed;
+    text-shadow: 1px 1px 4px #bfcd71;
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']) b span[style='color: #ff0000;'] {
     color: #cdaf98d5 !important;
 }
 
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .inner-table.auto .left {
-    background: #82717ad5;
+    background: #a79a7fd5;
     color: #efeeec;
-    text-shadow: 1px 1px 4px #cf91f3;
+    text-shadow: 1px 1px 4px #d3f02f;
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .inner-table.auto .right {
-    background: #a4959dd5;
+    background: #baae94d5;
     color: #efeeec;
-    text-shadow: 1px 1px 4px #cf91f3;
+    text-shadow: 1px 1px 4px #d3f02f;
 }
 
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .panel {
-    background: #75688295 !important;
+    background: #efeeec95 !important;
     border-color: #fff;
-    color: #efeeec;
-    text-shadow: 1px 1px 4px #cf91f3;
+    color: #847b54;
+    text-shadow: 1px 1px 4px #bfcd71;
 }
 
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .sidebar h3,
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .sidebar a {
     color: #847b54;
-    text-shadow: 1px 1px 4px #e55ad7;
+    text-shadow: 1px 1px 4px #a1b243;
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .panel a {
-    color: #efeeec;
-    text-shadow: 1px 1px 4px #cf91f3;
+    color: #847b54;
+    text-shadow: 1px 1px 4px #bfcd71;
 }
 
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .progress {
     background: #ffffff50;
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .progress div {
-    color: #efeeec;
-    text-shadow: 1px 1px 4px #cf91f3;
+    color: #847b54;
+    text-shadow: 1px 1px 4px #bfcd71;
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']) .progress-bar {
     background: #aa486150;
 }
 
 *:has(img[src*='season-wet']):has(img[src*='time-day']) #fraSidebarChat {
-    filter: grayscale(1) sepia(0.6) hue-rotate(215deg) brightness(0.9);
+    filter: grayscale(1) sepia(0.8) hue-rotate(25deg) brightness(0.9);
 }
 
 *:has(img[src*='season-wet']):has(img[src*='time-day']):has(.featured-lion) td.left.b {
@@ -1750,25 +1752,31 @@ a[href='/bookmarks.php']:after {
     content: url('https://static.lioden.com/images/dynamic/backgrounds/CroakingRavens.png');
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']):has(.featured-lion) .featured-lion  {
-    background: #c68998d5;
+    background: #afa975d5;
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']):has(.featured-lion) .featured-lion p,
 *:has(img[src*='season-wet']):has(img[src*='time-day']):has(.featured-lion) .featured-lion a,
 *:has(img[src*='season-wet']):has(img[src*='time-day']):has(.featured-lion) .floatright a {
     color: #efeeec !important;
-    text-shadow: 1px 1px 4px #cf91f3;
+    text-shadow: 1px 1px 4px #bfcd71;
     border-color: #fff;
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']):has(.featured-lion) small,
 *:has(img[src*='season-wet']):has(img[src*='time-day']):has(.featured-lion) small a {
-    color: #c68998d5;
+    color: #847b54;
     border-color: #fff;
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']):has(.featured-lion) table img {
-    filter: grayscale(0.5) sepia(1) hue-rotate(225deg) saturate(1) brightness(0.8)
+    filter: grayscale(0.5) sepia(1) hue-rotate(25deg) saturate(1) brightness(1)
 }
-
-
-
-
-
+*:has(img[src*='season-wet']):has(img[src*='time-day']) #commentBox:after,
+:has(img[src*='season-wet']):has(img[src*='time-day']) #commentBox:before,
+:has(img[src*='season-wet']):has(img[src*='time-day']) #makeComment:after,
+:has(img[src*='season-wet']):has(img[src*='time-day']) #makeComment:before,
+:has(img[src*='season-wet']):has(img[src*='time-day']) .panel:after,
+:has(img[src*='season-wet']):has(img[src*='time-day']) .panel:before,
+:has(img[src*='season-wet']):has(img[src*='time-day']) a:after,
+:has(img[src*='season-wet']):has(img[src*='time-day']) .col-xs-12:before,
+:has(img[src*='season-wet']):has(img[src*='time-day']) .panel-body:after{
+    filter: grayscale(0.5) sepia(1) hue-rotate(45deg) saturate(0.7) brightness(0.9);
+}
