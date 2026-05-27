@@ -1201,7 +1201,9 @@ a[href='/bookmarks.php']:after {
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) img[src="//static.lioden.com/images/cave/default.png"] {
-    content: url('https://static.lioden.com/images/dynamic/backgrounds/RE_fourteenFalls.png');
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/drycave.jpg');
+    height: 520px !important;
+    object-fit: cover;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) .featured-lion  {
     background: #abace2a5;
@@ -1323,7 +1325,7 @@ a[href='/bookmarks.php']:after {
 *:has(img[src*='season-dry']):has(img[src*='time-night']) h6,
 *:has(img[src*='season-dry']):has(img[src*='time-night']) p,
 *:has(img[src*='season-dry']):has(img[src*='time-night']) a {
-    color: #54163b;
+    color: #f5ebf0;
     text-shadow: 1px 1px 4px #e93e6b;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-night']) .col-xs-6 div h3 {
@@ -1401,7 +1403,7 @@ a[href='/bookmarks.php']:after {
 *:has(img[src*='season-dry']):has(img[src*='time-night']) .mound-grid,
 *:has(img[src*='season-dry']):has(img[src*='time-night']) .right_odd {
     background: #f5cee040 !important;
-    color: #54163b !important;
+    color: #f5ebf0 !important;
     text-shadow: 1px 1px 4px #dd34a4;
     border-color: #fff !important;
 }
@@ -1411,16 +1413,16 @@ a[href='/bookmarks.php']:after {
 *:has(img[src*='season-dry']):has(img[src*='time-night']) table a,
 *:has(img[src*='season-dry']):has(img[src*='time-night']) table a[onclick],
 *:has(img[src*='season-dry']):has(img[src*='time-night']) .text-muted {
-    color: #54163b;
+    color: #f5ebf0;
     text-shadow: 1px 1px 4px #dd34a4;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-night']) b:has(span[style='color: #ff0000;']) {
-    color: #54163b;
+    color: #f5ebf0;
     text-shadow: 1px 1px 4px #dd34a4;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-night']) b span[style='color: #ff0000;'] {
-    color: #54163bd5 !important;
+    color: #f5ebf0d5 !important;
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-night']) .inner-table.auto .left {
@@ -1474,7 +1476,7 @@ a[href='/bookmarks.php']:after {
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-night']):has(.featured-lion) img[src="//static.lioden.com/images/cave/default.png"] {
-    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/cave.jpg');
+    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/drynightcave.jpg');
     height: 520px !important;
     object-fit: cover;
 }
