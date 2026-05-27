@@ -2068,7 +2068,8 @@ a[href='/bookmarks.php']:after {
     height: 20px;
     border-radius: 50px !important;
     background: #ffffffd5;
-    z-index: 100;
+    z-index: 99;
+    pointer-events: none;
     border-radius: 50%;
     transform: rotate(-45deg);
     animation: rain 3s linear infinite;
@@ -2142,7 +2143,8 @@ a[href='/bookmarks.php']:after {
     position: fixed;
     top: -500px;
     pointer-events: none;
-    z-index: 10000;
+    z-index: 999;
+    pointer-events: none;
     animation: snow 16s cubic-bezier(0.4,0,0.2,1) infinite;
     text-shadow: 0px 0px 1px #fff, 0px 0px 2px #fff, 0px 0px 4px #fff, 0px 0px 6px #fff !important;
     display: none;
@@ -2194,3 +2196,73 @@ a[href='/bookmarks.php']:after {
     84% { transform: translateX(-1px); }
     100% { top: 100vh; transform: translateX(0); }
 }
+
+
+.firefly {
+    position: fixed;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #fffa65;
+    box-shadow: 0 0 10px 2px #fffa65, 0 0 20px 5px #ffdc34; 
+    pointer-events: none;
+    display: none;
+    z-index: 999;
+    animation: firefly 18s ease-in-out infinite alternate, 
+               blink 3s ease-in-out infinite;
+}
+
+:has(img[src*='time-night']) .firefly {
+    display: block;
+}
+
+@keyframes firefly {
+  0% {
+    transform: translate(0, 0) scale(0.8);
+  }
+  33% {
+    transform: translate(60px, -40px) scale(1);
+  }
+  66% {
+    transform: translate(-30px, -80px) scale(0.9);
+  }
+  100% {
+    transform: translate(40px, -120px) scale(1.1);
+  }
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 0.2;
+    box-shadow: 0 0 4px 0px #fffa65;
+  }
+  50% {
+    opacity: 1;
+    box-shadow: 0 0 15px 4px #fffa65, 0 0 25px 8px #ffdc34;
+  }
+}
+
+.firefly:nth-child(1) { top: 22%; left: 14%; animation-duration: 14s, 2.5s; animation-delay: 1.0s, 0.5s; }
+.firefly:nth-child(2) { top: 61%; left: 82%; animation-duration: 19s, 3.2s; animation-delay: 0.5s, 1.2s; }
+.firefly:nth-child(3) { top: 44%; left: 37%; animation-duration: 16s, 2.8s; animation-delay: 2.0s, 0.1s; }
+.firefly:nth-child(4) { top: 79%; left: 21%; animation-duration: 22s, 3.5s; animation-delay: 1.5s, 2.3s; }
+.firefly:nth-child(5) { top: 31%; left: 69%; animation-duration: 15s, 2.2s; animation-delay: 0.0s, 0.7s; }
+.firefly:nth-child(6) { top: 74%; left: 48%; animation-duration: 25s, 4.0s; animation-delay: 3.0s, 1.1s; }
+.firefly:nth-child(7) { top: 16%; left: 84%; animation-duration: 17s, 2.9s; animation-delay: 0.8s, 1.9s; }
+.firefly:nth-child(8) { top: 52%; left: 11%; animation-duration: 20s, 3.1s; animation-delay: 2.2s, 0.4s; }
+.firefly:nth-child(9) { top: 88%; left: 65%; animation-duration: 18s, 2.4s; animation-delay: 1.3s, 2.8s; }
+.firefly:nth-child(10) { top: 12%; left: 41%; animation-duration: 21s, 3.7s; animation-delay: 0.4s, 0.9s; }
+.firefly:nth-child(11) { top: 35%; left: 89%; animation-duration: 13s, 2.1s; animation-delay: 2.7s, 1.5s; }
+.firefly:nth-child(12) { top: 68%; left: 28%; animation-duration: 24s, 3.9s; animation-delay: 1.1s, 0.2s; }
+.firefly:nth-child(13) { top: 55%; left: 58%; animation-duration: 15s, 2.7s; animation-delay: 0.6s, 3.1s; }
+.firefly:nth-child(14) { top: 27%; left: 25%; animation-duration: 23s, 3.4s; animation-delay: 2.4s, 1.7s; }
+.firefly:nth-child(15) { top: 83%; left: 76%; animation-duration: 16s, 2.3s; animation-delay: 1.8s, 0.6s; }
+.firefly:nth-child(16) { top: 40%; left: 73%; animation-duration: 20s, 3.6s; animation-delay: 0.2s, 2.5s; }
+.firefly:nth-child(17) { top: 66%; left: 14%; animation-duration: 17s, 2.6s; animation-delay: 3.1s, 0.8s; }
+.firefly:nth-child(18) { top: 19%; left: 53%; animation-duration: 22s, 3.3s; animation-delay: 1.4s, 2.1s; }
+.firefly:nth-child(19) { top: 91%; left: 34%; animation-duration: 14s, 2.8s; animation-delay: 0.7s, 1.3s; }
+.firefly:nth-child(20) { top: 49%; left: 92%; animation-duration: 26s, 4.1s; animation-delay: 2.1s, 0.3s; }
+.firefly:nth-child(21) { top: 77%; left: 91%; animation-duration: 19s, 3.0s; animation-delay: 0.9s, 2.7s; }
+.firefly:nth-child(22) { top: 5%; left: 22%; animation-duration: 25s, 3.8s; animation-delay: 2.6s, 1.0s; }
+.firefly:nth-child(23) { top: 63%; left: 44%; animation-duration: 18s, 2.2s; animation-delay: 1.7s, 0.5s; }
+.firefly:nth-child(24) { top: 38%; left: 3%; animation-duration: 21s, 3.5s; animation-delay: 0.3s, 1.8s; }
