@@ -1201,9 +1201,7 @@ a[href='/bookmarks.php']:after {
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) img[src="//static.lioden.com/images/cave/default.png"] {
-    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/drycave.jpg');
-    height: 520px !important;
-    object-fit: cover;
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/RE_fourteenFalls.png');
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) .featured-lion  {
     background: #abace2a5;
