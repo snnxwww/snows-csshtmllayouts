@@ -2306,7 +2306,7 @@ a[href='/bookmarks.php']:after {
 }
 
 *:has(img[src*='season-wet']):has(img[src*='time-night']):has(.featured-lion) img[src="//static.lioden.com/images/cave/default.png"] {
-    content: url('https://static.lioden.com/images/dynamic/backgrounds/CroakingRavens.png');
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/zaxmorningmarshlands.png');
 }
 *:has(img[src*='season-wet']):has(img[src*='time-night']):has(.featured-lion) .featured-lion  {
     background: #c68998d5;
