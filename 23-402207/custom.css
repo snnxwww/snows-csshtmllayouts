@@ -1071,7 +1071,7 @@ a[href='/bookmarks.php']:after {
     text-shadow: 1px 1px 4px #c55676;
     border-color: #fff !important;
 }
-*:has(img[src*='season-dry']):has(img[src*='time-day']) #editdetailspanel .left.b {
+*:has(img[src*='season-dry']):has(img[src*='time-day']) table .left.b {
     background: #abace240; 
     color: #f5edef;
     border-color: #fff !important;
@@ -1338,7 +1338,7 @@ a[href='/bookmarks.php']:after {
     text-shadow: 1px 1px 4px #cf91f3;
     border-color: #fff !important;
 }
-*:has(img[src*='season-wet']):has(img[src*='time-night']) #editdetailspanel .left.b {
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .left.b {
     background: #c6899840; 
     color: #f8f4f2;
     border-color: #fff !important;
