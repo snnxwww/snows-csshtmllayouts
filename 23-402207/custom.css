@@ -14,7 +14,7 @@ COMMISSIONS AVAILABLE HERE: https://www.lioden.com/topic.php?id=304429594307
     text-decoration: none !important;
 }
 body {
-    overflow-x: hidden !import;
+    overflow-x: hidden;
 }
 
 input, .button, select, textarea {
@@ -1201,9 +1201,7 @@ a[href='/bookmarks.php']:after {
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) img[src="//static.lioden.com/images/cave/default.png"] {
-    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/drycave.jpg');
-    height: 520px !important;
-    object-fit: cover;
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/RE_fourteenFalls.png');
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']):has(.featured-lion) .featured-lion  {
     background: #abace2a5;
@@ -1241,7 +1239,7 @@ a[href='/bookmarks.php']:after {
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-night']) body {
-    background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/dry-night.jpg');
+    background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/caveimg.jpg');
     background-attachment: fixed !important;
     background-size: cover !important;
 }
@@ -1476,9 +1474,7 @@ a[href='/bookmarks.php']:after {
 }
 
 *:has(img[src*='season-dry']):has(img[src*='time-night']):has(.featured-lion) img[src="//static.lioden.com/images/cave/default.png"] {
-    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/cave.jpg');
-    height: 520px !important;
-    object-fit: cover;
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/SunsetBG.png');
 }
 *:has(img[src*='season-dry']):has(img[src*='time-night']):has(.featured-lion) .featured-lion  {
     background: #c68998d5;
@@ -1516,7 +1512,7 @@ a[href='/bookmarks.php']:after {
 }
 
 *:has(img[src*='season-wet']):has(img[src*='time-night']) body {
-    background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/wet-night.jpg');
+    background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/drynightcave.jpg');
     background-attachment: fixed !important;
     background-size: cover !important;
 }
@@ -1751,7 +1747,7 @@ a[href='/bookmarks.php']:after {
 }
 
 *:has(img[src*='season-wet']):has(img[src*='time-night']):has(.featured-lion) img[src="//static.lioden.com/images/cave/default.png"] {
-    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/drynightcave.jpg');
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/zaxmorningmarshlands.png');
     height: 520px !important;
     object-fit: cover;
 }
@@ -1791,7 +1787,7 @@ a[href='/bookmarks.php']:after {
 }
 
 *:has(img[src*='season-wet']):has(img[src*='time-day']) body {
-    background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/wet-day.jpg');
+    background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/drycave.jpg');
     background-attachment: fixed !important;
     background-size: cover !important;
 }
@@ -2026,9 +2022,7 @@ a[href='/bookmarks.php']:after {
 }
 
 *:has(img[src*='season-wet']):has(img[src*='time-day']):has(.featured-lion) img[src="//static.lioden.com/images/cave/default.png"] {
-    content: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/drycave.jpg');
-    height: 520px !important;
-    object-fit: cover;
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/japanese_dragon.png');
 }
 *:has(img[src*='season-wet']):has(img[src*='time-day']):has(.featured-lion) .featured-lion  {
     background: #afa975d5;
