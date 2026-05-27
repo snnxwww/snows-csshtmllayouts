@@ -233,6 +233,7 @@ img[src*='logo-full-2.png']:hover {
     margin-top: -50px;
     left: -10px;
     z-index: 99;
+    pointer-events: none;
 }
 #commentBox:after {
     content: '';
@@ -247,6 +248,7 @@ img[src*='logo-full-2.png']:hover {
     margin-top: -500px;
     right: 0px;
     z-index: 99;
+    pointer-events: none;
 }
 #makeComment:before {
     content: '';
@@ -260,6 +262,7 @@ img[src*='logo-full-2.png']:hover {
     margin-top: -50px;
     left: -10px;
     z-index: 99;
+    pointer-events: none;
 }
 #makeComment:after {
     content: '';
@@ -272,6 +275,7 @@ img[src*='logo-full-2.png']:hover {
     margin-top: -50px;
     right: 0px;
     z-index: 99;
+    pointer-events: none;
 }
 #makeComment input {
     border: 4px double !important;
@@ -748,6 +752,7 @@ img[src*='den_beetlebook.png'] {
     margin-top: -30px;
     left: -30px;
     z-index: 99;
+    pointer-events: none;
 }
 .panel:has(a[href='/event.php']):before {
     content: '';
@@ -762,6 +767,7 @@ img[src*='den_beetlebook.png'] {
     margin-top: -30px;
     right: -100px;
     z-index: 99;
+    pointer-events: none;
 }
 .panel:has(a[href='/cooldowns.php']):before {
     content: '';
@@ -776,6 +782,7 @@ img[src*='den_beetlebook.png'] {
     margin-top: -10px;
     right: -60px;
     z-index: 99;
+    pointer-events: none;
 }
 .panel:has(a[href='/cooldowns.php']):after {
     content: '';
@@ -790,6 +797,7 @@ img[src*='den_beetlebook.png'] {
     margin-top: -30px;
     left: -40px;
     z-index: 99;
+    pointer-events: none;
 }
 .panel:has(.progress):before {
     content: '';
@@ -804,6 +812,7 @@ img[src*='den_beetlebook.png'] {
     margin-top: -40px;
     right: -20px;
     z-index: 99;
+    pointer-events: none;
 }
 a[href='/bookmarks.php']:after {
     content: '';
@@ -818,6 +827,7 @@ a[href='/bookmarks.php']:after {
     margin-top: -30px;
     left: -40px;
     z-index: 99;
+    pointer-events: none;
 }
 
 .sidebar .panel:hover {
@@ -843,6 +853,7 @@ a[href='/bookmarks.php']:after {
     margin-top: 80px;
     right: -10px;
     z-index: 99;
+    pointer-events: none;
 }
 .visible-md.visible-lg .panel .panel-body:has(b):after {
     content: '';
@@ -857,6 +868,7 @@ a[href='/bookmarks.php']:after {
     margin-top: -40px;
     right: -20px;
     z-index: 99;
+    pointer-events: none;
 }
 
 #label_currentChannel {
@@ -1010,7 +1022,7 @@ a[href='/bookmarks.php']:after {
     text-shadow: 1px 1px 4px #c45922;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .alert.alert-danger a,
-*:has(img[src*='season-dry']):has(img[src*='time-day']) .alert.alert-warning a{
+*:has(img[src*='season-dry']):has(img[src*='time-day']) .alert.alert-warning a {
     text-shadow: 1px 1px 4px #c45922;
 }
 *:has(img[src*='season-dry']):has(img[src*='time-day']) .alert {
@@ -1207,7 +1219,279 @@ a[href='/bookmarks.php']:after {
     border-color: #fff;
 }
 
+
+
+
+
+*:has(img[src*='season-wet']):has(img[src*='time-night']) input,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .button,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) select,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) textarea {
+    background: #372d35d0 !important;
+    color: #f8f4f2 !important;
+    text-shadow: 1px 1px 4px #cf91f3;
+}
+
+*:has(img[src*='season-wet']):has(img[src*='time-night']) body {
+    background: url('https://snnxwww.github.io/snows-csshtmllayouts/23-402207/wet-night.jpg');
+    background-attachment: fixed !important;
+    background-size: cover !important;
+}
+
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .topbar {
+    background: #9b86a7;
+    color: #f8f4f2;
+    text-shadow: 1px 1px 4px #cf91f3;
+    border-color: #fff;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .topbar a,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .topbar a[href='/logout.php'] {
+    color: #f8f4f2 !important;
+    text-shadow: 1px 1px 5px #cf91f3 !important;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .badge {
+    background: #75688450;
+    color: #f8f4f2;
+    text-shadow: 1px 1px 4px #cf91f3;
+}
+
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .navbar {
+    background: #756884;
+    color: #f8f4f2;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .navbar a {
+    color: #f8f4f2;
+    text-shadow: 1px 1px 4px #cf91f3;
+}
+
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .main {
+    background: #372d35cc;
+    border-color: #fff;
+}
+
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .breadcrumb {
+    background: #c6899880;
+    border-color: #fff;
+    color: #f8f4f2;
+    text-shadow: 1px 1px 4px #cf91f3;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .breadcrumb a, 
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .breadcrumb-item,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .breadcrumb-item:before {
+    color: #f8f4f2;
+    text-shadow: 1px 1px 4px #cf91f3;
+}
+
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .alert.alert-danger,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .alert.alert-warning {
+    background: #aa486140;
+    border-color: #fff;
+    text-shadow: 1px 1px 4px #e13f3f;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .alert.alert-danger a,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .alert.alert-warning a{
+    text-shadow: 1px 1px 4px #e13f3f;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .alert {
+    background: #c6899840;
+    border-color: #fff;
+    color: #f8f4f2;
+    text-shadow: 1px 1px 4px #cf91f3;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .alert a {
+    color: #f8f4f2;
+    text-shadow: 1px 1px 4px #cf91f3;
+}
+
+*:has(img[src*='season-wet']):has(img[src*='time-night']):has(a[href='/refer.php']) h1 {
+    color: #f8f4f2;
+    text-shadow: 1px 1px 4px #cf91f3;
+    border-color: #fff;
+    background: linear-gradient( #756884d5, #9b86a7d5);
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']) h1,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) h2,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) h3,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) h4,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) h5,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) h6,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) p,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) a {
+    color: #f8f4f2;
+    text-shadow: 1px 1px 4px #cf91f3;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .col-xs-6 div h3 {
+    color: #f5edef;
+    text-shadow: 1px 1px 4px #cf91f3;
+}
+
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .boxheading,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) table th,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) table .top,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) table .bottom,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .col-sm-4 div,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .col-md-4 div,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) #editdetailspanel .bottom,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .left:has(a[href='/account-settings.php']) {
+    background: #c68998d5; 
+    color: #f8f4f2;
+    text-shadow: 1px 1px 4px #cf91f3;
+    border-color: #fff !important;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']) #editdetailspanel .left.b {
+    background: #c6899840; 
+    color: #f8f4f2;
+    border-color: #fff !important;
+    text-shadow: 1px 1px 4px #cf91f3;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']) table .top a,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) table .bottom a,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .left:has(a[href='/account-settings.php']) a,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) a[onclick],
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .inner-table.auto a,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) #player .right_odd a {
+    color: #f8f4f2 !important;
+    text-shadow: 1px 1px 4px #cf91f3;
+}
+
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .maincontent,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .mainbox {
+    background: #9b86a7c5;
+    color: #f8f4f2;
+    border-color: #fff;
+    text-shadow: 1px 1px 4px #cc91ed;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .boxleft,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .boxright {
+    background: #82717ad5;
+    color: #f8f4f2;
+    text-shadow: 1px 1px 4px #cf91f3;
+    border-color: #fff;
+}
+
+*:has(img[src*='season-wet']):has(img[src*='time-night']) #commentBox {
+    border-color: #fff !important;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']) #makeComment input {
+    border-color: #fff !important;
+    text-shadow: 1px 1px 4px #cf91f3 !important;
+    background: #9e94b380 !important;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']) #makeComment input::placeholder {
+    color: #f8f4f2;
+    text-shadow: 1px 1px 4px #cf91f3 !important;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .comment,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .comment a,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .comment small {
+    background: #e7dbe380;
+    border-color: #fff !important;
+    color: #35333d;
+    text-shadow: 1px 1px 4px #c39cd8;
+}
+
+*:has(img[src*='season-wet']):has(img[src*='time-night']) table,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .feature,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .mound-grid,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .right_odd {
+    background: #978e8740 !important;
+    color: #f8f4f2;
+    text-shadow: 1px 1px 4px #cc91ed;
+    border-color: #fff !important;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']) td[colspan].left {
+    background-color: #c6899840 !important;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']) table a,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) table a[onclick],
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .text-muted {
+    color: #f8f4f290;
+    text-shadow: 1px 1px 4px #cc91ed;
+}
+
+*:has(img[src*='season-wet']):has(img[src*='time-night']) b:has(span[style='color: #ff0000;']) {
+    color: #978e87;
+    text-shadow: 1px 1px 4px #cc91ed;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']) b span[style='color: #ff0000;'] {
+    color: #cdaf98d5 !important;
+}
+
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .inner-table.auto .left {
+    background: #82717ad5;
+    color: #f8f4f2;
+    text-shadow: 1px 1px 4px #cf91f3;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .inner-table.auto .right {
+    background: #a4959dd5;
+    color: #f8f4f2;
+    text-shadow: 1px 1px 4px #cf91f3;
+}
+
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .panel {
+    background: #75688295 !important;
+    border-color: #fff;
+    color: #f8f4f2;
+    text-shadow: 1px 1px 4px #cf91f3;
+}
+
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .sidebar h3,
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .sidebar a {
+    color: #c68998;
+    text-shadow: 1px 1px 4px #e55ad7;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .panel a {
+    color: #f8f4f2;
+    text-shadow: 1px 1px 4px #cf91f3;
+}
+
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .progress {
+    background: #ffffff50;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .progress div {
+    color: #f8f4f2;
+    text-shadow: 1px 1px 4px #cf91f3;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']) .progress-bar {
+    background: #aa486150;
+}
+
+*:has(img[src*='season-wet']):has(img[src*='time-night']) #fraSidebarChat {
+    filter: grayscale(1) sepia(0.6) hue-rotate(215deg) brightness(0.9);
+}
+
+*:has(img[src*='season-wet']):has(img[src*='time-night']):has(.featured-lion) td.left.b {
+    background: #978e87a5;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']):has(.featured-lion) .right_odd {
+    background: none !important;
+}
+
+*:has(img[src*='season-wet']):has(img[src*='time-night']):has(.featured-lion) img[src="//static.lioden.com/images/cave/default.png"] {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/RE_fourteenFalls.png');
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']):has(.featured-lion) .featured-lion  {
+    background: #c68998d5;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']):has(.featured-lion) .featured-lion p,
+*:has(img[src*='season-wet']):has(img[src*='time-night']):has(.featured-lion) .featured-lion a,
+*:has(img[src*='season-wet']):has(img[src*='time-night']):has(.featured-lion) .floatright a {
+    color: #f8f4f2 !important;
+    text-shadow: 1px 1px 4px #cf91f3;
+    border-color: #fff;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']):has(.featured-lion) small,
+*:has(img[src*='season-wet']):has(img[src*='time-night']):has(.featured-lion) small a {
+    color: #c68998d5;
+    border-color: #fff;
+}
+*:has(img[src*='season-wet']):has(img[src*='time-night']):has(.featured-lion) table img {
+    filter: grayscale(0.5) sepia(1) hue-rotate(225deg) saturate(1) brightness(0.8)
+}
+
+
+
 /* PLACEHOLDER -
-*:has(img[src*='season-dry']):has(img[src*='time-day']) 
+*:has(img[src*='season-dry']):has(img[src*='time-night']) 
 
 */
